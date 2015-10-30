@@ -11,7 +11,7 @@ def bugs(whiteboard):
             'component': 'WebExtensions',
             'whiteboard': '[%s]' % whiteboard,
             'include_fields': 'summary,status,resolution,id',
-            'status': 'NEW,ASSIGNED,UNCONFIRMED,REOPENED'
+            'status': ['NEW', 'ASSIGNED', 'UNCONFIRMED', 'REOPENED']
         }
     )
     return res.json()
