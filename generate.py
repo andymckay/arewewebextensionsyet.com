@@ -10,13 +10,11 @@ def bugs(whiteboard):
             'product': 'Toolkit',
             'component': 'WebExtensions',
             'whiteboard': '[%s]' % whiteboard,
-            'include_fields': 'summary,status,resolution,id,is_open',
-            'is_open': 'true'
+            'include_fields': 'summary,status,resolution,id',
+            'status': ['NEW', 'ASSIGNED', 'UNCONFIRMED', 'REOPENED']
         }
     )
-    j = res.json()
-    j['bugs'] = [bug for bug in j['bugs'] if bug['is_open']]
-    return j
+    return res.json()
 
 
 status_lookup = {
