@@ -36,7 +36,7 @@ def bugs(whiteboard):
         'https://bugzilla.mozilla.org/rest/bug',
         params={
             'product': 'Toolkit',
-            'component': ['WebExtensions', 
+            'component': ['WebExtensions: Untriaged', 
     'WebExtensions: Android', 'WebExtensions: Compatibility', 
     'WebExtensions: Developer tools', 'WebExtensions: Experiments', 'WebExtensions: Frontend', 
     'WebExtensions: General', 'WebExtensions: Request Handling'],
