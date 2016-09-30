@@ -276,13 +276,12 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/downloads">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-downloads.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/downloads">Chrome docs</a>
-<h5 id="downloads-bugs"><a href="#downloads-bugs" class="anchor">&sect;</a> 15 bugs</h5>
+<h5 id="downloads-bugs"><a href="#downloads-bugs" class="anchor">&sect;</a> 14 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213445">1213445: [tracking] Implement chrome.downloads</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1245645">1245645: Implement chrome.downloads.acceptDanger()</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1245648">1245648: Implement chrome.downloads.drag()</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1245652">1245652: Implement chrome.downloads.onDeterminingFilename</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247791">1247791: Implement options.saveAs for chrome.downloads.download()</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247793">1247793: Implement POST for chrome.downloads.download()</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247794">1247794: support persistent identifiers in chrome.downloads.*</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1254327">1254327: browser.downloads.download() doesn't handle redirects</a></td>
@@ -571,14 +570,13 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/runtime">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-runtime.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/runtime">Chrome docs</a>
-<h5 id="runtime-bugs"><a href="#runtime-bugs" class="anchor">&sect;</a> 6 bugs</h5>
+<h5 id="runtime-bugs"><a href="#runtime-bugs" class="anchor">&sect;</a> 5 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213473">1213473: Complete the implementation of chrome.runtime</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1223425">1223425: port.onDisconnect isn't fired when extension is disabled/uninstalled</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247435">1247435: Implement browser.runtime.onStartup</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1252871">1252871: Implement chrome.runtime.onInstalled</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1259944">1259944: runtime.sendMessage does not handle the three-argument form correctly.</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1294287">1294287: Extend the ExtensionTestUtils wrapper to handle extension restarts without reinstalling</a></td>
 	</tr>
 </table><h5 id="runtime-functions"><a href="#runtime-functions" class="anchor">&sect;</a> 15 functions</h5>
 <table class="table table-striped">
@@ -799,7 +797,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-webRequest.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/webRequest">Chrome docs</a>
-<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 15 bugs</h5>
+<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 14 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1190689">1190689: Implement webRequest auth  handler</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990">1210990: Implement content-side hooks to handle WebRequest decisions which affect or are affected by the DOM.</a></td>
@@ -810,10 +808,9 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1256600">1256600: Keep WebRequest resilient to introduction of nsILoadInfo.frame(Outer|Inner)WindowId</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1268885">1268885: Support full native paths in the requestBody.raw[x].file property</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1270138">1270138: WebExtensions: chrome.webRequest listener fires for incorrect tab on load requests</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1273138">1273138: WebExtensions: webRequest listeners do not fire for XMLHttpRequest GET requests</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1273138">1273138: WebExtensions: webRequest listeners do not fire for XMLHttpRequest requests generated by the extension</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1273281">1273281: Prevent extensions from changing security headers without a separate permission</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1290016">1290016: tabs.executeScript in webRequest.onCompleted gives "Unchecked lastError value: Error: No matching message handler"</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1291062">1291062: WebRequest does not work with query from WebExtensions popups</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305162">1305162: Allow requestBody in onBeforeRequest on release</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305217">1305217: Make webRequest oop-compatible</a></td>
 	</tr>
