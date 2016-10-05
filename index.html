@@ -200,10 +200,9 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/cookies">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-cookies.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/cookies">Chrome docs</a>
-<h5 id="cookies-bugs"><a href="#cookies-bugs" class="anchor">&sect;</a> 3 bugs</h5>
+<h5 id="cookies-bugs"><a href="#cookies-bugs" class="anchor">&sect;</a> 2 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210997">1210997: See if we can use nsCookieService for cookie matching in chrome.cookies</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1254221">1254221: Support private browsing cookies in WebExtensions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1272953">1272953: Error handling for WebExtension cookies API</a></td>
 	</tr>
 </table><h5 id="cookies-functions"><a href="#cookies-functions" class="anchor">&sect;</a> 5 functions</h5>
@@ -285,7 +284,7 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247793">1247793: Implement POST for chrome.downloads.download()</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247794">1247794: support persistent identifiers in chrome.downloads.*</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1254327">1254327: browser.downloads.download() doesn't handle redirects</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255507">1255507: Handle old downloads in chrome.downloads.search()</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255507">1255507: Handle old downloads in chrome.downloads</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255629">1255629: chrome.downloads.* tests with legacy downloads</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1256243">1256243: extra chrome.downloads.onChanged events generated during cancel</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1256269">1256269: Support endTime and estimatedEndTime in DownloadItem</a></td>
@@ -423,11 +422,11 @@
 </table><h5 id="idle-functions"><a href="#idle-functions" class="anchor">&sect;</a> 2 functions</h5>
 <table class="table table-striped">
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/queryState">chrome.idle.queryState()</a></td><td></td><td><span class="label label-info"><a id="rank-181">rank 181</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/setDetectionInterval">chrome.idle.setDetectionInterval()</a></td><td></td><td><span class="label label-info"><a id="rank-196">rank 196</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/setDetectionInterval">chrome.idle.setDetectionInterval()</a></td><td></td><td><span class="label label-info"><a id="rank-196">rank 196</a></span></td></tr>
 </table>
 <h5 id="idle-events"><a href="#idle-events" class="anchor">&sect;</a> 1 events</h5>
 <table class="table table-striped">
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/onStateChanged">chrome.idle.onStateChanged</a></td><td></td><td><span class="label label-info"><a id="rank-148">rank 148</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/onStateChanged">chrome.idle.onStateChanged</a></td><td></td><td><span class="label label-info"><a id="rank-148">rank 148</a></span></td></tr>
 </table>
 	</blockquote>
 	</div>
@@ -484,7 +483,7 @@
 	</div>
 <div class="api-group" style="display: block">	<h4 id="omnibox"><a href="#omnibox" class="anchor">&sect;</a> omnibox&nbsp;<span class="label label-default">not yet</span>
 </h4><blockquote>		<a href="https://developer.chrome.com/extensions/omnibox">Chrome docs</a>
-<h5 id="omnibox-bugs"><a href="#omnibox-bugs" class="anchor">&sect;</a> 7 bugs</h5>
+<h5 id="omnibox-bugs"><a href="#omnibox-bugs" class="anchor">&sect;</a> 9 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1166831">1166831: [tracking] Omnibox API support for WebExtensions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1267810">1267810: [Omnibox] Add support for chrome.omnibox.onInputStarted</a></td>
@@ -493,6 +492,8 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1267814">1267814: [Omnibox] Add support for chrome.omnibox.onInputCancelled</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1267817">1267817: [Omnibox] Add support for chrome.omnibox.setDefaultSuggestion</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276598">1276598: Provide ability to apply custom filter for search results of the location bar</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1306820">1306820: [Omnibox] Add a UI indicator to the navigation bar when a magic word is active.</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1307841">1307841: Alter the url bar to show its related to an add-on</a></td>
 	</tr>
 </table>	</blockquote>
 	</div>
@@ -528,7 +529,7 @@
 </h4><blockquote>		<a href="https://developer.chrome.com/extensions/permissions">Chrome docs</a>
 <h5 id="permissions-bugs"><a href="#permissions-bugs" class="anchor">&sect;</a> 2 bugs</h5>
 <table class="table table-striped">
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1197420">1197420: Implement permissions API and optional_permissions manifest property for open extension API</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1197420">1197420: (tracking} Implement permissions API and optional_permissions manifest property for open extension API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1203233">1203233: Can't use geolocation in a WebExtension</a></td>
 	</tr>
 </table>	</blockquote>
@@ -630,7 +631,7 @@
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213475">1213475: Complete the implementation of chrome.storage</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1220494">1220494: [tracking] Implement chrome.storage.sync</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253740">1253740: [kinto] Port over the code from the prototype</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253740">1253740: [kinto] Implement storage.sync</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253744">1253744: [kinto] Put chrome.storage.sync behind a feature flag</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253746">1253746: [kinto] Mock out server calls so that tests can run</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1277612">1277612: [kinto] Migrate browser.storage.local to use kinto collections</a></td>
@@ -783,7 +784,7 @@
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCompleted">chrome.webNavigation.onCompleted</a></td><td></td><td><span class="label label-info"><a id="rank-100">rank 100</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onHistoryStateUpdated">chrome.webNavigation.onHistoryStateUpdated</a></td><td></td><td><span class="label label-info"><a id="rank-135">rank 135</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCreatedNavigationTarget">chrome.webNavigation.onCreatedNavigationTarget</a></td><td></td><td><span class="label label-info"><a id="rank-114">rank 114</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onTabReplaced">chrome.webNavigation.onTabReplaced</a></td><td></td><td><span class="label label-info"><a id="rank-152">rank 152</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onTabReplaced">chrome.webNavigation.onTabReplaced</a></td><td></td><td><span class="label label-info"><a id="rank-152">rank 152</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onBeforeNavigate">chrome.webNavigation.onBeforeNavigate</a></td><td></td><td><span class="label label-info"><a id="rank-87">rank 87</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCommitted">chrome.webNavigation.onCommitted</a></td><td></td><td><span class="label label-info"><a id="rank-97">rank 97</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onDOMContentLoaded">chrome.webNavigation.onDOMContentLoaded</a></td><td></td><td><span class="label label-info"><a id="rank-107">rank 107</a></span></td></tr>
