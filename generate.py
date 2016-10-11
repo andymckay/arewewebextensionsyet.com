@@ -5,8 +5,8 @@ import glob
 import string
 import csv
 
-GET_BUGS = True
-CHECK_URL = True
+GET_BUGS = False
+CHECK_URL = False
 
 MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
@@ -203,11 +203,13 @@ def process_type(type_, data):
     if CHECK_URL:
         print url
         url = url if check_url(url) else None
+    
     parsed_schema[namespace][type_][data['name']] = {
         'usage': full,
         'full': mdn,
         'supported': not(data.get('unsupported')),
-        'url': url
+        'url': url,
+        'permissions': data.get('permissions')
     }
 
 
