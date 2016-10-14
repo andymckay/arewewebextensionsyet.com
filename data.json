@@ -141,8 +141,11 @@
       "desktop"
     ]
   },
-  "permissions": {
+  "pageCapture": {
     "status": "not yet"
+  },
+  "permissions": {
+    "status": "partial"
   },
   "power": {
     "status": "not yet"
