@@ -5,8 +5,8 @@ import glob
 import string
 import csv
 
-GET_BUGS = False
-CHECK_URL = False
+GET_BUGS = True
+CHECK_URL = True
 
 MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
@@ -36,9 +36,9 @@ def bugs(whiteboard):
         'https://bugzilla.mozilla.org/rest/bug',
         params={
             'product': 'Toolkit',
-            'component': ['WebExtensions: Untriaged', 
-    'WebExtensions: Android', 'WebExtensions: Compatibility', 
-    'WebExtensions: Developer tools', 'WebExtensions: Experiments', 'WebExtensions: Frontend', 
+            'component': ['WebExtensions: Untriaged',
+    'WebExtensions: Android', 'WebExtensions: Compatibility',
+    'WebExtensions: Developer tools', 'WebExtensions: Experiments', 'WebExtensions: Frontend',
     'WebExtensions: General', 'WebExtensions: Request Handling'],
             'whiteboard': '[%s]' % whiteboard,
             'include_fields': 'summary,status,resolution,id',
@@ -203,7 +203,7 @@ def process_type(type_, data):
     if CHECK_URL:
         print url
         url = url if check_url(url) else None
-    
+
     parsed_schema[namespace][type_][data['name']] = {
         'usage': full,
         'full': mdn,
