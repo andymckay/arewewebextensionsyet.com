@@ -76,7 +76,7 @@
     ]
   },
   "extension": {
-    "status": "partial",
+    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-extension.js",
     "platform": [
       "desktop",
@@ -198,7 +198,12 @@
     "status": "not yet"
   },
   "topSites": {
-    "status": "not yet"
+    "status": "complete",
+    "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-topSites.js",
+    "platform": [
+      "desktop",
+      "android"
+    ]
   },
   "tts": {
     "status": "unlikely"
