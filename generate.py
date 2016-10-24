@@ -157,7 +157,7 @@ def process_schemas(directories):
             # Strip out stupid comments.
             newlines = []
             for line in lines:
-                if not line.startswith('//'):
+                if not line.startswith(('//', '/*', ' *'):
                     newlines.append(line)
 
             process_json(json.loads('\n'.join(newlines)))
