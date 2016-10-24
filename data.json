@@ -194,7 +194,7 @@
       "desktop"
     ]
   },
-  "tabsCapture": {
+  "tabCapture": {
     "status": "not yet"
   },
   "topSites": {
@@ -206,10 +206,10 @@
     ]
   },
   "tts": {
-    "status": "unlikely"
+    "status": "no"
   },
   "ttsEngine": {
-    "status": "unlikely"
+    "status": "not yet"
   },
   "webNavigation": {
     "status": "complete",
