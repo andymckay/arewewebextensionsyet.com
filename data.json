@@ -138,6 +138,7 @@
     "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-pageAction.js",
     "platform": [
+      "android",
       "desktop"
     ]
   },
