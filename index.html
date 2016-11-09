@@ -59,12 +59,12 @@
 <h5 id="bookmarks-bugs"><a href="#bookmarks-bugs" class="anchor">&sect;</a> 7 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213674">1213674: Complete the implementation of chrome.bookmarks</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1221764">1221764: Implement simple chrome.bookmarks events</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1225916">1225916: Allow reading and writing bookmark tags</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276817">1276817: Support bookmark keywords</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276819">1276819: Support bookmark descriptions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276821">1276821: Support live bookmarks</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1291274">1291274: Consider adding bookmarks API method to get ID of standard/common folders</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1316297">1316297: Implement remaining chrome.bookmarks events</a></td>
 	</tr>
 </table><h5 id="bookmarks-functions"><a href="#bookmarks-functions" class="anchor">&sect;</a> 13 functions</h5>
 <table class="table table-striped">
@@ -84,12 +84,12 @@
 </table>
 <h5 id="bookmarks-events"><a href="#bookmarks-events" class="anchor">&sect;</a> 7 events</h5>
 <table class="table table-striped">
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onRemoved">chrome.bookmarks.onRemoved</a></td><td></td><td><span class="label label-info"><a id="rank-160">rank 160</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onRemoved">chrome.bookmarks.onRemoved</a></td><td></td><td><span class="label label-info"><a id="rank-160">rank 160</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportEnded">chrome.bookmarks.onImportEnded</a></td><td></td><td><span class="label label-info"><a id="rank-220">rank 220</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onMoved">chrome.bookmarks.onMoved</a></td><td></td><td><span class="label label-info"><a id="rank-201">rank 201</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onMoved">chrome.bookmarks.onMoved</a></td><td></td><td><span class="label label-info"><a id="rank-201">rank 201</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportBegan">chrome.bookmarks.onImportBegan</a></td><td></td><td><span class="label label-info"><a id="rank-315">rank 315</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onCreated">chrome.bookmarks.onCreated</a></td><td></td><td><span class="label label-info"><a id="rank-159">rank 159</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChanged">chrome.bookmarks.onChanged</a></td><td></td><td><span class="label label-info"><a id="rank-182">rank 182</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onCreated">chrome.bookmarks.onCreated</a></td><td></td><td><span class="label label-info"><a id="rank-159">rank 159</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChanged">chrome.bookmarks.onChanged</a></td><td></td><td><span class="label label-info"><a id="rank-182">rank 182</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChildrenReordered">chrome.bookmarks.onChildrenReordered</a></td><td></td><td><span class="label label-info"><a id="rank-215">rank 215</a></span></td></tr>
 </table>
 	</blockquote>
@@ -99,7 +99,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/browserAction">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-browserAction.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/browserAction">Chrome docs</a>
-<h5 id="browserAction-bugs"><a href="#browserAction-bugs" class="anchor">&sect;</a> 7 bugs</h5>
+<h5 id="browserAction-bugs"><a href="#browserAction-bugs" class="anchor">&sect;</a> 8 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1207591">1207591: badge background color - provide 3 recommended colors</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1207597">1207597: browserAction icon should match appearance of native Firefox toolbar buttons</a></td>
@@ -108,6 +108,7 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1237377">1237377: [meta] WebExtension popup support</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1244789">1244789: Support richer user interactions in the chrome.browserAction API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253419">1253419: Support menu-button buttons in the pageAction API.</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314674">1314674: Background of badge on browserAction button changes to red on entering and remains red on exiting Customize mode</a></td>
 	</tr>
 </table><h5 id="browserAction-functions"><a href="#browserAction-functions" class="anchor">&sect;</a> 12 functions</h5>
 <table class="table table-striped">
@@ -173,7 +174,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/contextMenus">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-contextMenus.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/contextMenus">Chrome docs</a>
-<h5 id="contextMenus-bugs"><a href="#contextMenus-bugs" class="anchor">&sect;</a> 6 bugs</h5>
+<h5 id="contextMenus-bugs"><a href="#contextMenus-bugs" class="anchor">&sect;</a> 7 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1215376">1215376: Implement onBeforeShow event</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253418">1253418: Support browser_action and page_action contexts in browser.contextMenus API</a></td>
@@ -181,6 +182,7 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1274860">1274860: ContextType "page" is not applied correctly</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1280370">1280370: contextMenus do not support other protocols (ex. 'magnet:*', 'acestream:*', 'sop:*')</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1312466">1312466: Add a "password" context to contextMenus API.</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1316020">1316020: Support "tab" contexts in browser.contextMenus API</a></td>
 	</tr>
 </table><h5 id="contextMenus-functions"><a href="#contextMenus-functions" class="anchor">&sect;</a> 5 functions</h5>
 <table class="table table-striped">
@@ -367,12 +369,13 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/history">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-history.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/history">Chrome docs</a>
-<h5 id="history-bugs"><a href="#history-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+<h5 id="history-bugs"><a href="#history-bugs" class="anchor">&sect;</a> 5 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1208334">1208334: [tracking] Implement history API for open extension API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1275633">1275633: Add typedCount to the result set returned by browser.history.search</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1280582">1280582: Implement browser.history.onTitleChanged</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1287928">1287928: Update browser.history.onVisited to use the title from the onVisit event</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314123">1314123: block moz-extension from history?</a></td>
 	</tr>
 </table><h5 id="history-functions"><a href="#history-functions" class="anchor">&sect;</a> 6 functions</h5>
 <table class="table table-striped">
@@ -592,13 +595,13 @@
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213473">1213473: Complete the implementation of chrome.runtime</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1223425">1223425: port.onDisconnect isn't fired when extension is disabled/uninstalled</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1247435">1247435: Implement browser.runtime.onStartup</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1259944">1259944: runtime.sendMessage does not handle the three-argument form correctly.</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1267362">1267362: Provide code signature validation of native messaging host executable</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1268594">1268594: Support TypedArray in native messaging</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1313644">1313644: Temporary directory not cleaned up properly if AddonTestUtils is imported after ExtensionTestUtils is initialized.</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1313648">1313648: Add support for the previousVersion property to runtime.onInstalled</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1313653">1313653: We shouldn't need both extension.unload() and updated_addon.uninstall() in the addon update test.</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314922">1314922: implement chrome.runtime.requestUpdateCheck</a></td>
 	</tr>
 </table><h5 id="runtime-functions"><a href="#runtime-functions" class="anchor">&sect;</a> 15 functions</h5>
 <table class="table table-striped">
@@ -626,8 +629,8 @@
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnect">chrome.runtime.onConnect</a></td><td></td><td><span class="label label-info"><a id="rank-41">rank 41</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessageExternal">chrome.runtime.onMessageExternal</a></td><td></td><td><span class="label label-info"><a id="rank-78">rank 78</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onUpdateAvailable">chrome.runtime.onUpdateAvailable</a></td><td></td><td><span class="label label-info"><a id="rank-127">rank 127</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onStartup">chrome.runtime.onStartup</a></td><td></td><td><span class="label label-info"><a id="rank-82">rank 82</a></span></td></tr>
-	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onInstalled">chrome.runtime.onInstalled</a></td><td></td><td><span class="label label-info"><a id="rank-16">rank 16</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onStartup">chrome.runtime.onStartup</a></td><td></td><td><span class="label label-info"><a id="rank-82">rank 82</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onInstalled">chrome.runtime.onInstalled</a></td><td></td><td><span class="label label-info"><a id="rank-16">rank 16</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnectExternal">chrome.runtime.onConnectExternal</a></td><td></td><td><span class="label label-info"><a id="rank-184">rank 184</a></span></td></tr>
 	<tr>		<td><span class="label label-success">supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessage">chrome.runtime.onMessage</a></td><td></td><td><span class="label label-info"><a id="rank-3">rank 3</a></span></td></tr>
 	<tr>		<td><span class="label label-danger">not supported</span></td><td><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onSuspend">chrome.runtime.onSuspend</a></td><td></td><td><span class="label label-info"><a id="rank-131">rank 131</a></span></td></tr>
@@ -636,14 +639,23 @@
 	</div>
 <div class="api-group" style="display: block">	<h4 id="sessions"><a href="#sessions" class="anchor">&sect;</a> sessions&nbsp;<span class="label label-default">not yet</span>
 </h4><blockquote>		<a href="https://developer.chrome.com/extensions/sessions">Chrome docs</a>
-<h5 id="sessions-bugs"><a href="#sessions-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+<h5 id="sessions-bugs"><a href="#sessions-bugs" class="anchor">&sect;</a> 3 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1300399">1300399: [tracking] Implement the sessions API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1308059">1308059: Implement sessions.getDevices WebExtensions API</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1308060">1308060: Implement sessions.restore WebExtensions API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1308061">1308061: Implement sessions.onChanged WebExtensions API</a></td>
 	</tr>
-</table>	</blockquote>
+</table><h5 id="sessions-functions"><a href="#sessions-functions" class="anchor">&sect;</a> 3 functions</h5>
+<table class="table table-striped">
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.sessions.getRecentlyClosed()</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-227">rank 227</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.sessions.restore()</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-226">rank 226</a></span></td></tr>
+	<tr>		<td><span class="label label-danger">not supported</span></td><td>chrome.sessions.getDevices()</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-294">rank 294</a></span></td></tr>
+</table>
+<h5 id="sessions-events"><a href="#sessions-events" class="anchor">&sect;</a> 1 events</h5>
+<table class="table table-striped">
+	<tr>		<td><span class="label label-danger">not supported</span></td><td>chrome.sessions.onChanged</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-293">rank 293</a></span></td></tr>
+</table>
+	</blockquote>
 	</div>
 <div class="api-group" style="display: block">	<h4 id="storage"><a href="#storage" class="anchor">&sect;</a> storage&nbsp;<span class="label label-info">partial</span>
 &nbsp;<span class="label label-success">desktop</span>
@@ -701,7 +713,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-tabs.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/tabs">Chrome docs</a>
-<h5 id="tabs-bugs"><a href="#tabs-bugs" class="anchor">&sect;</a> 7 bugs</h5>
+<h5 id="tabs-bugs"><a href="#tabs-bugs" class="anchor">&sect;</a> 9 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1190328">1190328: Test coverage for tabs extension API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1209869">1209869: tabs.sendMessage does not send messages to tab pages</a></td>
@@ -710,6 +722,8 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1260548">1260548: Basic tabs API support for Android WebExtensions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1260550">1260550: Support messaging interfaces in the tabs API on Android</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1269456">1269456: Add permissions item to allow use of tabs.create/tabs.update</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314657">1314657: WebExtensions: Problem with HTML <select> menu in popup of browserAction button</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1315616">1315616: Add tabs.Tab.favIconBlob to WebExtensions API</a></td>
 	</tr>
 </table><h5 id="tabs-functions"><a href="#tabs-functions" class="anchor">&sect;</a> 24 functions</h5>
 <table class="table table-striped">
@@ -827,7 +841,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-webRequest.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/webRequest">Chrome docs</a>
-<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 11 bugs</h5>
+<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 12 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1190689">1190689: Implement webRequest auth  handler</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990">1210990: Implement content-side hooks to handle WebRequest decisions which affect or are affected by the DOM.</a></td>
@@ -840,6 +854,7 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1290016">1290016: tabs.executeScript in webRequest.onCompleted gives "Unchecked lastError value: Error: No matching message handler"</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305162">1305162: Allow requestBody in onBeforeRequest on release</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305217">1305217: Make webRequest oop-compatible</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314492">1314492: deconstructing WebRequest test deconstructivism</a></td>
 	</tr>
 </table><h5 id="webRequest-functions"><a href="#webRequest-functions" class="anchor">&sect;</a> 1 functions</h5>
 <table class="table table-striped">
