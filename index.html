@@ -12,7 +12,10 @@
 		</div>
 		<div class="container">
 			<h2>Yes, I think we are.</h2>
-			<p>Mozilla documentation on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a>, see also the <a href="https://wiki.mozilla.org/WebExtensions">wiki page</a>.</p>
+			<p>
+				Mozilla documentation on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a>, see also the <a href="https://wiki.mozilla.org/WebExtensions">wiki page</a>.
+				<b>Note:</b> this page is generated from the source, but in cases of discrepancy please rely on MDN more than these docs.
+			</p>
 			<p>Chrome documentation on <a href="https://developer.chrome.com/extensions">WebExtensions</a>.</p>
 			<ul>
 				<li><a href="#apis">APIs</a></li>
@@ -27,6 +30,14 @@
 				<a href="#" id="partial-only" class="filter">partial only</a> &bull;
 				<a href="#" id="complete-partial-only" class="filter">complete and partial only</a> &bull;
 				<a href="#" id="reset" class="filter">reset</a> (<span id="count"></span> APIs)
+			</p>
+			<p>Legend:
+				<dl>
+					<dt>complete</dt><dd>pretty much all the APIs that it makes sense to imlement have been done. What remains is undocumented, deprecated or we've thought worth bothering with (we could be wrong)</dd>
+					<dt>partial</dt><dd>is mostly there, there's still some work to do implementing APIs</dd>
+					<dt>android</dt><dd>it should work on Android based on its location in mozilla-central, no guarantees unless MDN says so</dd>
+					<dt>desktop</dt><dd>it should work on Desktop based on its location in mozilla-central, no guarantees unless MDN says so</dd>
+				</dl>
 			</p>
 			<div class="api-group" style="display: block">	<h4 id="alarms"><a href="#alarms" class="anchor">&sect;</a> alarms&nbsp;<span class="label label-primary">complete</span>
 &nbsp;<span class="label label-success">desktop</span>
@@ -51,7 +62,7 @@
 </table>
 	</blockquote>
 	</div>
-<div class="api-group" style="display: block">	<h4 id="bookmarks"><a href="#bookmarks" class="anchor">&sect;</a> bookmarks&nbsp;<span class="label label-info">partial</span>
+<div class="api-group" style="display: block">	<h4 id="bookmarks"><a href="#bookmarks" class="anchor">&sect;</a> bookmarks&nbsp;<span class="label label-primary">complete</span>
 &nbsp;<span class="label label-success">desktop</span>
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/bookmarks">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-bookmarks.js">Firefox code</a> &bull;
@@ -912,9 +923,9 @@
 	</blockquote>
 	</div>
 
-			<h2><a href="#new" class="anchor" id="chrome">&sect;</a>New APIs</h2>
+			<h2><a class="anchor" id="new">&sect;</a>New APIs</h2>
 			<p>Looking for new APIs? Then check out <a href="https://webextensions-experiments.readthedocs.io/en/latest/">WebExtensions Experiments</a>.</p>
-			<h2><a href="#chrome" class="anchor" id="chrome">&sect;</a> Chrome store compatibility</h2>
+			<h2><a class="anchor" id="chrome">&sect;</a> Chrome store compatibility</h2>
 			<p>Using a naive regex and some basic assumptions and a limited data set of 10,000+ add-ons from the Chrome store, this is a guess how many of those add-ons would work in Firefox Desktop.</p>
 			<table class="table table-striped">
 	<thead><tr><td>Date</td><td>Amount</td></tr></thead>

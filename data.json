@@ -8,7 +8,7 @@
     ]
   },
   "bookmarks": {
-    "status": "partial",
+    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-bookmarks.js",
     "platform": [
       "desktop"
