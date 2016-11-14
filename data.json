@@ -135,7 +135,7 @@
     "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-omnibox.js",
     "platform": [
-        "desktop",
+        "desktop"
     ]
   },
   "pageAction": {
