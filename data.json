@@ -132,7 +132,11 @@
     ]
   },
   "omnibox": {
-    "status": "not yet"
+    "status": "partial",
+    "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-omnibox.js",
+    "platform": [
+        "desktop",
+    ]
   },
   "pageAction": {
     "status": "complete",
@@ -169,7 +173,11 @@
     ]
   },
   "sessions": {
-    "status": "not yet"
+    "status": "partial",
+    "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-sessions.js",
+    "platform": [
+      "desktop"
+    ]
   },
   "storage": {
     "status": "partial",
