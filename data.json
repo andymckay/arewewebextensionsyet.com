@@ -132,7 +132,7 @@
     ]
   },
   "omnibox": {
-    "status": "partial",
+    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-omnibox.js",
     "platform": [
         "desktop"

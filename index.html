@@ -500,7 +500,7 @@
 </table>
 	</blockquote>
 	</div>
-<div class="api-group" style="display: block">	<h4 id="omnibox"><a href="#omnibox" class="anchor">&sect;</a> omnibox&nbsp;<span class="label label-info">partial</span>
+<div class="api-group" style="display: block">	<h4 id="omnibox"><a href="#omnibox" class="anchor">&sect;</a> omnibox&nbsp;<span class="label label-primary">complete</span>
 &nbsp;<span class="label label-success">desktop</span>
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/omnibox">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-omnibox.js">Firefox code</a> &bull;
@@ -510,7 +510,19 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1166831">1166831: [tracking] Omnibox API support for WebExtensions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276598">1276598: Provide ability to apply custom filter for search results of the location bar</a></td>
 	</tr>
-</table>	</blockquote>
+</table><h5 id="omnibox-functions"><a href="#omnibox-functions" class="anchor">&sect;</a> 2 functions</h5>
+<table class="table table-striped">
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.setDefaultSuggestion()</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-106">rank 106</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.addSuggestions()</td><td><span class="label label-default">no docs</span></td><td></td></tr>
+</table>
+<h5 id="omnibox-events"><a href="#omnibox-events" class="anchor">&sect;</a> 4 events</h5>
+<table class="table table-striped">
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.onInputEntered</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-74">rank 74</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.onInputChanged</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-91">rank 91</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.onInputStarted</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-161">rank 161</a></span></td></tr>
+	<tr>		<td><span class="label label-success">supported</span></td><td>chrome.omnibox.onInputCancelled</td><td><span class="label label-default">no docs</span></td><td><span class="label label-info"><a id="rank-162">rank 162</a></span></td></tr>
+</table>
+	</blockquote>
 	</div>
 <div class="api-group" style="display: block">	<h4 id="pageAction"><a href="#pageAction" class="anchor">&sect;</a> pageAction&nbsp;<span class="label label-primary">complete</span>
 &nbsp;<span class="label label-success">android</span>

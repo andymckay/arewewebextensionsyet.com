@@ -167,6 +167,8 @@ def process_json(data):
     for element in data:
         for k, v in element.items():
             if k == 'namespace' and v != 'manifest':
+                if '_internal' in v:
+                    continue
                 parsed_schema['__current__'] = v
 
     for element in data:
