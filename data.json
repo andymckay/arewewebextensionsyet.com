@@ -105,7 +105,7 @@
     ]
   },
   "identity": {
-    "status": "partial",
+    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-c-identity.js",
     "platform": [
       "desktop"
