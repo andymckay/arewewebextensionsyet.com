@@ -50,7 +50,7 @@
     ]
   },
   "debugger": {
-    "status": "no"
+    "status": "not yet"
   },
   "declarativeContent": {
     "status": "not yet"
@@ -105,10 +105,14 @@
     ]
   },
   "identity": {
-    "status": "not yet"
+    "status": "partial",
+    "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-c-identity.js",
+    "platform": [
+      "desktop"
+    ]
   },
   "idle": {
-    "status": "partial",
+    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-idle.js",
     "platform": [
       "desktop",

@@ -30,3 +30,11 @@ dl {
 span.label-info a {
     color: white;
 }
+
+dt {
+    margin-left: 2em;
+}
+
+dd {
+    margin-left: 4em;
+}
