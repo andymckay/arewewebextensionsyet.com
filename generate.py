@@ -150,9 +150,8 @@ def process_schemas(directories):
     for directory in directories:
         for fname in glob.glob(directory + '*.json'):
             if fname in schema_skip:
-                print 'Skipping:', fname
                 continue
-            print 'Parsing:', fname
+
             lines = open(fname, 'r').readlines()
             # Strip out stupid comments.
             newlines = []
@@ -203,7 +202,6 @@ def process_type(type_, data):
         mdn += '()'
     url = MDN_URL % (wikify(namespace), data['name'])
     if CHECK_URL:
-        print url
         url = url if check_url(url) else None
 
     parsed_schema[namespace][type_][data['name']] = {
