@@ -214,12 +214,11 @@ def process_type(type_, data):
 
 
 if __name__=='__main__':
-    amount_convertable = json.load(open('amount.json', 'r'))
     parsed_usage = parse_usage()
     process_schemas(schema_locations)
 
     data = json.load(open('data.json', 'r'))
     html = open('template.html', 'r').read().encode('utf8')
     data = formatted(data).encode('utf8')
-    html = html.format(data=data, compats=compats(amount_convertable))
+    html = html.format(data=data)
     open('index.html', 'w').write(html)
