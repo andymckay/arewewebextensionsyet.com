@@ -166,7 +166,8 @@ def htmlify_schema(res, schema, type_, api):
             )
         found = False
         for reason, apis in reasons.items():
-            if value['full'].replace('()', '') in apis:
+            api = value['full'][:].replace('()', '')
+            if api in apis:
                 res += (
                     '<td><span class="label label-warning">%s</span></td>' %
                     reason.replace('_', ' ')
