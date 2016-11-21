@@ -1,3 +1,4 @@
+
 import json
 import os
 import requests
@@ -21,6 +22,39 @@ usage_file = 'usage.csv'
 
 parsed_schema = {}
 
+# Try to give some reasons why not.
+reasons = {
+    'deprecated':[
+        'chrome.extension.sendMessage',
+        'chrome.extension.onRequest',
+        'chrome.extension.onRequestExternal',
+        'chrome.extension.onMessage',
+        'chrome.extension.sendRequest',
+        'chrome.app.getDetails',
+        'chrome.tabs.getAllInWindow',
+        'chrome.tabs.sendRequest',
+        'chrome.extension.connect',
+        'chrome.extension.onConnect'
+    ],
+    'low_usage': [],
+    'no_equivalent': [
+        'chrome.tabs.getSelected',
+        'chrome.tabs.onHighlightChanged',
+        'chrome.tabs.onSelectionChanged',
+        'chrome.sessions.getDevices',
+        'chrome.identity.getAuthToken',
+        'chrome.identity.getAccounts',
+        'chrome.identity.getProfileUserInfo',
+        'chrome.identity.removeCachedAuthToken',
+        'chrome.identity.onSignInChanged',
+        'chrome.runtime.restart',
+        'chrome.extension.setUpdateUrlData',
+        'chrome.downloads.setShelfEnabled',
+    ],
+    'internal': [
+        'chrome.browserAction.openPopupa'
+    ]
+}
 
 def parse_usage():
     res = {}
@@ -62,6 +96,7 @@ platform_lookup = {
 }
 
 
+# This is painful, we need to use jinja for this.
 def formatted(data):
     res = ''
     for api, values in sorted(data.items()):
@@ -129,6 +164,17 @@ def htmlify_schema(res, schema, type_, api):
             'success' if value['supported'] else 'danger',
             'supported' if value['supported'] else 'not supported'
             )
+        found = False
+        for reason, apis in reasons.items():
+            if value['full'].replace('()', '') in apis:
+                res += (
+                    '<td><span class="label label-warning">%s</span></td>' %
+                    reason.replace('_', ' ')
+                )
+                found = True
+
+        if not found:
+            res += '<td></td>'
 
         if value['url']:
             res += '<td><a href="%s">%s</a></td><td></td>' % (value['url'], value['full'])
