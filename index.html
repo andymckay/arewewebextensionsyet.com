@@ -292,7 +292,7 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/downloads">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-downloads.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/downloads">Chrome docs</a>
-<h5 id="downloads-bugs"><a href="#downloads-bugs" class="anchor">&sect;</a> 14 bugs</h5>
+<h5 id="downloads-bugs"><a href="#downloads-bugs" class="anchor">&sect;</a> 15 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213445">1213445: [tracking] Implement chrome.downloads</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1245645">1245645: Implement chrome.downloads.acceptDanger()</a></td>
@@ -308,6 +308,7 @@
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1298215">1298215: Provide an API to show the downloads manager</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1300340">1300340: Intermittent TEST-UNEXPECTED-TIMEOUT | toolkit/components/extensions/test/xpcshell/test_ext_downloads_download.js | Test timed out</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305002">1305002: chrome.downloads.pause() should detect when a download cannot be resumed</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305663">1305663: Support downloadItem.byExtensionId</a></td>
 	</tr>
 </table><h5 id="downloads-functions"><a href="#downloads-functions" class="anchor">&sect;</a> 14 functions</h5>
 <table class="table table-striped">
@@ -567,8 +568,9 @@
 	</div>
 <div class="api-group" style="display: block">	<h4 id="pageCapture"><a href="#pageCapture" class="anchor">&sect;</a> pageCapture&nbsp;<span class="label label-default">not yet</span>
 </h4><blockquote>		<a href="https://developer.chrome.com/extensions/pageCapture">Chrome docs</a>
-<h5 id="pageCapture-bugs"><a href="#pageCapture-bugs" class="anchor">&sect;</a> 0 bugs</h5>
+<h5 id="pageCapture-bugs"><a href="#pageCapture-bugs" class="anchor">&sect;</a> 1 bugs</h5>
 <table class="table table-striped">
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1261339">1261339: Implement chrome.pageCapture</a></td>
 	</tr>
 </table>	</blockquote>
 	</div>
@@ -760,16 +762,14 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-tabs.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/tabs">Chrome docs</a>
-<h5 id="tabs-bugs"><a href="#tabs-bugs" class="anchor">&sect;</a> 9 bugs</h5>
+<h5 id="tabs-bugs"><a href="#tabs-bugs" class="anchor">&sect;</a> 7 bugs</h5>
 <table class="table table-striped">
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1190328">1190328: Test coverage for tabs extension API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1209869">1209869: tabs.sendMessage does not send messages to tab pages</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1238314">1238314: Implement browser.tabs opener functionality</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1246693">1246693: Provide WebExtension Thumbnail API</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1260548">1260548: Basic tabs API support for Android WebExtensions</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1260550">1260550: Support messaging interfaces in the tabs API on Android</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1269456">1269456: Add permissions item to allow use of tabs.create/tabs.update</a></td>
-	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314657">1314657: WebExtensions: Problem with HTML <select> menu in popup of browserAction button</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1315616">1315616: Add tabs.Tab.favIconBlob to WebExtensions API</a></td>
 	</tr>
 </table><h5 id="tabs-functions"><a href="#tabs-functions" class="anchor">&sect;</a> 24 functions</h5>
@@ -930,12 +930,13 @@
 </h4><blockquote>		<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/windows">Firefox docs</a> &bull;
 		<a href="https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-windows.js">Firefox code</a> &bull;
 		<a href="https://developer.chrome.com/extensions/windows">Chrome docs</a>
-<h5 id="windows-bugs"><a href="#windows-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+<h5 id="windows-bugs"><a href="#windows-bugs" class="anchor">&sect;</a> 5 bugs</h5>
 <table class="table table-striped">
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213484">1213484: Complete the implementation of chrome.windows</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1253129">1253129: Support focused=false in the browser.windows.create</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1261963">1261963: createData should be optional for browser.windows.create</a></td>
 	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1275275">1275275: New windows should not be animated to their final size/position</a></td>
+	<tr>		<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1284273">1284273: WebExtensions: chrome.windows.create creates windows with incorrect size if window does not have title bar</a></td>
 	</tr>
 </table><h5 id="windows-functions"><a href="#windows-functions" class="anchor">&sect;</a> 7 functions</h5>
 <table class="table table-striped">
