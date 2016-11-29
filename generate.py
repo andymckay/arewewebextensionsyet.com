@@ -50,6 +50,8 @@ reasons = {
         'chrome.runtime.restart',
         'chrome.extension.setUpdateUrlData',
         'chrome.downloads.setShelfEnabled',
+        # See bug 1320518.
+        'chrome.runtime.getPackageDirectoryEntry',
     ],
     'internal': [
         'chrome.browserAction.openPopupa'
