@@ -116,18 +116,19 @@ def formatted(data):
         res += '\t\t<a href="https://developer.chrome.com/extensions/%s">Chrome docs</a>\n' % api
 
 
+        res += '<h5 id="%s-bugs"><a href="#%s-bugs" class="anchor">&sect;</a>bugs</h5>\n' % (api, api)
+        res += '<table class="table table-striped">\n'
         pile_of_bugs = None
         if GET_BUGS:
             pile_of_bugs = bugs(api)
-
-        if pile_of_bugs:
-            res += '<h5 id="%s-bugs"><a href="#%s-bugs" class="anchor">&sect;</a> %s bugs</h5>\n' % (api, api, len(pile_of_bugs['bugs']))
-            res += '<table class="table table-striped">\n'
+        if pile_of_bugs and pile_of_bugs['bugs']:
             for bug in pile_of_bugs['bugs']:
                 res += '\t<tr>'
                 res += '\t\t<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=%s">%s: %s</a></td>\n' % (bug['id'], bug['id'], bug['summary'])
-            res += '\t</tr>\n'
-            res += '</table>'
+                res += '\t</tr>\n'
+
+        res += '<tr><td><a href="https://bugzilla.mozilla.org/enter_bug.cgi?component=WebExtensions: Untriaged&product=Toolkit&status_whiteboard=[%s]">File [%s] bug</a></td></tr>' % (api, api)
+        res += '</table>'
 
         schemas = parsed_schema.get(api, {})
         res = htmlify_schema(res, schemas.get('functions', []), 'functions', api)
