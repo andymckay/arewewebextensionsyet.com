@@ -254,6 +254,9 @@ if __name__=='__main__':
     amo = json.load(open('addons.json', 'r'))
     amo = [get_from_amo(addon) for addon in amo]
 
+    overall = json.load(open('addons-overview.json', 'r'))
+    overall['total'] = sum(overall.values())
+
     apis = json.load(open('data.json', 'r'))
     apis = sorted(apis.items())
 
@@ -281,6 +284,7 @@ if __name__=='__main__':
     data = {
         'apis': apis,
         'addons': amo,
+        'overall': overall,
         'status_lookup': status_lookup,
     }
 

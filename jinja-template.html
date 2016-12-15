@@ -40,7 +40,7 @@
 					<dt>desktop</dt><dd>it should work on Desktop based on its location in mozilla-central, no guarantees unless MDN says so.</dd>
 				</dl>
 			</p>
-			{% if 0 %}
+			
 			{% for api, values in apis %}
 				<div class="api-group" style="display: block">
 					<h4 id="{{ api }}"><a href="#{{ api }}" class="anchor">&sect;</a> {{ api }}&nbsp;
@@ -105,9 +105,18 @@
 
 				</div>
 			{% endfor %}
-			{% endif %}
+
 			<h2><a class="anchor" id="addons">&sect;</a>Firefox store compatibility</h2>
 			<p>Also known as <a href="https://addons.mozilla.org">addons.mozilla.org</a>.</p>
+
+			<table class="table table-striped">
+				<tr>
+						<td>WebExtension</td>
+						<td>{{ overall['compatible-webextension'] }}</td>
+						<td>Total</td>
+						<td>{{ overall['total'] }}</td>
+				</tr>
+			</table>
 
 			<table class="table table-striped">
 				<thead>
