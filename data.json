@@ -41,7 +41,8 @@
     "platform": [
       "android",
       "desktop",
-    ]
+    ],
+    "chrome": false
   },
   "cookies": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-cookies.js",
@@ -83,7 +84,7 @@
     ]
   },
   "fontSettings": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "gcm": {
     "status": "unlikely"
@@ -147,10 +148,10 @@
   "permissions": {
   },
   "power": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "printerProvider": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "privacy": {
     "status": "not yet"
@@ -178,16 +179,15 @@
     ]
   },
   "system.cpu": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "system.memory": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "system.storage": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "tabs": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-tabs.js",
     "platform": [
       "desktop"
@@ -207,7 +207,7 @@
     "status": "no"
   },
   "ttsEngine": {
-    "status": "not yet"
+    "status": "unlikely"
   },
   "webNavigation": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-webNavigation.js",
