@@ -41,6 +41,14 @@
       "desktop"
     ]
   },
+  "contextualIdentities": {
+    "status": "complete",
+    "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-contextualIdentities.js",
+    "platform": [
+      "android",
+      "desktop"
+    ]
+  },
   "cookies": {
     "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-cookies.js",
