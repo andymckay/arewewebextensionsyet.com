@@ -1,0 +1,373 @@
+[
+    {
+        "guid": "{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}",
+        "testing": [],
+        "users": 20619547
+    },
+    {
+        "guid": "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}",
+        "testing": [],
+        "users": 4452660
+    },
+    {
+        "guid": "easyscreenshot@mozillaonline.com",
+        "testing": [],
+        "users": 2403045
+    },
+    {
+        "guid": "firebug@software.joehewitt.com",
+        "testing": [],
+        "users": 2166503
+    },
+    {
+        "guid": "{73a6fe31-595d-460b-a920-fcc0f8843232}",
+        "testing": [],
+        "users": 2146154
+    },
+    {
+        "guid": "{DDC359D1-844A-42a7-9AA1-88A850A938A8}",
+        "testing": [],
+        "users": 1294978
+    },
+    {
+        "guid": "firefox@ghostery.com",
+        "testing": [],
+        "users": 1464992
+    },
+    {
+        "guid": "{e4a8a97b-f2ed-450b-b12d-ee082ba24781}",
+        "testing": [],
+        "users": 1302204
+    },
+    {
+        "guid": "artur.dubovoy@gmail.com",
+        "testing": [],
+        "users": 1066245
+    },
+    {
+        "guid": "{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}",
+        "testing": [],
+        "users": 848724
+    },
+    {
+        "guid": "{b9bfaf1c-a63f-47cd-8b9a-29526ced9060}",
+        "testing": [],
+        "users": 1075158
+    },
+    {
+        "guid": "{dc572301-7619-498c-a57d-39143191b318}",
+        "testing": [],
+        "users": 842022
+    },
+    {
+        "guid": "uBlock0@raymondhill.net",
+        "testing": [],
+        "users": 1154406
+    },
+    {
+        "guid": "elemhidehelper@adblockplus.org",
+        "testing": [],
+        "users": 655424
+    },
+    {
+        "guid": "{3d7eb24f-2740-49df-8937-200b1cc08f8a}",
+        "testing": [],
+        "users": 595268
+    },
+    {
+        "guid": "testpilot@labs.mozilla.com",
+        "testing": [],
+        "users": 707655
+    },
+    {
+        "guid": "translator@zoli.bod",
+        "testing": [],
+        "users": 798165
+    },
+    {
+        "guid": "{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}",
+        "testing": [],
+        "users": 481414
+    },
+    {
+        "guid": "YoutubeDownloader@PeterOlayev.com",
+        "testing": [],
+        "users": 694409
+    },
+    {
+        "guid": "{bee6eb20-01e0-ebd1-da83-080329fb9a3a}",
+        "testing": [],
+        "users": 682182
+    },
+    {
+        "guid": "{1018e4d6-728f-4b20-ad56-37578a4de76b}",
+        "testing": [],
+        "users": 525145
+    },
+    {
+        "guid": "feca4b87-3be4-43da-a1b1-137c24220968@jetpack",
+        "testing": [],
+        "users": 727036
+    },
+    {
+        "guid": "info@youtube-mp3.org",
+        "testing": [],
+        "users": 514302
+    },
+    {
+        "guid": "{c45c406e-ab73-11d8-be73-000a95be3b12}",
+        "testing": [],
+        "users": 493583
+    },
+    {
+        "guid": "{d40f5e7b-d2cf-4856-b441-cc613eeffbe3}",
+        "testing": [],
+        "users": 480695
+    },
+    {
+        "guid": "{a7c6cf7f-112c-4500-a7ea-39801a327e5f}",
+        "shimmed": null,
+        "testing": [],
+        "users": 490402
+    },
+    {
+        "guid": "{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}",
+        "testing": [],
+        "users": 331909
+    },
+    {
+        "guid": "{1BC9BA34-1EED-42ca-A505-6D2F1A935BBB}",
+        "testing": [],
+        "users": 515934
+    },
+    {
+        "guid": "client@anonymox.net",
+        "testing": [],
+        "users": 549250
+    },
+    {
+        "guid": "{81BF1D23-5F17-408D-AC6B-BD6DF7CAF670}",
+        "testing": [],
+        "users": 397613
+    },
+    {
+        "guid": "{5384767E-00D9-40E9-B72F-9CC39D655D6F}",
+        "testing": [],
+        "users": 424322
+    },
+    {
+        "guid": "personas@christopher.beard",
+        "testing": [],
+        "users": 312913
+    },
+    {
+        "guid": "{64161300-e22b-11db-8314-0800200c9a66}",
+        "testing": [],
+        "users": 378805
+    },
+    {
+        "guid": "ClassicThemeRestorer@ArisT2Noia4dev",
+        "testing": [],
+        "users": 436611
+    },
+    {
+        "guid": "jid1-F9UJ2thwoAm5gQ@jetpack",
+        "testing": [],
+        "users": 509680
+    },
+    {
+        "guid": "anttoolbar@ant.com",
+        "testing": [],
+        "users": 407227
+    },
+    {
+        "guid": "{E0B8C461-F8FB-49b4-8373-FE32E9252800}",
+        "testing": [],
+        "users": 391479
+    },
+    {
+        "guid": "firegestures@xuldev.org",
+        "shimmed": null,
+        "testing": [],
+        "users": 363752
+    },
+    {
+        "guid": "firefoxdav@icloud.com",
+        "testing": [],
+        "users": 383932
+    },
+    {
+        "guid": "{e968fc70-8f95-4ab9-9e79-304de2a71ee1}",
+        "testing": [],
+        "users": 343383
+    },
+    {
+        "guid": "{b9acf540-acba-11e1-8ccb-001fd0e08bd4}",
+        "testing": [],
+        "users": 326119
+    },
+    {
+        "guid": "{195A3098-0BD5-4e90-AE22-BA1C540AFD1E}",
+        "testing": [],
+        "users": 418313
+    },
+    {
+        "guid": "{9AA46F4F-4DC7-4c06-97AF-5035170634FE}",
+        "testing": [],
+        "users": 336652
+    },
+    {
+        "guid": "foxmarks@kei.com",
+        "testing": [],
+        "users": 337623
+    },
+    {
+        "guid": "support@lastpass.com",
+        "testing": [],
+        "users": 745753
+    },
+    {
+        "guid": "foxyproxy@eric.h.jung",
+        "testing": [],
+        "users": 286381
+    },
+    {
+        "guid": "ich@maltegoetz.de",
+        "testing": [],
+        "users": 311056
+    },
+    {
+        "guid": "jid1-HAV2inXAnQPIeA@jetpack",
+        "testing": [],
+        "users": 402546
+    },
+    {
+        "guid": "netvideohunter@netvideohunter.com",
+        "testing": [],
+        "users": 278207
+    },
+    {
+        "guid": "{7b1bf0b6-a1b9-42b0-b75d-252036438bdc}",
+        "testing": [],
+        "users": 284115
+    },
+    {
+        "guid": "{a62ef8ec-5fdc-40c2-873c-223b8a6925cc}",
+        "shimmed": null,
+        "testing": [],
+        "users": 338360
+    },
+    {
+        "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}",
+        "testing": [],
+        "users": 288482
+    },
+    {
+        "guid": "{E6C1199F-E687-42da-8C24-E7770CC3AE66}",
+        "testing": [],
+        "users": 274114
+    },
+    {
+        "guid": "{6AC85730-7D0F-4de0-B3FA-21142DD85326}",
+        "shimmed": null,
+        "testing": [],
+        "users": 273013
+    },
+    {
+        "guid": "{0b457cAA-602d-484a-8fe7-c1d894a011ba}",
+        "shimmed": null,
+        "testing": [],
+        "users": 279529
+    },
+    {
+        "guid": "vk@sergeykolosov.mp",
+        "testing": [],
+        "users": 275379
+    },
+    {
+        "guid": "2.0@disconnect.me",
+        "testing": [],
+        "users": 283780
+    },
+    {
+        "guid": "{0545b830-f0aa-4d7e-8820-50a4629a56fe}",
+        "testing": [],
+        "users": 250595
+    },
+    {
+        "guid": "{f3bd3dd2-2888-44c5-91a2-2caeb33fb898}",
+        "testing": [],
+        "users": 299809
+    },
+    {
+        "guid": "s3google@translator",
+        "testing": [],
+        "users": 369330
+    },
+    {
+        "guid": "firefox-hotfix@mozilla.org",
+        "shimmed": null,
+        "testing": [],
+        "users": 283311
+    },
+    {
+        "guid": "ffext_basicvideoext@startpage24",
+        "testing": [],
+        "users": 258678
+    },
+    {
+        "guid": "jid1-16aeif9OQIRKxA@jetpack",
+        "testing": [],
+        "users": 582449
+    },
+    {
+        "guid": "adblockultimate@adblockultimate.net",
+        "testing": [],
+        "users": 357692
+    },
+    {
+        "guid": "jid1-G80Ec8LLEbK5fQ@jetpack",
+        "testing": [],
+        "users": 318370
+    },
+    {
+        "guid": "jid1-q4sG8pYhq8KGHs@jetpack",
+        "testing": [],
+        "users": 314420
+    },
+    {
+        "guid": "firefox@zenmate.com",
+        "testing": [],
+        "users": 285639
+    },
+    {
+        "guid": "e67f8350-7edf-11e3-baa7-0800200c9a66@fri-gate.org",
+        "testing": [],
+        "users": 258320
+    },
+    {
+        "guid": "quicklaunch@mozillaonline.com",
+        "testing": [],
+        "users": 303194
+    },
+    {
+        "guid": "yasearch@yandex.ru",
+        "testing": [],
+        "users": 452947
+    },
+    {
+        "guid": "abb@amazon.com",
+        "testing": [],
+        "users": 280014
+    },
+    {
+        "guid": "{3ed8cc52-86fc-4613-9026-c1ef969da4c3}",
+        "testing": [],
+        "users": 349228
+    },
+    {
+        "guid": "{635abd67-4fe9-1b23-4f01-e679fa7484c1}",
+        "testing": [],
+        "users": 716458
+    }
+]

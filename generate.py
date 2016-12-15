@@ -1,10 +1,12 @@
-
+import hashlib
 import json
 import os
 import requests
 import glob
 import string
 import csv
+
+from jinja2 import Environment, FileSystemLoader
 
 GET_BUGS = True
 CHECK_URL = True
@@ -22,8 +24,10 @@ usage_file = 'usage.csv'
 
 parsed_schema = {}
 
+amo_server = os.getenv('AMO_SERVER', 'https://addons.mozilla.org')
+
 # Try to give some reasons why not.
-reasons = {
+reason_types = {
     'deprecated':[
         'chrome.extension.sendMessage',
         'chrome.extension.onRequest',
@@ -54,9 +58,22 @@ reasons = {
         'chrome.runtime.getPackageDirectoryEntry',
     ],
     'internal': [
-        'chrome.browserAction.openPopupa'
+        'chrome.browserAction.openPopup'
     ]
 }
+
+reasons = {}
+for reason_type, api_list in reason_types.items():
+    for api in api_list:
+        reasons.setdefault(api, [])
+        reasons[api].append(reason_type)
+
+
+fixups = {
+    'testpilot@labs.mozilla.com': 'Test Pilot (old one)',
+    '{20a82645-c095-46ed-80e3-08825760534b}': 'Microsoft .NET framework assistant',
+}
+
 
 def parse_usage():
     res = {}
@@ -65,6 +82,71 @@ def parse_usage():
         for k, row in enumerate(reader):
             res[row['API']] = k
     return res
+
+
+def process_amo(addon, result, compat):
+    try:
+        name = result['name']['en-US']
+    except KeyError:
+        name = result['slug']
+    return {
+        'name': name,
+        'url': result['url'],
+        'guid': result['guid'],
+        'status': compat['e10s'] == 'compatible-webextension',
+        'id': result['id'],
+        'users': addon.get('users', 0)
+    }
+
+
+def url_hash(url):
+    hsh = hashlib.md5()
+    hsh.update(url)
+    return hsh.hexdigest()
+
+
+def set_cache(url, result):
+    filename = os.path.join('cache', url_hash(url) + '.json')
+    json.dump(result, open(filename, 'w'))
+
+
+def get_cache(url):
+    filename = os.path.join('cache', url_hash(url) + '.json')
+    if os.path.exists(filename):
+        print 'Using cache:', filename
+        return json.load(open(filename, 'r'))
+
+
+def get_from_amo(addon):
+    guid = addon['guid']
+    addon_url = amo_server + '/api/v3/addons/addon/{}/'.format(guid)
+    addon_data = get_cache(addon_url)
+
+    compat_url = amo_server + '/api/v3/addons/addon/{}/feature_compatibility/'.format(guid)
+    compat_data = get_cache(compat_url)
+    if addon_data and compat_data:
+        return process_amo(addon, addon_data, compat_data)
+
+    data = []
+    for url in (addon_url, compat_url):
+        print 'Fetching', url
+        res = requests.get(url)
+        if res.status_code != 200:
+            return {
+                'name': fixups.get(
+                    guid, '{} error fetching data from AMO'.format(res.status_code)),
+                'url': '',
+                'guid': guid,
+                'status': 'error',
+                'id': 0
+            }
+
+        res.raise_for_status()
+        res_json = res.json()
+        set_cache(url, res_json)
+        data.append(res_json)
+
+    return process_amo(addon, *data)
 
 
 def bugs(whiteboard):
@@ -96,103 +178,6 @@ platform_lookup = {
     "android": "success",
     "desktop": "success"
 }
-
-
-# This is painful, we need to use jinja for this.
-def formatted(data):
-    res = ''
-    for api, values in sorted(data.items()):
-        res += '<div class="api-group" style="display: block">'
-        res += '\t<h4 id="%s"><a href="#%s" class="anchor">&sect;</a> %s' % (api, api, api)
-        res += '&nbsp;<span class="label label-%s">%s</span>\n' % (status_lookup.get(values['status']), values['status'])
-        for platform in values.get('platform', []):
-            res += '&nbsp;<span class="label label-%s">%s</span>\n' % (platform_lookup.get(platform), platform)
-        res += '</h4>'
-        res += '<blockquote>'
-        if values['status'] in ['complete', 'partial']:
-            res += '\t\t<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/%s">Firefox docs</a> &bull;\n' % api
-        if 'code' in values:
-            res += '\t\t<a href="%s">Firefox code</a> &bull;\n' % values['code']
-        res += '\t\t<a href="https://developer.chrome.com/extensions/%s">Chrome docs</a>\n' % api
-
-
-        pile_of_bugs = None
-        if GET_BUGS:
-            pile_of_bugs = bugs(api)
-
-        if pile_of_bugs:
-            res += '<h5 id="%s-bugs"><a href="#%s-bugs" class="anchor">&sect;</a> %s bugs</h5>\n' % (api, api, len(pile_of_bugs['bugs']))
-            res += '<table class="table table-striped">\n'
-            for bug in pile_of_bugs['bugs']:
-                res += '\t<tr>'
-                res += '\t\t<td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=%s">%s: %s</a></td>\n' % (bug['id'], bug['id'], bug['summary'])
-            res += '\t</tr>\n'
-            res += '</table>'
-
-        schemas = parsed_schema.get(api, {})
-        res = htmlify_schema(res, schemas.get('functions', []), 'functions', api)
-        res = htmlify_schema(res, schemas.get('events', []), 'events', api)
-
-        res += '\t</blockquote>\n'
-        res += '\t</div>\n'
-    return res
-
-
-def compats(data):
-    res = ''
-    dates = data['desktop'].items()
-
-    res += '<table class="table table-striped">\n'
-    res += '\t<thead><tr><td>Date</td><td>Amount</td></tr></thead>\n'
-
-    for date, amount in reversed(sorted(dates)):
-        res += '\t<tr>'
-        res += '\t\t<td>%s</td><td>%s%%</td>' % (date, amount)
-        res += '\t</tr>'
-
-    res += '</table>'
-    return res
-
-
-def htmlify_schema(res, schema, type_, api):
-    if not schema:
-        return res
-
-    res += '<h5 id="%s-%s"><a href="#%s-%s" class="anchor">&sect;</a> %s %s</h5>\n' % (api, type_, api, type_, len(schema), type_)
-    res += '<table class="table table-striped">\n'
-    for key, value in schema.items():
-        res += '\t<tr>'
-        res += '\t\t<td><span class="label label-%s">%s</span></td>' % (
-            'success' if value['supported'] else 'danger',
-            'supported' if value['supported'] else 'not supported'
-            )
-        found = False
-        for reason, apis in reasons.items():
-            api = value['full'][:].replace('()', '')
-            if api in apis:
-                res += (
-                    '<td><span class="label label-warning">%s</span></td>' %
-                    reason.replace('_', ' ')
-                )
-                found = True
-
-        if not found:
-            res += '<td></td>'
-
-        if value['url']:
-            res += '<td><a href="%s">%s</a></td><td></td>' % (value['url'], value['full'])
-        else:
-            res += '<td>%s</td><td><span class="label label-default">no docs</span></td>' % (value['full'])
-
-        rank = parsed_usage.get(value['usage'], None)
-        if rank:
-            res += '<td><span class="label label-info"><a id="rank-%s">rank %s</a></span></td>' % (rank, rank)
-        else:
-            res += '<td></td>'
-
-        res += '</tr>\n'
-    res += '</table>\n'
-    return res
 
 
 def process_schemas(directories):
@@ -263,11 +248,41 @@ def process_type(type_, data):
 
 
 if __name__=='__main__':
+    env = Environment(loader=FileSystemLoader('.'))
+    template = env.get_template('jinja-template.html')
+
+    amo = json.load(open('addons.json', 'r'))
+    amo = [get_from_amo(addon) for addon in amo]
+
+    apis = json.load(open('data.json', 'r'))
+    apis = sorted(apis.items())
+
     parsed_usage = parse_usage()
     process_schemas(schema_locations)
 
-    data = json.load(open('data.json', 'r'))
-    html = open('template.html', 'r').read().encode('utf8')
-    data = formatted(data).encode('utf8')
-    html = html.format(data=data)
-    open('index.html', 'w').write(html)
+    for api, data in apis:
+        # Add in bugs.
+        if GET_BUGS:
+            data['bugs'] = bugs(api)['bugs']
+        else:
+            data['bugs'] = []
+
+        # Add in schema.
+        data['schema'] = parsed_schema.get(api, {})
+
+        # Add in reason into the schema.
+        for method in ['functions', 'events']:
+            for api_name in data['schema'].get(method, []):
+                data['schema'][method][api_name]['reasons'] = reasons.get(
+                    data['schema'][method][api_name]['usage'], [])
+                data['schema'][method][api_name]['rank'] = parsed_usage.get(
+                    data['schema'][method][api_name]['usage'], [])
+
+    data = {
+        'apis': apis,
+        'addons': amo,
+        'status_lookup': status_lookup,
+    }
+
+    html = template.render(data)
+    open('index.html', 'w').write(html.encode('utf-8'))

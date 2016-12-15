@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Are we WebExtensions yet?</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="callout">
+			<h1>Are we WebExtensions yet?</h1>
+		</div>
+		<div class="container">
+			<h2>Yes, I think we are.</h2>
+			<p>
+				Mozilla documentation on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a>, see also the <a href="https://wiki.mozilla.org/WebExtensions">wiki page</a>.
+				<b>Note:</b> this page is generated from the source, but in cases of discrepancy please rely on MDN more than these docs.
+			</p>
+			<p>Chrome documentation on <a href="https://developer.chrome.com/extensions">WebExtensions</a>.</p>
+			<ul>
+				<li><a href="#apis">APIs</a></li>
+				<li><a href="#addons">Firefox store compatibility</li>
+				<li><a href="#new">New APIs</li>
+				<li><a href="#chrome">Chrome store compatibility</li>
+			</ul>
+			<h2><a href="#apis" class="anchor" id="apis">&sect;</a> APIs</h2>
+			<p>Filters:
+				<a href="#" id="desktop-only" class="filter">desktop only</a> &bull;
+				<a href="#" id="android-only" class="filter">android only</a> &bull;
+				<a href="#" id="complete-only" class="filter">complete only</a>  &bull;
+				<a href="#" id="partial-only" class="filter">partial only</a> &bull;
+				<a href="#" id="complete-partial-only" class="filter">complete and partial only</a> &bull;
+				<a href="#" id="reset" class="filter">reset</a> (<span id="count"></span> APIs)
+			</p>
+			<p>Legend:
+				<dl>
+					<dt>complete</dt><dd>pretty much all the APIs that it makes sense to implement have been done. What remains is undocumented, deprecated or we've thought not worth bothering with (we could be wrong).</dd>
+					<dt>partial</dt><dd>is mostly there, there's still some work to do implementing APIs.</dd>
+					<dt>android</dt><dd>it should work on Android based on its location in mozilla-central, no guarantees unless MDN says so.</dd>
+					<dt>desktop</dt><dd>it should work on Desktop based on its location in mozilla-central, no guarantees unless MDN says so.</dd>
+				</dl>
+			</p>
+			{% if 0 %}
+			{% for api, values in apis %}
+				<div class="api-group" style="display: block">
+					<h4 id="{{ api }}"><a href="#{{ api }}" class="anchor">&sect;</a> {{ api }}&nbsp;
+						<span class="label label-{{ status_lookup.get(values['status']) }}">{{ values['status'] }}</span>
+						{% for platform in values.get('platform', []) %}
+							&nbsp;<span class="label label-success">{{ platform }}</span>
+						{% endfor %}
+					</h4>
+					<blockquote>
+					{% if values['status'] in ['complete', 'partial'] %}
+						<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/{{ api }}">Firefox docs</a> &bull;
+					{% endif %}
+					{% if 'code' in values %}
+						<a href="{{ values['code'] }}">Firefox code</a> &bull;
+					{% endif %}
+					<a href="https://developer.chrome.com/extensions/alarms">Chrome docs</a>
+
+					{% if 'bugs' in values %}
+						<h5 id="{{ api }}-bugs"><a href="#{{ api }}-bugs" class="anchor">&sect;</a> {{ values['bugs']|length }} bugs</h5>
+						<table class="table table-striped">
+							{% for bug in values['bugs'] %}
+							<tr><td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ bug['id'] }}">{{ bug['id'] }}: {{ bug['summary'] }}</a></td></tr>
+							{% endfor %}
+						</table>
+					{% endif %}
+
+					{% macro listing(data, type) -%}
+					<h5 id="{{ api }}-{{ type }}"><a href="#{{ api }}-{{ type }}" class="anchor">&sect;</a> {{ values['bugs']|length }} {{ type }}</h5>
+					<table class="table table-striped">
+						{% for key, value in data.items() %}
+						<tr>
+							<td>
+								<span class="label label-{% if value['supported'] %}success{% else %}danger{% endif %}">{% if value['supported'] %}supported{% else %}not supported{% endif %}</span>
+							</td>
+							{% for reason in value['reasons'] %}
+								<td><span class="label label-warning">{{ reason.replace('_', ' ') }}<span></td>
+							{% else %}
+								<td></td>
+							{% endfor %}
+							{% if value['url'] %}
+								<td><a href="{{ value['url'] }}">{{ value['full'] }}</a></td><td></td>
+							{% else %}
+								<td>{{ value['full'] }}</td><td><span class="label label-default">no docs</span></td>
+							{% endif %}
+							{% if value['rank'] %}
+								<td><span class="label label-info"><a id="rank-{{ value['rank'] }}">rank {{ value['rank'] }}</a></span></td>
+							{% else %}
+								<td></td>
+							{% endif %}
+						</tr>
+						{% endfor %}
+					</table>
+					{%- endmacro %}
+
+					{% if 'functions' in values['schema'] %}
+						{{ listing(values['schema']['functions'], 'functions') }}
+					{% endif %}
+
+					{% if 'events' in values['schema'] %}
+						{{ listing(values['schema']['events'], 'events') }}
+					{% endif %}
+
+				</div>
+			{% endfor %}
+			{% endif %}
+			<h2><a class="anchor" id="addons">&sect;</a>Firefox store compatibility</h2>
+			<p>Also known as <a href="https://addons.mozilla.org">addons.mozilla.org</a>.</p>
+
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>WebExtension</th>
+				 </tr>
+				</thead>
+				<tbody>
+				{% for addon in addons %}
+					<tr>
+						<td><a class="anchor" href="#{{ addon.number }}">#</a> {% if addon.url %}<a id="{{ addon.number }}" href="{{ addon.url }}">{{ addon.name }}</a>{% else %}{{ addon.name }}{% endif %}<div class="addon-guid">{{ addon.guid }} {% if addon.users %}&bull; {{ addon.users }} users{% endif %}</div></td>
+						<td>{% if addon.status %}<span class="label label-success">WebExtension</span>{% else %}{% endif %}</td>
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+
+			<h2><a class="anchor" id="new">&sect;</a>New APIs</h2>
+			<p>Looking for new APIs? Then check out <a href="https://webextensions-experiments.readthedocs.io/en/latest/">WebExtensions Experiments</a>.</p>
+			<h2><a class="anchor" id="chrome">&sect;</a> Chrome store compatibility</h2>
+			<p>Please see a <a href="http://mckay.pub/2016-11-18-webextensions/">blog post</a> on this.</p>
+	  </div>
+		<div class="container">
+			<div class="note"><a href="https://github.com/andymckay/arewewebextensionsyet.com">Source on github</a>.</div>
+		</div>
+		<script src="bz.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
