@@ -56,10 +56,10 @@
 					{% if 'code' in values %}
 						<a href="{{ values['code'] }}">Firefox code</a> &bull;
 					{% endif %}
-					{% if values['chrome'] %}
+					{% if values.get('chrome', false) %}
 						<a href="https://developer.chrome.com/extensions/alarms">Chrome docs</a>
 					{% else %}
-						does not exist in Chrome
+						Does not exist in Chrome
 					{% endif %}
 
 					{% if 'bugs' in values %}
