@@ -40,7 +40,7 @@
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-contextualIdentities.js",
     "platform": [
       "android",
-      "desktop",
+      "desktop"
     ],
     "chrome": false
   },
