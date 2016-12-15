@@ -56,11 +56,6 @@
 					{% if 'code' in values %}
 						<a href="{{ values['code'] }}">Firefox code</a> &bull;
 					{% endif %}
-					{% if values.get('chrome', false) %}
-						<a href="https://developer.chrome.com/extensions/alarms">Chrome docs</a>
-					{% else %}
-						Does not exist in Chrome
-					{% endif %}
 
 					{% if 'bugs' in values %}
 						<h5 id="{{ api }}-bugs"><a href="#{{ api }}-bugs" class="anchor">&sect;</a> {{ values['bugs']|length }} bugs</h5>
