@@ -1,6 +1,5 @@
 {
   "alarms": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-alarms.js",
     "platform": [
       "desktop",
@@ -8,14 +7,12 @@
     ]
   },
   "bookmarks": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-bookmarks.js",
     "platform": [
       "desktop"
     ]
   },
   "browserAction": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-browserAction.js",
     "platform": [
       "desktop"
@@ -25,7 +22,6 @@
     "status": "not yet"
   },
   "commands": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-commands.js",
     "platform": [
       "desktop"
@@ -35,22 +31,19 @@
     "status": "not yet"
   },
   "contextMenus": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-contextMenus.js",
     "platform": [
       "desktop"
     ]
   },
   "contextualIdentities": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-contextualIdentities.js",
     "platform": [
       "android",
-      "desktop"
+      "desktop",
     ]
   },
   "cookies": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-cookies.js",
     "platform": [
       "desktop",
@@ -76,7 +69,6 @@
     "status": "not yet"
   },
   "downloads": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-downloads.js",
     "platform": [
       "desktop",
@@ -84,7 +76,6 @@
     ]
   },
   "extension": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-extension.js",
     "platform": [
       "desktop",
@@ -98,14 +89,12 @@
     "status": "unlikely"
   },
   "history": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-history.js",
     "platform": [
       "desktop"
     ]
   },
   "i18n": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-i18n.js",
     "platform": [
       "desktop",
@@ -113,14 +102,12 @@
     ]
   },
   "identity": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-c-identity.js",
     "platform": [
       "desktop"
     ]
   },
   "idle": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-idle.js",
     "platform": [
       "desktop",
@@ -128,7 +115,6 @@
     ]
   },
   "management": {
-    "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-management.js",
     "platform": [
       "desktop",
@@ -136,7 +122,6 @@
     ]
   },
   "notifications": {
-    "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-notifications.js",
     "platform": [
       "desktop",
@@ -144,14 +129,12 @@
     ]
   },
   "omnibox": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-omnibox.js",
     "platform": [
         "desktop"
     ]
   },
   "pageAction": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-pageAction.js",
     "platform": [
       "android",
@@ -162,7 +145,6 @@
     "status": "not yet"
   },
   "permissions": {
-    "status": "partial"
   },
   "power": {
     "status": "not yet"
@@ -174,10 +156,8 @@
     "status": "not yet"
   },
   "proxy": {
-    "status": "partial"
   },
   "runtime": {
-    "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-runtime.js",
     "platform": [
       "desktop",
@@ -185,14 +165,12 @@
     ]
   },
   "sessions": {
-    "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-sessions.js",
     "platform": [
       "desktop"
     ]
   },
   "storage": {
-    "status": "partial",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-storage.js",
     "platform": [
       "desktop",
@@ -219,7 +197,6 @@
     "status": "not yet"
   },
   "topSites": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-topSites.js",
     "platform": [
       "desktop",
@@ -233,7 +210,6 @@
     "status": "not yet"
   },
   "webNavigation": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-webNavigation.js",
     "platform": [
       "desktop",
@@ -241,7 +217,6 @@
     ]
   },
   "webRequest": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-webRequest.js",
     "platform": [
       "desktop",
@@ -249,10 +224,8 @@
     ]
   },
   "webstore": {
-    "status": "not yet"
   },
   "windows": {
-    "status": "complete",
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-windows.js",
     "platform": [
       "desktop"
