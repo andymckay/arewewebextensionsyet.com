@@ -40,7 +40,7 @@
 					<dt>desktop</dt><dd>it should work on Desktop based on its location in mozilla-central, no guarantees unless MDN says so.</dd>
 				</dl>
 			</p>
-			
+
 			{% for api, values in apis %}
 				<div class="api-group" style="display: block">
 					<h4 id="{{ api }}"><a href="#{{ api }}" class="anchor">&sect;</a> {{ api }}&nbsp;
@@ -113,6 +113,8 @@
 				<tr>
 						<td>WebExtension</td>
 						<td>{{ overall['compatible-webextension'] }}</td>
+				</tr>
+				<tr>
 						<td>Total</td>
 						<td>{{ overall['total'] }}</td>
 				</tr>
