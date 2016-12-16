@@ -58,7 +58,10 @@ reason_types = {
         'chrome.runtime.getPackageDirectoryEntry',
     ],
     'internal': [
-        'chrome.browserAction.openPopup'
+        'chrome.browserAction.openPopup',
+        # See bug 1316297.
+        'chrome.bookmarks.import',
+        'chrome.bookmarks.export',
     ]
 }
 
