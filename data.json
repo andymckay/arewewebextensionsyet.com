@@ -19,7 +19,10 @@
     ]
   },
   "browsingData": {
-    "status": "not yet"
+    "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-browsingData.js",
+    "platform": [
+      "desktop"
+    ]
   },
   "commands": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-commands.js",
