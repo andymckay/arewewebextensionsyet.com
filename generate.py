@@ -13,8 +13,8 @@ CHECK_URL = True
 
 MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
-    '../firefox/mozilla-central/browser/components/extensions/schemas/',
-    '../firefox/mozilla-central/toolkit/components/extensions/schemas/'
+    '../firefox/head-for-scripts/browser/components/extensions/schemas/',
+    '../firefox/head-for-scripts/toolkit/components/extensions/schemas/'
 ]
 schema_skip = [
     '../firefox/mozilla-central/browser/components/extensions/schemas/context_menus_internal.json',
