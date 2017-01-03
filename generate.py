@@ -17,7 +17,7 @@ schema_locations = [
     '../firefox/head-for-scripts/toolkit/components/extensions/schemas/'
 ]
 schema_skip = [
-    '../firefox/mozilla-central/browser/components/extensions/schemas/context_menus_internal.json',
+    '../firefox/head-for-scripts/browser/components/extensions/schemas/context_menus_internal.json',
 #    '../firefox/firefox/toolkit/components/extensions/schemas/notifications.json'
 ]
 usage_file = 'usage.csv'
