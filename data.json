@@ -199,6 +199,12 @@
   "tabCapture": {
     "status": "not yet"
   },
+  "theme": {
+    "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-theme.js",
+    "platform": [
+      "desktop"
+    ]
+  },
   "topSites": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-topSites.js",
     "platform": [
