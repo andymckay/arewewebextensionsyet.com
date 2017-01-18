@@ -23,6 +23,7 @@ schema_skip = [
 usage_file = 'usage.csv'
 
 parsed_schema = {}
+parsed_manifest = {'permissions': [], 'keys': []}
 
 amo_server = os.getenv('AMO_SERVER', 'https://addons.mozilla.org')
 
@@ -201,11 +202,14 @@ def process_schemas(directories):
 
 def process_json(data):
     for element in data:
+        last_key = None
         for k, v in element.items():
             if k == 'namespace' and v != 'manifest':
                 if '_internal' in v:
                     continue
                 parsed_schema['__current__'] = v
+            if k == 'types':
+                process_manifest_types(v)
 
     for element in data:
         for k, v in element.items():
@@ -215,6 +219,42 @@ def process_json(data):
             if k == 'events':
                 for event in v:
                     process_type('events', event)
+
+
+def process_manifest_types(types):
+    extends = ['Permission', 'WebExtensionManifest']
+    for item in types:
+        for k, v in item.items():
+            if k == '$extend':
+                if v == 'Permission':
+                    process_permission(types)
+                    return
+                elif v == 'WebExtensionManifest':
+                    process_manifest(types)
+                    return
+            if k == 'id' and v == 'WebExtensionManifest':
+                process_manifest([item])
+
+
+def process_manifest(types):
+    for manifest in types:
+        if 'properties' in manifest:
+            for key in manifest['properties'].keys():
+                parsed_manifest['keys'].append(key)
+        elif 'choices' in manifest:
+            for choices in manifest['choices']:
+                for enum in choices.get('enum', []):
+                    parsed_manifest['permissions'].append(enum)
+
+
+def process_permission(types):
+    for permission in types:
+        for item in permission['choices']:
+            if 'enum' in item:
+                for enum in item['enum']:
+                    parsed_manifest['permissions'].append(enum)
+            elif 'pattern' in item:
+                parsed_manifest['permissions'].append(item['pattern'])
 
 
 def wikify(name):
@@ -289,6 +329,7 @@ if __name__=='__main__':
         'addons': amo,
         'overall': overall,
         'status_lookup': status_lookup,
+        'parsed_manifest': parsed_manifest
     }
 
     html = template.render(data)
