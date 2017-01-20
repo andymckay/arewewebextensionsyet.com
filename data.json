@@ -64,13 +64,14 @@
     "status": "not yet"
   },
   "devtools.inspectedWindow": {
-    "status": "not yet"
+    "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-c-devtools-inspectedWindow.js",
+    "platform": [
+      "desktop"
+    ]
   },
   "devtools.network": {
-    "status": "not yet"
   },
   "devtools.panels": {
-    "status": "not yet"
   },
   "downloads": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-downloads.js",
