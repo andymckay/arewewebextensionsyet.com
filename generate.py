@@ -74,8 +74,6 @@ for reason_type, api_list in reason_types.items():
 
 
 fixups = {
-    'testpilot@labs.mozilla.com': 'Test Pilot (old one)',
-    '{20a82645-c095-46ed-80e3-08825760534b}': 'Microsoft .NET framework assistant',
 }
 
 
