@@ -57,6 +57,8 @@ reason_types = {
         'chrome.downloads.setShelfEnabled',
         # See bug 1320518.
         'chrome.runtime.getPackageDirectoryEntry',
+        'chrome.browsingData.removeWebSQL',
+        'chrome.browsingData.removeFileSystems'
     ],
     'internal': [
         'chrome.browserAction.openPopup',
