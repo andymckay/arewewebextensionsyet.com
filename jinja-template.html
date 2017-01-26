@@ -115,7 +115,7 @@
 				{% endfor %}
 			</ul>
 
-			<h2><a class="anchor" id="manifest-keys">&sect;</a>Manifest</h2>
+			<h2><a class="anchor" id="manifest-keys">&sect;</a> Manifest</h2>
 			<p>Manifest keys supported in the manifest. For a definitive list, see MDN.</p>
 			<ul>
 				{% for key in parsed_manifest['keys']|sort %}
@@ -123,7 +123,7 @@
 				{% endfor %}
 			</ul>
 
-			<h2><a class="anchor" id="addons">&sect;</a>Firefox store compatibility</h2>
+			<h2><a class="anchor" id="addons">&sect;</a> Firefox store compatibility</h2>
 			<p>Also known as <a href="https://addons.mozilla.org">addons.mozilla.org</a>.</p>
 
 			<table class="table table-striped">
@@ -141,6 +141,8 @@
 				<thead>
 					<tr>
 						<th>Name</th>
+						<th>Trackers</th>
+						<th>Blocking bugs</th>
 						<th>WebExtension</th>
 				 </tr>
 				</thead>
@@ -148,13 +150,25 @@
 				{% for addon in addons %}
 					<tr>
 						<td><a class="anchor" href="#{{ addon.number }}">#</a> {% if addon.url %}<a id="{{ addon.number }}" href="{{ addon.url }}">{{ addon.name }}</a>{% else %}{{ addon.name }}{% endif %}<div class="addon-guid">{{ addon.guid }} {% if addon.users %}&bull; {{ addon.users }} users{% endif %}</div></td>
+						<td>
+							{% for tracker in addon.trackers_open %}<a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ tracker }}" class="label label-warning">{{ tracker }}</a>{% endfor %}
+							{% for tracker in addon.trackers if tracker not in addon.trackers_open %}<a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ tracker }}" class="label label-success">{{ tracker }}</a>{% endfor %}
+						</td>
+						<td>
+							{% if addon.trackers %}
+								<details>
+									<summary><span class="label label-danger">{{ addon.trackers_bugs_open|length }}</span></summary>
+									{% for bug in addon.trackers_bugs_open %}<a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ bug }}" class="label label-warning">{{ bug }}</a><br>{% endfor %}
+								</details>
+							{% endif %}
+						</td>
 						<td>{% if addon.status %}<span class="label label-success">WebExtension</span>{% else %}{% endif %}</td>
 					</tr>
 				{% endfor %}
 				</tbody>
 			</table>
 
-			<h2><a class="anchor" id="new">&sect;</a>New APIs</h2>
+			<h2><a class="anchor" id="new">&sect;</a> New APIs</h2>
 			<p>Looking for new APIs? Then check out <a href="https://webextensions-experiments.readthedocs.io/en/latest/">WebExtensions Experiments</a>.</p>
 			<h2><a class="anchor" id="chrome">&sect;</a> Chrome store compatibility</h2>
 			<p>Please see a <a href="http://mckay.pub/2016-11-18-webextensions/">blog post</a> on this.</p>

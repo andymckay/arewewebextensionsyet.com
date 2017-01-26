@@ -170,6 +170,60 @@ def bugs(whiteboard):
     return res.json()
 
 
+def tracker_bugs(uuid):
+    return get_cached_bugzilla(
+        'https://bugzilla.mozilla.org/rest/bug?whiteboard=[awe:%s]' % uuid
+    )
+
+
+def get_cached_bugzilla(url):
+    cached = get_cache(url)
+    if cached:
+        return cached
+
+    res = requests.get(url)
+    res_json = res.json()
+    set_cache(url, res_json)
+    return res_json
+
+
+def get_bug(id):
+    return get_cached_bugzilla(
+        'https://bugzilla.mozilla.org/rest/bug/%s' % id
+    )
+
+
+def get_blockers_from_bugzilla(addon):
+    guid = addon['guid']
+    trackers = tracker_bugs(guid)
+    addon['trackers'] = []
+    addon['trackers_open'] = []
+    addon['trackers_bugs_open'] = []
+
+    if not trackers:
+        # Differentiate between no trackers existing and no trackers
+        # being open at all.
+        addon['trackers_open'] = None
+
+    for tracker in trackers['bugs']:
+        addon['trackers'].append(tracker['id'])
+        if tracker['status'] in ('NEW', 'ASSIGNED', 'UNCONFIRMED'):
+            addon['trackers_open'].append(tracker['id'])
+
+        # Note this is not recursive.
+        for bug_id in tracker['depends_on']:
+            bug = get_bug(bug_id)['bugs'][0]
+            if bug['status'] in ('NEW', 'ASSIGNED', 'UNCONFIRMED'):
+                addon['trackers_bugs_open'].append(bug['id'])
+
+
+def get_from_amo_and_bugzilla(addon):
+    result = get_from_amo(addon)
+    if result:
+        get_blockers_from_bugzilla(result)
+    return result
+
+
 status_lookup = {
     "complete": "primary",
     "partial": "info",
@@ -262,11 +316,15 @@ def wikify(name):
 
 
 def check_url(url):
+    cached = get_cache(url)
+    if get_cache:
+        return True
     res = requests.get(url).status_code == 200
     if not res:
-        print url, '...failed.'
-        return
-    return res
+        return False
+        
+    set_cache(url, True)
+    return True
 
 
 def process_type(type_, data):
@@ -295,7 +353,7 @@ if __name__=='__main__':
     template = env.get_template('jinja-template.html')
 
     amo = json.load(open('addons.json', 'r'))
-    amo = [get_from_amo(addon) for addon in amo]
+    amo = [get_from_amo_and_bugzilla(addon) for addon in amo]
 
     overall = json.load(open('addons-overview.json', 'r'))
     overall['total'] = sum(overall.values())
