@@ -317,12 +317,13 @@ def wikify(name):
 
 def check_url(url):
     cached = get_cache(url)
-    if get_cache:
+    if cached:
         return True
+
     res = requests.get(url).status_code == 200
     if not res:
         return False
-        
+
     set_cache(url, True)
     return True
 
