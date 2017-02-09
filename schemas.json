@@ -1175,6 +1175,9 @@
   [
     "devtools.network", 
     {
+      "platform": [
+        "desktop"
+      ], 
       "bugs": [
         {
           "priority": "P2", 
@@ -1211,6 +1214,9 @@
   [
     "devtools.panels", 
     {
+      "platform": [
+        "desktop"
+      ], 
       "bugs": [
         {
           "priority": "P2", 

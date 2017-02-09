@@ -70,8 +70,14 @@
     ]
   },
   "devtools.network": {
+    "platform": [
+      "desktop"
+    ]
   },
   "devtools.panels": {
+    "platform": [
+      "desktop"
+    ]
   },
   "downloads": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-downloads.js",
