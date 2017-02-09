@@ -9,7 +9,7 @@ import csv
 from jinja2 import Environment, FileSystemLoader
 
 GET_BUGS = True
-CHECK_URL = True
+#CHECK_URL = True
 
 MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
@@ -163,7 +163,7 @@ def bugs(whiteboard):
     'WebExtensions: Developer tools', 'WebExtensions: Experiments', 'WebExtensions: Frontend',
     'WebExtensions: General', 'WebExtensions: Request Handling'],
             'whiteboard': '[%s]' % whiteboard,
-            'include_fields': 'summary,status,resolution,id',
+            'include_fields': 'summary,status,resolution,id,priority',
             'status': ['NEW', 'ASSIGNED', 'UNCONFIRMED', 'REOPENED']
         }
     )

@@ -63,7 +63,13 @@
 						<h5 id="{{ api }}-bugs"><a href="#{{ api }}-bugs" class="anchor">&sect;</a> {{ values['bugs']|length }} bugs</h5>
 						<table class="table table-striped">
 							{% for bug in values['bugs'] %}
-							<tr><td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ bug['id'] }}">{{ bug['id'] }}: {{ bug['summary'] }}</a></td></tr>
+							<tr>
+								<td>
+									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ bug['id'] }}">{{ bug['id'] }}</a>:
+									{{ bug['summary'] }}
+									<span class="label label-warning">P{{ bug['priority'] }}
+								</td>
+							</tr>
 							{% endfor %}
 						</table>
 					{% endif %}
