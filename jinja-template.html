@@ -66,7 +66,7 @@
 							<tr>
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id={{ bug['id'] }}">{{ bug['id'] }}</a>:
-									<span class="label label-{% if bug['priority'] == 'P1' or bug['priority'] == 'P2' %}danger{% else %}info{% end if %}">{{ bug['priority'] }}</span>
+									<span class="label label-{% if bug['priority'] == 'P1' or bug['priority'] == 'P2' %}danger{% else %}info{% endif %}">{{ bug['priority'] }}</span>
 									{{ bug['summary'] }}
 
 								</td>
