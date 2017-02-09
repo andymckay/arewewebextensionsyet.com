@@ -200,6 +200,7 @@
   "tabs": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-tabs.js",
     "platform": [
+      "android",
       "desktop"
     ]
   },

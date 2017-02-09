@@ -3022,6 +3022,7 @@
     "tabs", 
     {
       "platform": [
+        "android", 
         "desktop"
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-tabs.js", 
