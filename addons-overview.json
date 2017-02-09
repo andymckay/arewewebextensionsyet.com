@@ -1,7 +1,7 @@
 {
-    "compatible": 1146,
-    "compatible-webextension": 1655,
-    "incompatible": 27,
+    "compatible": 1182,
+    "compatible-webextension": 1828,
+    "incompatible": 35,
     "undefined": 34,
-    "unknown": 16911
+    "unknown": 16897
 }
