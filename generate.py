@@ -9,7 +9,7 @@ import csv
 from jinja2 import Environment, FileSystemLoader
 
 GET_BUGS = True
-CHECK_URL = False
+CHECK_URL = True
 
 MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
@@ -383,7 +383,7 @@ if __name__=='__main__':
                 data['schema'][method][api_name]['rank'] = parsed_usage.get(
                     data['schema'][method][api_name]['usage'], [])
 
-    data = {
+    context = {
         'apis': apis,
         'addons': amo,
         'overall': overall,
@@ -391,5 +391,6 @@ if __name__=='__main__':
         'parsed_manifest': parsed_manifest
     }
 
-    html = template.render(data)
+    html = template.render(context)
     open('index.html', 'w').write(html.encode('utf-8'))
+    json.dump(context['apis'], open('schemas.json', 'w'), indent=2)
