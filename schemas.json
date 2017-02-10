@@ -79,7 +79,7 @@
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-bookmarks.js", 
       "bugs": [
         {
-          "priority": "P2", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1213674, 
@@ -91,6 +91,13 @@
           "resolution": "", 
           "id": 1225916, 
           "summary": "Allow reading and writing bookmark tags"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1251657, 
+          "summary": "bookmarks.search doesn't allow quoted search terms"
         }, 
         {
           "priority": "P5", 
@@ -1381,6 +1388,13 @@
           "resolution": "", 
           "id": 1323414, 
           "summary": "Add streaming support to downloads"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1338381, 
+          "summary": "Fix downloads API tests on Android"
         }
       ], 
       "schema": {
