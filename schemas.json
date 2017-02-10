@@ -821,7 +821,7 @@
           "summary": "Implement onBeforeShow event"
         }, 
         {
-          "priority": "P5", 
+          "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1269062, 
@@ -1187,13 +1187,6 @@
           "summary": "Implement devtools API for open extension API"
         }, 
         {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1300588, 
-          "summary": "Implements the devtools.network.onNavigated API event"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -1208,7 +1201,39 @@
           "summary": "Implements the devtools.network.getHAR API method"
         }
       ], 
-      "schema": {}
+      "schema": {
+        "functions": {
+          "getHAR": {
+            "full": "chrome.devtools.network.getHAR()", 
+            "url": null, 
+            "supported": false, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.network.getHAR", 
+            "permissions": null
+          }
+        }, 
+        "events": {
+          "onRequestFinished": {
+            "full": "chrome.devtools.network.onRequestFinished", 
+            "url": null, 
+            "supported": false, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.network.onRequestFinished", 
+            "permissions": null
+          }, 
+          "onNavigated": {
+            "full": "chrome.devtools.network.onNavigated", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.network.onNavigated", 
+            "permissions": null
+          }
+        }
+      }
     }
   ], 
   [
@@ -2257,7 +2282,7 @@
           "summary": "[PageAction] Add support for chrome.pageAction.setIcon on Android"
         }, 
         {
-          "priority": "--", 
+          "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1300811, 
@@ -2398,6 +2423,20 @@
           "resolution": "", 
           "id": 1329942, 
           "summary": "Misaligned icon and webextension name in permissions doorhanger"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1338370, 
+          "summary": "Required permission support for Android"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1338371, 
+          "summary": "Optional permission support for Android"
         }
       ], 
       "schema": {}
