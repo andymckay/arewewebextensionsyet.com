@@ -602,7 +602,7 @@
         "functions": {
           "removePluginData": {
             "full": "chrome.browsingData.removePluginData()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePluginData", 
             "supported": true, 
             "rank": 981, 
             "reasons": [], 
@@ -611,7 +611,7 @@
           }, 
           "removeFormData": {
             "full": "chrome.browsingData.removeFormData()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeFormData", 
             "supported": true, 
             "rank": 985, 
             "reasons": [], 
@@ -620,7 +620,7 @@
           }, 
           "settings": {
             "full": "chrome.browsingData.settings()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/settings", 
             "supported": true, 
             "rank": 375, 
             "reasons": [], 
@@ -640,7 +640,7 @@
           }, 
           "remove": {
             "full": "chrome.browsingData.remove()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/remove", 
             "supported": true, 
             "rank": 194, 
             "reasons": [], 
@@ -649,7 +649,7 @@
           }, 
           "removeHistory": {
             "full": "chrome.browsingData.removeHistory()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeHistory", 
             "supported": true, 
             "rank": 237, 
             "reasons": [], 
@@ -658,7 +658,7 @@
           }, 
           "removeCookies": {
             "full": "chrome.browsingData.removeCookies()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCookies", 
             "supported": true, 
             "rank": 244, 
             "reasons": [], 
@@ -696,7 +696,7 @@
           }, 
           "removeDownloads": {
             "full": "chrome.browsingData.removeDownloads()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeDownloads", 
             "supported": true, 
             "rank": 239, 
             "reasons": [], 
@@ -705,7 +705,7 @@
           }, 
           "removePasswords": {
             "full": "chrome.browsingData.removePasswords()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePasswords", 
             "supported": true, 
             "rank": 982, 
             "reasons": [], 
@@ -714,7 +714,7 @@
           }, 
           "removeCache": {
             "full": "chrome.browsingData.removeCache()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCache", 
             "supported": true, 
             "rank": 245, 
             "reasons": [], 
@@ -2201,6 +2201,13 @@
           "resolution": "", 
           "id": 1276598, 
           "summary": "Provide ability to apply custom filter for search results of the location bar"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1339250, 
+          "summary": "[omnibox] \"TypeError: this._searchFinishedCallback is not a function\""
         }
       ], 
       "schema": {
@@ -2903,6 +2910,13 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
+        }, 
+        {
+          "priority": "P1", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1338312, 
+          "summary": "browser.sessions.getRecentlyClosed returns incorrect information for tabs in closed windows"
         }
       ], 
       "schema": {
@@ -3141,14 +3155,7 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1333837, 
-          "summary": "[meta] Create a requirements set for tabmanagement"
-        }, 
-        {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1333943, 
-          "summary": "Allow WebExtensions to directly update the tab title."
+          "summary": "[meta] Tab management enhancements (existing tab infrastructure)"
         }
       ], 
       "schema": {
