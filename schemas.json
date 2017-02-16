@@ -596,6 +596,13 @@
           "resolution": "", 
           "id": 1333050, 
           "summary": "Implement clearing of IndexedDB and LocalStorage in browsingData API"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1339868, 
+          "summary": "browsingData.settings includes an invalid property in its returned objects"
         }
       ], 
       "schema": {
@@ -927,12 +934,27 @@
         "desktop"
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-contextualIdentities.js", 
-      "bugs": [], 
+      "bugs": [
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1339610, 
+          "summary": "Not possible to use the contextualIdentity API icon"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1339962, 
+          "summary": "ContextualIdentity API colour isn't a css colour"
+        }
+      ], 
       "schema": {
         "functions": {
           "query": {
             "full": "chrome.contextualIdentities.query()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/query", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -941,7 +963,7 @@
           }, 
           "create": {
             "full": "chrome.contextualIdentities.create()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/create", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -950,7 +972,7 @@
           }, 
           "update": {
             "full": "chrome.contextualIdentities.update()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/update", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -959,7 +981,7 @@
           }, 
           "remove": {
             "full": "chrome.contextualIdentities.remove()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/remove", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -968,7 +990,7 @@
           }, 
           "get": {
             "full": "chrome.contextualIdentities.get()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/get", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -2490,6 +2512,13 @@
           "resolution": "", 
           "id": 1312802, 
           "summary": "Implement chrome.privacy API"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1340156, 
+          "summary": "Implement browser.privacy onChange event"
         }
       ], 
       "schema": {}
