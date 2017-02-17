@@ -1278,16 +1278,39 @@
           "resolution": "", 
           "id": 1211859, 
           "summary": "Implement devtools API for open extension API"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1300587, 
-          "summary": "Implements devtools_panel context and devtools.panel.create API method"
         }
       ], 
-      "schema": {}
+      "schema": {
+        "functions": {
+          "openResource": {
+            "full": "chrome.devtools.panels.openResource()", 
+            "url": null, 
+            "supported": false, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.panels.openResource", 
+            "permissions": null
+          }, 
+          "create": {
+            "full": "chrome.devtools.panels.create()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.panels.create", 
+            "permissions": null
+          }, 
+          "setOpenResourceHandler": {
+            "full": "chrome.devtools.panels.setOpenResourceHandler()", 
+            "url": null, 
+            "supported": false, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.panels.setOpenResourceHandler", 
+            "permissions": null
+          }
+        }
+      }
     }
   ], 
   [
@@ -3840,13 +3863,6 @@
           "resolution": "", 
           "id": 1290016, 
           "summary": "tabs.executeScript in webRequest.onCompleted gives \"Unchecked lastError value: Error: No matching message handler\""
-        }, 
-        {
-          "priority": "P1", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1311815, 
-          "summary": "webRequest doesn't check host permissions"
         }, 
         {
           "priority": "--", 
