@@ -2259,7 +2259,7 @@
         "functions": {
           "setDefaultSuggestion": {
             "full": "chrome.omnibox.setDefaultSuggestion()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/setDefaultSuggestion", 
             "supported": true, 
             "rank": 106, 
             "reasons": [], 
@@ -2279,7 +2279,7 @@
         "events": {
           "onInputEntered": {
             "full": "chrome.omnibox.onInputEntered", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputEntered", 
             "supported": true, 
             "rank": 74, 
             "reasons": [], 
@@ -2288,7 +2288,7 @@
           }, 
           "onInputChanged": {
             "full": "chrome.omnibox.onInputChanged", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputChanged", 
             "supported": true, 
             "rank": 91, 
             "reasons": [], 
@@ -2297,7 +2297,7 @@
           }, 
           "onInputStarted": {
             "full": "chrome.omnibox.onInputStarted", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputStarted", 
             "supported": true, 
             "rank": 161, 
             "reasons": [], 
@@ -2306,7 +2306,7 @@
           }, 
           "onInputCancelled": {
             "full": "chrome.omnibox.onInputCancelled", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputCancelled", 
             "supported": true, 
             "rank": 162, 
             "reasons": [], 
