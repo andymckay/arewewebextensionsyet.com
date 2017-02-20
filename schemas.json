@@ -2125,6 +2125,27 @@
           "resolution": "", 
           "id": 1254300, 
           "summary": "Calling notifications.create always dismisses existing notifications"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1276214, 
+          "summary": "Add an interface to mock notifications events"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1280875, 
+          "summary": "Add an event for all notifications that are being shown"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1335659, 
+          "summary": "Add silent option for WebExtension Notifications"
         }
       ], 
       "schema": {
