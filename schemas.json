@@ -1228,6 +1228,13 @@
           "resolution": "", 
           "id": 1311177, 
           "summary": "Implements the devtools.network.getHAR API method"
+        }, 
+        {
+          "priority": "P1", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1341089, 
+          "summary": "devtools.network.onNavigated should be fired when the target page has been navigated"
         }
       ], 
       "schema": {
@@ -1278,6 +1285,13 @@
           "resolution": "", 
           "id": 1211859, 
           "summary": "Implement devtools API for open extension API"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1340529, 
+          "summary": "Fix shown/hidden events for a devtools_panel toggled from toolbox preferences"
         }
       ], 
       "schema": {
@@ -2563,6 +2577,13 @@
           "resolution": "", 
           "id": 1340156, 
           "summary": "Implement browser.privacy onChange event"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1341277, 
+          "summary": "Update privacy API to allow for disabling/enabling settings over disable/enable and updates of extensions"
         }
       ], 
       "schema": {}
@@ -3894,7 +3915,7 @@
         }, 
         {
           "priority": "--", 
-          "status": "UNCONFIRMED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1331463, 
           "summary": "allow user do load image when image was blocked in webRequest.onBeforeRequest"
