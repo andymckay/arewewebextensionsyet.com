@@ -596,13 +596,6 @@
           "resolution": "", 
           "id": 1333050, 
           "summary": "Implement clearing of IndexedDB and LocalStorage in browsingData API"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1339868, 
-          "summary": "browsingData.settings includes an invalid property in its returned objects"
         }
       ], 
       "schema": {
@@ -2565,13 +2558,6 @@
       "status": "not yet", 
       "bugs": [
         {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1312802, 
-          "summary": "Implement chrome.privacy API"
-        }, 
-        {
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
@@ -3004,13 +2990,6 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1338312, 
-          "summary": "browser.sessions.getRecentlyClosed returns incorrect information for tabs in closed windows"
         }
       ], 
       "schema": {
