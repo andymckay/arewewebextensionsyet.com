@@ -170,6 +170,10 @@
       "desktop"
     ]
   },
+  "privacy.network": {
+  },
+  "privacy.websites": {
+  },
   "proxy": {
   },
   "runtime": {

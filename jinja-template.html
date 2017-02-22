@@ -76,7 +76,7 @@
 					{% endif %}
 
 					{% macro listing(data, type) -%}
-					<h5 id="{{ api }}-{{ type }}"><a href="#{{ api }}-{{ type }}" class="anchor">&sect;</a> {{ values['bugs']|length }} {{ type }}</h5>
+					<h5 id="{{ api }}-{{ type }}"><a href="#{{ api }}-{{ type }}" class="anchor">&sect;</a> {{ data|length }} {{ type }}</h5>
 					<table class="table table-striped">
 						{% for key, value in data.items() %}
 						<tr>
@@ -109,6 +109,10 @@
 
 					{% if 'events' in values['schema'] %}
 						{{ listing(values['schema']['events'], 'events') }}
+					{% endif %}
+
+					{% if 'properties' in values['schema'] %}
+						{{ listing(values['schema']['properties'], 'properties') }}
 					{% endif %}
 
 				</div>

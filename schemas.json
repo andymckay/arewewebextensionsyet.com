@@ -914,6 +914,15 @@
             "usage": "chrome.contextMenus.onClicked", 
             "permissions": null
           }
+        }, 
+        "properties": {
+          "ACTION_MENU_TOP_LEVEL_LIMIT": {
+            "usage": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/ACTION_MENU_TOP_LEVEL_LIMIT", 
+            "full": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
+            "supported": true, 
+            "permissions": null
+          }
         }
       }
     }
@@ -1190,6 +1199,15 @@
             "usage": "chrome.devtools.inspectedWindow.onResourceContentCommitted", 
             "permissions": null
           }
+        }, 
+        "properties": {
+          "tabId": {
+            "usage": "chrome.devtools.inspectedWindow.tabId", 
+            "url": null, 
+            "full": "chrome.devtools.inspectedWindow.tabId", 
+            "supported": true, 
+            "permissions": null
+          }
         }
       }
     }
@@ -1314,6 +1332,22 @@
             "rank": [], 
             "reasons": [], 
             "usage": "chrome.devtools.panels.setOpenResourceHandler", 
+            "permissions": null
+          }
+        }, 
+        "properties": {
+          "sources": {
+            "usage": "chrome.devtools.panels.sources", 
+            "url": null, 
+            "full": "chrome.devtools.panels.sources", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "elements": {
+            "usage": "chrome.devtools.panels.elements", 
+            "url": null, 
+            "full": "chrome.devtools.panels.elements", 
+            "supported": true, 
             "permissions": null
           }
         }
@@ -1703,6 +1737,22 @@
               "deprecated"
             ], 
             "usage": "chrome.extension.onRequestExternal", 
+            "permissions": null
+          }
+        }, 
+        "properties": {
+          "inIncognitoContext": {
+            "usage": "chrome.extension.inIncognitoContext", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/inIncognitoContext", 
+            "full": "chrome.extension.inIncognitoContext", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "lastError": {
+            "usage": "chrome.extension.lastError", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/lastError", 
+            "full": "chrome.extension.lastError", 
+            "supported": true, 
             "permissions": null
           }
         }
@@ -2580,6 +2630,68 @@
     }
   ], 
   [
+    "privacy.network", 
+    {
+      "bugs": [], 
+      "schema": {
+        "properties": {
+          "networkPredictionEnabled": {
+            "usage": "chrome.privacy.network.networkPredictionEnabled", 
+            "url": null, 
+            "full": "chrome.privacy.network.networkPredictionEnabled", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "webRTCIPHandlingPolicy": {
+            "usage": "chrome.privacy.network.webRTCIPHandlingPolicy", 
+            "url": null, 
+            "full": "chrome.privacy.network.webRTCIPHandlingPolicy", 
+            "supported": true, 
+            "permissions": null
+          }
+        }
+      }
+    }
+  ], 
+  [
+    "privacy.websites", 
+    {
+      "bugs": [], 
+      "schema": {
+        "properties": {
+          "hyperlinkAuditingEnabled": {
+            "usage": "chrome.privacy.websites.hyperlinkAuditingEnabled", 
+            "url": null, 
+            "full": "chrome.privacy.websites.hyperlinkAuditingEnabled", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "thirdPartyCookiesAllowed": {
+            "usage": "chrome.privacy.websites.thirdPartyCookiesAllowed", 
+            "url": null, 
+            "full": "chrome.privacy.websites.thirdPartyCookiesAllowed", 
+            "supported": false, 
+            "permissions": null
+          }, 
+          "referrersEnabled": {
+            "usage": "chrome.privacy.websites.referrersEnabled", 
+            "url": null, 
+            "full": "chrome.privacy.websites.referrersEnabled", 
+            "supported": false, 
+            "permissions": null
+          }, 
+          "protectedContentEnabled": {
+            "usage": "chrome.privacy.websites.protectedContentEnabled", 
+            "url": null, 
+            "full": "chrome.privacy.websites.protectedContentEnabled", 
+            "supported": false, 
+            "permissions": null
+          }
+        }
+      }
+    }
+  ], 
+  [
     "proxy", 
     {
       "bugs": [
@@ -2962,6 +3074,22 @@
             "usage": "chrome.runtime.onSuspend", 
             "permissions": null
           }
+        }, 
+        "properties": {
+          "lastError": {
+            "usage": "chrome.runtime.lastError", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/lastError", 
+            "full": "chrome.runtime.lastError", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "id": {
+            "usage": "chrome.runtime.id", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/id", 
+            "full": "chrome.runtime.id", 
+            "supported": true, 
+            "permissions": null
+          }
         }
       }
     }
@@ -3025,6 +3153,15 @@
               "no_equivalent"
             ], 
             "usage": "chrome.sessions.getDevices", 
+            "permissions": null
+          }
+        }, 
+        "properties": {
+          "MAX_SESSION_RESULTS": {
+            "usage": "chrome.sessions.MAX_SESSION_RESULTS", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/MAX_SESSION_RESULTS", 
+            "full": "chrome.sessions.MAX_SESSION_RESULTS", 
+            "supported": true, 
             "permissions": null
           }
         }, 
@@ -3116,6 +3253,29 @@
         }
       ], 
       "schema": {
+        "properties": {
+          "local": {
+            "usage": "chrome.storage.local", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/local", 
+            "full": "chrome.storage.local", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "managed": {
+            "usage": "chrome.storage.managed", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/managed", 
+            "full": "chrome.storage.managed", 
+            "supported": false, 
+            "permissions": null
+          }, 
+          "sync": {
+            "usage": "chrome.storage.sync", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/sync", 
+            "full": "chrome.storage.sync", 
+            "supported": true, 
+            "permissions": null
+          }
+        }, 
         "events": {
           "onChanged": {
             "full": "chrome.storage.onChanged", 
@@ -3459,6 +3619,15 @@
               "deprecated"
             ], 
             "usage": "chrome.tabs.getAllInWindow", 
+            "permissions": null
+          }
+        }, 
+        "properties": {
+          "TAB_ID_NONE": {
+            "usage": "chrome.tabs.TAB_ID_NONE", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/TAB_ID_NONE", 
+            "full": "chrome.tabs.TAB_ID_NONE", 
+            "supported": true, 
             "permissions": null
           }
         }, 
@@ -3998,6 +4167,15 @@
             "usage": "chrome.webRequest.onBeforeRequest", 
             "permissions": null
           }
+        }, 
+        "properties": {
+          "MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES": {
+            "usage": "chrome.webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
+            "full": "chrome.webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
+            "supported": true, 
+            "permissions": null
+          }
         }
       }
     }
@@ -4116,6 +4294,22 @@
             "rank": 109, 
             "reasons": [], 
             "usage": "chrome.windows.getLastFocused", 
+            "permissions": null
+          }
+        }, 
+        "properties": {
+          "WINDOW_ID_NONE": {
+            "usage": "chrome.windows.WINDOW_ID_NONE", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_NONE", 
+            "full": "chrome.windows.WINDOW_ID_NONE", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "WINDOW_ID_CURRENT": {
+            "usage": "chrome.windows.WINDOW_ID_CURRENT", 
+            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_CURRENT", 
+            "full": "chrome.windows.WINDOW_ID_CURRENT", 
+            "supported": true, 
             "permissions": null
           }
         }, 

@@ -256,23 +256,24 @@ def process_schemas(directories):
 
 def process_json(data):
     for element in data:
-        last_key = None
         for k, v in element.items():
             if k == 'namespace' and v != 'manifest':
                 if '_internal' in v:
                     continue
                 parsed_schema['__current__'] = v
+
+        for k, v in element.items():
             if k == 'types':
                 process_manifest_types(v)
-
-    for element in data:
-        for k, v in element.items():
             if k == 'functions':
                 for function in v:
                     process_type('functions', function)
             if k == 'events':
                 for event in v:
                     process_type('events', event)
+            if k == 'properties':
+                for key, value in v.items():
+                    process_property(key, value)
 
 
 def process_manifest_types(types):
@@ -310,6 +311,12 @@ def process_permission(types):
             elif 'pattern' in item:
                 parsed_manifest['permissions'].append(item['pattern'])
 
+
+def process_property(key, value):
+    process_type('properties', {
+        'name': key,
+        'unsupported': value.get('unsupported')
+    })
 
 def wikify(name):
     return string.capitalize(name[0]) + name[1:]
@@ -353,9 +360,6 @@ if __name__=='__main__':
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template('jinja-template.html')
 
-    amo = json.load(open('addons.json', 'r'))
-    amo = [get_from_amo_and_bugzilla(addon) for addon in amo]
-
     overall = json.load(open('addons-overview.json', 'r'))
     overall['total'] = sum(overall.values())
 
@@ -382,6 +386,9 @@ if __name__=='__main__':
                     data['schema'][method][api_name]['usage'], [])
                 data['schema'][method][api_name]['rank'] = parsed_usage.get(
                     data['schema'][method][api_name]['usage'], [])
+
+    amo = json.load(open('addons.json', 'r'))
+    amo = [get_from_amo_and_bugzilla(addon) for addon in amo]
 
     context = {
         'apis': apis,
