@@ -164,7 +164,11 @@
     "status": "unlikely"
   },
   "privacy": {
-    "status": "not yet"
+    "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-privacy.js",
+    "platform": [
+      "android",
+      "desktop"
+    ]
   },
   "proxy": {
   },
