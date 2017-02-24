@@ -1476,7 +1476,7 @@
           "summary": "Add streaming support to downloads"
         }, 
         {
-          "priority": "P2", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1338381, 
