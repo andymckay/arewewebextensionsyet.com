@@ -11,7 +11,7 @@ from jinja2 import Environment, FileSystemLoader
 GET_BUGS = True
 CHECK_URL = True
 
-MDN_URL = 'https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
+MDN_URL = 'https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/%s/%s'
 schema_locations = [
     '../firefox/head-for-scripts/browser/components/extensions/schemas/',
     '../firefox/head-for-scripts/toolkit/components/extensions/schemas/'
