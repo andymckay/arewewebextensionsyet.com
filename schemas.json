@@ -12,7 +12,7 @@
         "functions": {
           "create": {
             "full": "chrome.alarms.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/create", 
             "supported": true, 
             "rank": 66, 
             "reasons": [], 
@@ -21,7 +21,7 @@
           }, 
           "getAll": {
             "full": "chrome.alarms.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/getAll", 
             "supported": true, 
             "rank": 195, 
             "reasons": [], 
@@ -30,7 +30,7 @@
           }, 
           "clearAll": {
             "full": "chrome.alarms.clearAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/clearAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/clearAll", 
             "supported": true, 
             "rank": 180, 
             "reasons": [], 
@@ -39,7 +39,7 @@
           }, 
           "clear": {
             "full": "chrome.alarms.clear()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/clear", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/clear", 
             "supported": true, 
             "rank": 128, 
             "reasons": [], 
@@ -48,7 +48,7 @@
           }, 
           "get": {
             "full": "chrome.alarms.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/get", 
             "supported": true, 
             "rank": 198, 
             "reasons": [], 
@@ -59,7 +59,7 @@
         "events": {
           "onAlarm": {
             "full": "chrome.alarms.onAlarm", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/onAlarm", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Alarms/onAlarm", 
             "supported": true, 
             "rank": 64, 
             "reasons": [], 
@@ -147,13 +147,20 @@
           "resolution": "", 
           "id": 1319530, 
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1341541, 
+          "summary": "WebExtensions bookmarks.getRecent() results include raw tag objects"
         }
       ], 
       "schema": {
         "functions": {
           "search": {
             "full": "chrome.bookmarks.search()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/search", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/search", 
             "supported": true, 
             "rank": 133, 
             "reasons": [], 
@@ -162,7 +169,7 @@
           }, 
           "getTree": {
             "full": "chrome.bookmarks.getTree()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getTree", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getTree", 
             "supported": true, 
             "rank": 75, 
             "reasons": [], 
@@ -171,7 +178,7 @@
           }, 
           "getRecent": {
             "full": "chrome.bookmarks.getRecent()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getRecent", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getRecent", 
             "supported": true, 
             "rank": 205, 
             "reasons": [], 
@@ -180,7 +187,7 @@
           }, 
           "get": {
             "full": "chrome.bookmarks.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/get", 
             "supported": true, 
             "rank": 165, 
             "reasons": [], 
@@ -189,7 +196,7 @@
           }, 
           "create": {
             "full": "chrome.bookmarks.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/create", 
             "supported": true, 
             "rank": 108, 
             "reasons": [], 
@@ -198,7 +205,7 @@
           }, 
           "move": {
             "full": "chrome.bookmarks.move()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/move", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/move", 
             "supported": true, 
             "rank": 177, 
             "reasons": [], 
@@ -207,7 +214,7 @@
           }, 
           "update": {
             "full": "chrome.bookmarks.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/update", 
             "supported": true, 
             "rank": 169, 
             "reasons": [], 
@@ -216,7 +223,7 @@
           }, 
           "remove": {
             "full": "chrome.bookmarks.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/remove", 
             "supported": true, 
             "rank": 120, 
             "reasons": [], 
@@ -225,7 +232,7 @@
           }, 
           "getChildren": {
             "full": "chrome.bookmarks.getChildren()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getChildren", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getChildren", 
             "supported": true, 
             "rank": 137, 
             "reasons": [], 
@@ -234,7 +241,7 @@
           }, 
           "export": {
             "full": "chrome.bookmarks.export()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/export", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/export", 
             "supported": false, 
             "rank": 1008, 
             "reasons": [
@@ -245,7 +252,7 @@
           }, 
           "import": {
             "full": "chrome.bookmarks.import()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/import", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/import", 
             "supported": false, 
             "rank": 1004, 
             "reasons": [
@@ -256,7 +263,7 @@
           }, 
           "removeTree": {
             "full": "chrome.bookmarks.removeTree()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/removeTree", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/removeTree", 
             "supported": true, 
             "rank": 163, 
             "reasons": [], 
@@ -265,7 +272,7 @@
           }, 
           "getSubTree": {
             "full": "chrome.bookmarks.getSubTree()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getSubTree", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/getSubTree", 
             "supported": true, 
             "rank": 185, 
             "reasons": [], 
@@ -276,7 +283,7 @@
         "events": {
           "onRemoved": {
             "full": "chrome.bookmarks.onRemoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onRemoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onRemoved", 
             "supported": true, 
             "rank": 160, 
             "reasons": [], 
@@ -285,7 +292,7 @@
           }, 
           "onImportEnded": {
             "full": "chrome.bookmarks.onImportEnded", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportEnded", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportEnded", 
             "supported": false, 
             "rank": 220, 
             "reasons": [], 
@@ -294,7 +301,7 @@
           }, 
           "onMoved": {
             "full": "chrome.bookmarks.onMoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onMoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onMoved", 
             "supported": true, 
             "rank": 201, 
             "reasons": [], 
@@ -303,7 +310,7 @@
           }, 
           "onImportBegan": {
             "full": "chrome.bookmarks.onImportBegan", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportBegan", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onImportBegan", 
             "supported": false, 
             "rank": 315, 
             "reasons": [], 
@@ -312,7 +319,7 @@
           }, 
           "onCreated": {
             "full": "chrome.bookmarks.onCreated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onCreated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onCreated", 
             "supported": true, 
             "rank": 159, 
             "reasons": [], 
@@ -321,7 +328,7 @@
           }, 
           "onChanged": {
             "full": "chrome.bookmarks.onChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChanged", 
             "supported": true, 
             "rank": 182, 
             "reasons": [], 
@@ -330,7 +337,7 @@
           }, 
           "onChildrenReordered": {
             "full": "chrome.bookmarks.onChildrenReordered", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChildrenReordered", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Bookmarks/onChildrenReordered", 
             "supported": false, 
             "rank": 215, 
             "reasons": [], 
@@ -431,7 +438,7 @@
         "functions": {
           "enable": {
             "full": "chrome.browserAction.enable()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/enable", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/enable", 
             "supported": true, 
             "rank": 168, 
             "reasons": [], 
@@ -440,7 +447,7 @@
           }, 
           "setBadgeBackgroundColor": {
             "full": "chrome.browserAction.setBadgeBackgroundColor()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setBadgeBackgroundColor", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setBadgeBackgroundColor", 
             "supported": true, 
             "rank": 29, 
             "reasons": [], 
@@ -449,7 +456,7 @@
           }, 
           "setBadgeText": {
             "full": "chrome.browserAction.setBadgeText()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setBadgeText", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setBadgeText", 
             "supported": true, 
             "rank": 13, 
             "reasons": [], 
@@ -458,7 +465,7 @@
           }, 
           "setTitle": {
             "full": "chrome.browserAction.setTitle()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setTitle", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setTitle", 
             "supported": true, 
             "rank": 34, 
             "reasons": [], 
@@ -467,7 +474,7 @@
           }, 
           "getBadgeText": {
             "full": "chrome.browserAction.getBadgeText()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getBadgeText", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getBadgeText", 
             "supported": true, 
             "rank": 140, 
             "reasons": [], 
@@ -476,7 +483,7 @@
           }, 
           "setPopup": {
             "full": "chrome.browserAction.setPopup()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setPopup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setPopup", 
             "supported": true, 
             "rank": 54, 
             "reasons": [], 
@@ -485,7 +492,7 @@
           }, 
           "disable": {
             "full": "chrome.browserAction.disable()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/disable", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/disable", 
             "supported": true, 
             "rank": 155, 
             "reasons": [], 
@@ -494,7 +501,7 @@
           }, 
           "getTitle": {
             "full": "chrome.browserAction.getTitle()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getTitle", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getTitle", 
             "supported": true, 
             "rank": 253, 
             "reasons": [], 
@@ -503,7 +510,7 @@
           }, 
           "openPopup": {
             "full": "chrome.browserAction.openPopup()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/openPopup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/openPopup", 
             "supported": false, 
             "rank": 440, 
             "reasons": [
@@ -514,7 +521,7 @@
           }, 
           "getBadgeBackgroundColor": {
             "full": "chrome.browserAction.getBadgeBackgroundColor()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getBadgeBackgroundColor", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getBadgeBackgroundColor", 
             "supported": true, 
             "rank": 995, 
             "reasons": [], 
@@ -523,7 +530,7 @@
           }, 
           "getPopup": {
             "full": "chrome.browserAction.getPopup()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getPopup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/getPopup", 
             "supported": true, 
             "rank": 230, 
             "reasons": [], 
@@ -532,7 +539,7 @@
           }, 
           "setIcon": {
             "full": "chrome.browserAction.setIcon()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setIcon", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/setIcon", 
             "supported": true, 
             "rank": 18, 
             "reasons": [], 
@@ -543,7 +550,7 @@
         "events": {
           "onClicked": {
             "full": "chrome.browserAction.onClicked", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/onClicked", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowserAction/onClicked", 
             "supported": true, 
             "rank": 7, 
             "reasons": [], 
@@ -602,7 +609,7 @@
         "functions": {
           "removePluginData": {
             "full": "chrome.browsingData.removePluginData()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePluginData", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePluginData", 
             "supported": true, 
             "rank": 981, 
             "reasons": [], 
@@ -611,7 +618,7 @@
           }, 
           "removeFormData": {
             "full": "chrome.browsingData.removeFormData()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeFormData", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeFormData", 
             "supported": true, 
             "rank": 985, 
             "reasons": [], 
@@ -620,7 +627,7 @@
           }, 
           "settings": {
             "full": "chrome.browsingData.settings()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/settings", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/settings", 
             "supported": true, 
             "rank": 375, 
             "reasons": [], 
@@ -640,7 +647,7 @@
           }, 
           "remove": {
             "full": "chrome.browsingData.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/remove", 
             "supported": true, 
             "rank": 194, 
             "reasons": [], 
@@ -649,7 +656,7 @@
           }, 
           "removeHistory": {
             "full": "chrome.browsingData.removeHistory()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeHistory", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeHistory", 
             "supported": true, 
             "rank": 237, 
             "reasons": [], 
@@ -658,7 +665,7 @@
           }, 
           "removeCookies": {
             "full": "chrome.browsingData.removeCookies()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCookies", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCookies", 
             "supported": true, 
             "rank": 244, 
             "reasons": [], 
@@ -696,7 +703,7 @@
           }, 
           "removeDownloads": {
             "full": "chrome.browsingData.removeDownloads()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeDownloads", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeDownloads", 
             "supported": true, 
             "rank": 239, 
             "reasons": [], 
@@ -705,7 +712,7 @@
           }, 
           "removePasswords": {
             "full": "chrome.browsingData.removePasswords()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePasswords", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removePasswords", 
             "supported": true, 
             "rank": 982, 
             "reasons": [], 
@@ -714,7 +721,7 @@
           }, 
           "removeCache": {
             "full": "chrome.browsingData.removeCache()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCache", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/BrowsingData/removeCache", 
             "supported": true, 
             "rank": 245, 
             "reasons": [], 
@@ -782,7 +789,7 @@
         "functions": {
           "getAll": {
             "full": "chrome.commands.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Commands/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Commands/getAll", 
             "supported": true, 
             "rank": 209, 
             "reasons": [], 
@@ -793,7 +800,7 @@
         "events": {
           "onCommand": {
             "full": "chrome.commands.onCommand", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Commands/onCommand", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Commands/onCommand", 
             "supported": true, 
             "rank": 79, 
             "reasons": [], 
@@ -854,13 +861,27 @@
           "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1339416, 
+          "summary": "contextMenus.OnClickData should have the frameId (can be used with tabs.sendMessage)"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1339440, 
+          "summary": "documentUrlPatterns in the contextMenus does not work on frames properly"
         }
       ], 
       "schema": {
         "functions": {
           "removeAll": {
             "full": "chrome.contextMenus.removeAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/removeAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/removeAll", 
             "supported": true, 
             "rank": 50, 
             "reasons": [], 
@@ -878,7 +899,7 @@
           }, 
           "create": {
             "full": "chrome.contextMenus.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/create", 
             "supported": true, 
             "rank": 15, 
             "reasons": [], 
@@ -887,7 +908,7 @@
           }, 
           "update": {
             "full": "chrome.contextMenus.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/update", 
             "supported": true, 
             "rank": 95, 
             "reasons": [], 
@@ -896,7 +917,7 @@
           }, 
           "remove": {
             "full": "chrome.contextMenus.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/remove", 
             "supported": true, 
             "rank": 90, 
             "reasons": [], 
@@ -907,7 +928,7 @@
         "events": {
           "onClicked": {
             "full": "chrome.contextMenus.onClicked", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/onClicked", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/onClicked", 
             "supported": true, 
             "rank": 52, 
             "reasons": [], 
@@ -918,7 +939,7 @@
         "properties": {
           "ACTION_MENU_TOP_LEVEL_LIMIT": {
             "usage": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/ACTION_MENU_TOP_LEVEL_LIMIT", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/ACTION_MENU_TOP_LEVEL_LIMIT", 
             "full": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
             "supported": true, 
             "permissions": null
@@ -938,25 +959,25 @@
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-contextualIdentities.js", 
       "bugs": [
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1339610, 
           "summary": "Not possible to use the contextualIdentity API icon"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1339962, 
-          "summary": "ContextualIdentity API colour isn't a css colour"
+          "summary": "ContextualIdentity API color isn't a css color"
         }
       ], 
       "schema": {
         "functions": {
           "query": {
             "full": "chrome.contextualIdentities.query()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/query", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/query", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -965,7 +986,7 @@
           }, 
           "create": {
             "full": "chrome.contextualIdentities.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/create", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -974,7 +995,7 @@
           }, 
           "update": {
             "full": "chrome.contextualIdentities.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/update", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -983,7 +1004,7 @@
           }, 
           "remove": {
             "full": "chrome.contextualIdentities.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/remove", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -992,7 +1013,7 @@
           }, 
           "get": {
             "full": "chrome.contextualIdentities.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextualIdentities/get", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -1045,7 +1066,7 @@
         "functions": {
           "getAllCookieStores": {
             "full": "chrome.cookies.getAllCookieStores()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/getAllCookieStores", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/getAllCookieStores", 
             "supported": true, 
             "rank": 314, 
             "reasons": [], 
@@ -1054,7 +1075,7 @@
           }, 
           "getAll": {
             "full": "chrome.cookies.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/getAll", 
             "supported": true, 
             "rank": 63, 
             "reasons": [], 
@@ -1063,7 +1084,7 @@
           }, 
           "set": {
             "full": "chrome.cookies.set()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/set", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/set", 
             "supported": true, 
             "rank": 60, 
             "reasons": [], 
@@ -1072,7 +1093,7 @@
           }, 
           "remove": {
             "full": "chrome.cookies.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/remove", 
             "supported": true, 
             "rank": 101, 
             "reasons": [], 
@@ -1081,7 +1102,7 @@
           }, 
           "get": {
             "full": "chrome.cookies.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/get", 
             "supported": true, 
             "rank": 53, 
             "reasons": [], 
@@ -1092,7 +1113,7 @@
         "events": {
           "onChanged": {
             "full": "chrome.cookies.onChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/onChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Cookies/onChanged", 
             "supported": true, 
             "rank": 154, 
             "reasons": [], 
@@ -1487,7 +1508,7 @@
         "functions": {
           "search": {
             "full": "chrome.downloads.search()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/search", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/search", 
             "supported": true, 
             "rank": 121, 
             "reasons": [], 
@@ -1496,7 +1517,7 @@
           }, 
           "pause": {
             "full": "chrome.downloads.pause()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/pause", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/pause", 
             "supported": true, 
             "rank": 266, 
             "reasons": [], 
@@ -1505,7 +1526,7 @@
           }, 
           "getFileIcon": {
             "full": "chrome.downloads.getFileIcon()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/getFileIcon", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/getFileIcon", 
             "supported": true, 
             "rank": 272, 
             "reasons": [], 
@@ -1514,7 +1535,7 @@
           }, 
           "resume": {
             "full": "chrome.downloads.resume()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/resume", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/resume", 
             "supported": true, 
             "rank": 271, 
             "reasons": [], 
@@ -1523,7 +1544,7 @@
           }, 
           "show": {
             "full": "chrome.downloads.show()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/show", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/show", 
             "supported": true, 
             "rank": 243, 
             "reasons": [], 
@@ -1532,7 +1553,7 @@
           }, 
           "removeFile": {
             "full": "chrome.downloads.removeFile()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/removeFile", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/removeFile", 
             "supported": true, 
             "rank": 252, 
             "reasons": [], 
@@ -1541,7 +1562,7 @@
           }, 
           "cancel": {
             "full": "chrome.downloads.cancel()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/cancel", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/cancel", 
             "supported": true, 
             "rank": 218, 
             "reasons": [], 
@@ -1550,7 +1571,7 @@
           }, 
           "drag": {
             "full": "chrome.downloads.drag()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/drag", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/drag", 
             "supported": false, 
             "rank": 311, 
             "reasons": [], 
@@ -1559,7 +1580,7 @@
           }, 
           "erase": {
             "full": "chrome.downloads.erase()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/erase", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/erase", 
             "supported": true, 
             "rank": 223, 
             "reasons": [], 
@@ -1568,7 +1589,7 @@
           }, 
           "acceptDanger": {
             "full": "chrome.downloads.acceptDanger()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/acceptDanger", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/acceptDanger", 
             "supported": false, 
             "rank": 273, 
             "reasons": [], 
@@ -1577,7 +1598,7 @@
           }, 
           "showDefaultFolder": {
             "full": "chrome.downloads.showDefaultFolder()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/showDefaultFolder", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/showDefaultFolder", 
             "supported": true, 
             "rank": 257, 
             "reasons": [], 
@@ -1586,7 +1607,7 @@
           }, 
           "download": {
             "full": "chrome.downloads.download()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/download", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/download", 
             "supported": true, 
             "rank": 92, 
             "reasons": [], 
@@ -1595,7 +1616,7 @@
           }, 
           "setShelfEnabled": {
             "full": "chrome.downloads.setShelfEnabled()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/setShelfEnabled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/setShelfEnabled", 
             "supported": false, 
             "rank": 247, 
             "reasons": [
@@ -1606,7 +1627,7 @@
           }, 
           "open": {
             "full": "chrome.downloads.open()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/open", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/open", 
             "supported": true, 
             "rank": 228, 
             "reasons": [], 
@@ -1619,7 +1640,7 @@
         "events": {
           "onChanged": {
             "full": "chrome.downloads.onChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onChanged", 
             "supported": true, 
             "rank": 123, 
             "reasons": [], 
@@ -1628,7 +1649,7 @@
           }, 
           "onCreated": {
             "full": "chrome.downloads.onCreated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onCreated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onCreated", 
             "supported": true, 
             "rank": 222, 
             "reasons": [], 
@@ -1637,7 +1658,7 @@
           }, 
           "onErased": {
             "full": "chrome.downloads.onErased", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onErased", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Downloads/onErased", 
             "supported": true, 
             "rank": 324, 
             "reasons": [], 
@@ -1661,7 +1682,7 @@
         "functions": {
           "getBackgroundPage": {
             "full": "chrome.extension.getBackgroundPage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getBackgroundPage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getBackgroundPage", 
             "supported": true, 
             "rank": 11, 
             "reasons": [], 
@@ -1670,7 +1691,7 @@
           }, 
           "getURL": {
             "full": "chrome.extension.getURL()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getURL", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getURL", 
             "supported": true, 
             "rank": 1, 
             "reasons": [], 
@@ -1679,7 +1700,7 @@
           }, 
           "setUpdateUrlData": {
             "full": "chrome.extension.setUpdateUrlData()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/setUpdateUrlData", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/setUpdateUrlData", 
             "supported": false, 
             "rank": 269, 
             "reasons": [
@@ -1690,7 +1711,7 @@
           }, 
           "getViews": {
             "full": "chrome.extension.getViews()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getViews", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/getViews", 
             "supported": true, 
             "rank": 58, 
             "reasons": [], 
@@ -1699,7 +1720,7 @@
           }, 
           "isAllowedFileSchemeAccess": {
             "full": "chrome.extension.isAllowedFileSchemeAccess()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/isAllowedFileSchemeAccess", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/isAllowedFileSchemeAccess", 
             "supported": true, 
             "rank": 217, 
             "reasons": [], 
@@ -1708,7 +1729,7 @@
           }, 
           "isAllowedIncognitoAccess": {
             "full": "chrome.extension.isAllowedIncognitoAccess()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/isAllowedIncognitoAccess", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/isAllowedIncognitoAccess", 
             "supported": true, 
             "rank": 202, 
             "reasons": [], 
@@ -1719,7 +1740,7 @@
         "events": {
           "onRequest": {
             "full": "chrome.extension.onRequest", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/onRequest", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/onRequest", 
             "supported": false, 
             "rank": 20, 
             "reasons": [
@@ -1730,7 +1751,7 @@
           }, 
           "onRequestExternal": {
             "full": "chrome.extension.onRequestExternal", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/onRequestExternal", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/onRequestExternal", 
             "supported": false, 
             "rank": 113, 
             "reasons": [
@@ -1743,14 +1764,14 @@
         "properties": {
           "inIncognitoContext": {
             "usage": "chrome.extension.inIncognitoContext", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/inIncognitoContext", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/inIncognitoContext", 
             "full": "chrome.extension.inIncognitoContext", 
             "supported": true, 
             "permissions": null
           }, 
           "lastError": {
             "usage": "chrome.extension.lastError", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Extension/lastError", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Extension/lastError", 
             "full": "chrome.extension.lastError", 
             "supported": true, 
             "permissions": null
@@ -1816,7 +1837,7 @@
         "functions": {
           "search": {
             "full": "chrome.history.search()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/search", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/search", 
             "supported": true, 
             "rank": 72, 
             "reasons": [], 
@@ -1825,7 +1846,7 @@
           }, 
           "addUrl": {
             "full": "chrome.history.addUrl()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/addUrl", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/addUrl", 
             "supported": true, 
             "rank": 242, 
             "reasons": [], 
@@ -1834,7 +1855,7 @@
           }, 
           "deleteRange": {
             "full": "chrome.history.deleteRange()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteRange", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteRange", 
             "supported": true, 
             "rank": 250, 
             "reasons": [], 
@@ -1843,7 +1864,7 @@
           }, 
           "deleteAll": {
             "full": "chrome.history.deleteAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteAll", 
             "supported": true, 
             "rank": 232, 
             "reasons": [], 
@@ -1852,7 +1873,7 @@
           }, 
           "getVisits": {
             "full": "chrome.history.getVisits()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/getVisits", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/getVisits", 
             "supported": true, 
             "rank": 189, 
             "reasons": [], 
@@ -1861,7 +1882,7 @@
           }, 
           "deleteUrl": {
             "full": "chrome.history.deleteUrl()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteUrl", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/deleteUrl", 
             "supported": true, 
             "rank": 191, 
             "reasons": [], 
@@ -1872,7 +1893,7 @@
         "events": {
           "onVisited": {
             "full": "chrome.history.onVisited", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/onVisited", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/onVisited", 
             "supported": true, 
             "rank": 200, 
             "reasons": [], 
@@ -1881,7 +1902,7 @@
           }, 
           "onVisitRemoved": {
             "full": "chrome.history.onVisitRemoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/History/onVisitRemoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/onVisitRemoved", 
             "supported": true, 
             "rank": 249, 
             "reasons": [], 
@@ -1905,7 +1926,7 @@
         "functions": {
           "getUILanguage": {
             "full": "chrome.i18n.getUILanguage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getUILanguage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getUILanguage", 
             "supported": true, 
             "rank": 144, 
             "reasons": [], 
@@ -1914,7 +1935,7 @@
           }, 
           "getMessage": {
             "full": "chrome.i18n.getMessage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getMessage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getMessage", 
             "supported": true, 
             "rank": 10, 
             "reasons": [], 
@@ -1923,7 +1944,7 @@
           }, 
           "detectLanguage": {
             "full": "chrome.i18n.detectLanguage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/I18n/detectLanguage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/I18n/detectLanguage", 
             "supported": true, 
             "rank": 745, 
             "reasons": [], 
@@ -1932,7 +1953,7 @@
           }, 
           "getAcceptLanguages": {
             "full": "chrome.i18n.getAcceptLanguages()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getAcceptLanguages", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/I18n/getAcceptLanguages", 
             "supported": true, 
             "rank": 105, 
             "reasons": [], 
@@ -1955,7 +1976,7 @@
         "functions": {
           "getRedirectURL": {
             "full": "chrome.identity.getRedirectURL()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Identity/getRedirectURL", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Identity/getRedirectURL", 
             "supported": true, 
             "rank": 214, 
             "reasons": [], 
@@ -1997,7 +2018,7 @@
           }, 
           "launchWebAuthFlow": {
             "full": "chrome.identity.launchWebAuthFlow()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Identity/launchWebAuthFlow", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Identity/launchWebAuthFlow", 
             "supported": true, 
             "rank": 156, 
             "reasons": [], 
@@ -2045,7 +2066,7 @@
         "functions": {
           "queryState": {
             "full": "chrome.idle.queryState()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/queryState", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Idle/queryState", 
             "supported": true, 
             "rank": 181, 
             "reasons": [], 
@@ -2054,7 +2075,7 @@
           }, 
           "setDetectionInterval": {
             "full": "chrome.idle.setDetectionInterval()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/setDetectionInterval", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Idle/setDetectionInterval", 
             "supported": true, 
             "rank": 196, 
             "reasons": [], 
@@ -2065,7 +2086,7 @@
         "events": {
           "onStateChanged": {
             "full": "chrome.idle.onStateChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Idle/onStateChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Idle/onStateChanged", 
             "supported": true, 
             "rank": 148, 
             "reasons": [], 
@@ -2118,7 +2139,7 @@
         "functions": {
           "uninstallSelf": {
             "full": "chrome.management.uninstallSelf()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Management/uninstallSelf", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/uninstallSelf", 
             "supported": true, 
             "rank": 130, 
             "reasons": [], 
@@ -2127,7 +2148,7 @@
           }, 
           "getAll": {
             "full": "chrome.management.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Management/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/getAll", 
             "supported": false, 
             "rank": 46, 
             "reasons": [], 
@@ -2138,7 +2159,7 @@
           }, 
           "getSelf": {
             "full": "chrome.management.getSelf()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Management/getSelf", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/getSelf", 
             "supported": true, 
             "rank": 136, 
             "reasons": [], 
@@ -2147,7 +2168,7 @@
           }, 
           "get": {
             "full": "chrome.management.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Management/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/get", 
             "supported": false, 
             "rank": 141, 
             "reasons": [], 
@@ -2209,7 +2230,7 @@
         "functions": {
           "clear": {
             "full": "chrome.notifications.clear()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/clear", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/clear", 
             "supported": true, 
             "rank": 42, 
             "reasons": [], 
@@ -2218,7 +2239,7 @@
           }, 
           "create": {
             "full": "chrome.notifications.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/create", 
             "supported": true, 
             "rank": 28, 
             "reasons": [], 
@@ -2227,7 +2248,7 @@
           }, 
           "getAll": {
             "full": "chrome.notifications.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/getAll", 
             "supported": true, 
             "rank": 188, 
             "reasons": [], 
@@ -2236,7 +2257,7 @@
           }, 
           "update": {
             "full": "chrome.notifications.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/update", 
             "supported": false, 
             "rank": 176, 
             "reasons": [], 
@@ -2274,7 +2295,7 @@
           }, 
           "onClosed": {
             "full": "chrome.notifications.onClosed", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onClosed", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onClosed", 
             "supported": true, 
             "rank": 93, 
             "reasons": [], 
@@ -2283,7 +2304,7 @@
           }, 
           "onButtonClicked": {
             "full": "chrome.notifications.onButtonClicked", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onButtonClicked", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onButtonClicked", 
             "supported": true, 
             "rank": 65, 
             "reasons": [], 
@@ -2292,7 +2313,7 @@
           }, 
           "onClicked": {
             "full": "chrome.notifications.onClicked", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onClicked", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Notifications/onClicked", 
             "supported": true, 
             "rank": 40, 
             "reasons": [], 
@@ -2337,7 +2358,7 @@
         "functions": {
           "setDefaultSuggestion": {
             "full": "chrome.omnibox.setDefaultSuggestion()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/setDefaultSuggestion", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/setDefaultSuggestion", 
             "supported": true, 
             "rank": 106, 
             "reasons": [], 
@@ -2357,7 +2378,7 @@
         "events": {
           "onInputEntered": {
             "full": "chrome.omnibox.onInputEntered", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputEntered", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputEntered", 
             "supported": true, 
             "rank": 74, 
             "reasons": [], 
@@ -2366,7 +2387,7 @@
           }, 
           "onInputChanged": {
             "full": "chrome.omnibox.onInputChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputChanged", 
             "supported": true, 
             "rank": 91, 
             "reasons": [], 
@@ -2375,7 +2396,7 @@
           }, 
           "onInputStarted": {
             "full": "chrome.omnibox.onInputStarted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputStarted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputStarted", 
             "supported": true, 
             "rank": 161, 
             "reasons": [], 
@@ -2384,7 +2405,7 @@
           }, 
           "onInputCancelled": {
             "full": "chrome.omnibox.onInputCancelled", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputCancelled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Omnibox/onInputCancelled", 
             "supported": true, 
             "rank": 162, 
             "reasons": [], 
@@ -2437,7 +2458,7 @@
         "functions": {
           "hide": {
             "full": "chrome.pageAction.hide()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/hide", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/hide", 
             "supported": true, 
             "rank": 99, 
             "reasons": [], 
@@ -2446,7 +2467,7 @@
           }, 
           "show": {
             "full": "chrome.pageAction.show()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/show", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/show", 
             "supported": true, 
             "rank": 32, 
             "reasons": [], 
@@ -2455,7 +2476,7 @@
           }, 
           "setTitle": {
             "full": "chrome.pageAction.setTitle()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setTitle", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setTitle", 
             "supported": true, 
             "rank": 98, 
             "reasons": [], 
@@ -2464,7 +2485,7 @@
           }, 
           "setPopup": {
             "full": "chrome.pageAction.setPopup()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setPopup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setPopup", 
             "supported": true, 
             "rank": 132, 
             "reasons": [], 
@@ -2473,7 +2494,7 @@
           }, 
           "getTitle": {
             "full": "chrome.pageAction.getTitle()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/getTitle", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/getTitle", 
             "supported": true, 
             "rank": 283, 
             "reasons": [], 
@@ -2482,7 +2503,7 @@
           }, 
           "getPopup": {
             "full": "chrome.pageAction.getPopup()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/getPopup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/getPopup", 
             "supported": true, 
             "rank": 595, 
             "reasons": [], 
@@ -2491,7 +2512,7 @@
           }, 
           "setIcon": {
             "full": "chrome.pageAction.setIcon()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setIcon", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/setIcon", 
             "supported": true, 
             "rank": 77, 
             "reasons": [], 
@@ -2502,7 +2523,7 @@
         "events": {
           "onClicked": {
             "full": "chrome.pageAction.onClicked", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/onClicked", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/PageAction/onClicked", 
             "supported": true, 
             "rank": 71, 
             "reasons": [], 
@@ -2612,7 +2633,7 @@
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-privacy.js", 
       "bugs": [
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1340156, 
@@ -2832,7 +2853,7 @@
         "functions": {
           "getBackgroundPage": {
             "full": "chrome.runtime.getBackgroundPage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getBackgroundPage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getBackgroundPage", 
             "supported": true, 
             "rank": 80, 
             "reasons": [], 
@@ -2841,7 +2862,7 @@
           }, 
           "openOptionsPage": {
             "full": "chrome.runtime.openOptionsPage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/openOptionsPage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/openOptionsPage", 
             "supported": true, 
             "rank": 124, 
             "reasons": [], 
@@ -2850,7 +2871,7 @@
           }, 
           "sendNativeMessage": {
             "full": "chrome.runtime.sendNativeMessage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/sendNativeMessage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/sendNativeMessage", 
             "supported": true, 
             "rank": 122, 
             "reasons": [], 
@@ -2861,7 +2882,7 @@
           }, 
           "getBrowserInfo": {
             "full": "chrome.runtime.getBrowserInfo()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getBrowserInfo", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getBrowserInfo", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -2870,7 +2891,7 @@
           }, 
           "connectNative": {
             "full": "chrome.runtime.connectNative()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/connectNative", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/connectNative", 
             "supported": true, 
             "rank": 179, 
             "reasons": [], 
@@ -2881,7 +2902,7 @@
           }, 
           "setUninstallURL": {
             "full": "chrome.runtime.setUninstallURL()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/setUninstallURL", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/setUninstallURL", 
             "supported": true, 
             "rank": 69, 
             "reasons": [], 
@@ -2890,7 +2911,7 @@
           }, 
           "getURL": {
             "full": "chrome.runtime.getURL()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getURL", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getURL", 
             "supported": true, 
             "rank": 62, 
             "reasons": [], 
@@ -2899,7 +2920,7 @@
           }, 
           "getManifest": {
             "full": "chrome.runtime.getManifest()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getManifest", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getManifest", 
             "supported": true, 
             "rank": 23, 
             "reasons": [], 
@@ -2908,7 +2929,7 @@
           }, 
           "requestUpdateCheck": {
             "full": "chrome.runtime.requestUpdateCheck()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/requestUpdateCheck", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/requestUpdateCheck", 
             "supported": false, 
             "rank": 143, 
             "reasons": [], 
@@ -2917,7 +2938,7 @@
           }, 
           "reload": {
             "full": "chrome.runtime.reload()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/reload", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/reload", 
             "supported": true, 
             "rank": 86, 
             "reasons": [], 
@@ -2926,7 +2947,7 @@
           }, 
           "sendMessage": {
             "full": "chrome.runtime.sendMessage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/sendMessage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/sendMessage", 
             "supported": true, 
             "rank": 4, 
             "reasons": [], 
@@ -2935,7 +2956,7 @@
           }, 
           "connect": {
             "full": "chrome.runtime.connect()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/connect", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/connect", 
             "supported": true, 
             "rank": 47, 
             "reasons": [], 
@@ -2944,7 +2965,7 @@
           }, 
           "getPlatformInfo": {
             "full": "chrome.runtime.getPlatformInfo()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getPlatformInfo", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getPlatformInfo", 
             "supported": true, 
             "rank": 149, 
             "reasons": [], 
@@ -2953,7 +2974,7 @@
           }, 
           "getPackageDirectoryEntry": {
             "full": "chrome.runtime.getPackageDirectoryEntry()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getPackageDirectoryEntry", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/getPackageDirectoryEntry", 
             "supported": false, 
             "rank": 281, 
             "reasons": [
@@ -2977,7 +2998,7 @@
         "events": {
           "onSuspendCanceled": {
             "full": "chrome.runtime.onSuspendCanceled", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onSuspendCanceled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onSuspendCanceled", 
             "supported": false, 
             "rank": 255, 
             "reasons": [], 
@@ -2986,7 +3007,7 @@
           }, 
           "onRestartRequired": {
             "full": "chrome.runtime.onRestartRequired", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onRestartRequired", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onRestartRequired", 
             "supported": false, 
             "rank": 336, 
             "reasons": [], 
@@ -2995,7 +3016,7 @@
           }, 
           "onBrowserUpdateAvailable": {
             "full": "chrome.runtime.onBrowserUpdateAvailable", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onBrowserUpdateAvailable", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onBrowserUpdateAvailable", 
             "supported": false, 
             "rank": [], 
             "reasons": [], 
@@ -3004,7 +3025,7 @@
           }, 
           "onConnect": {
             "full": "chrome.runtime.onConnect", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnect", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnect", 
             "supported": true, 
             "rank": 41, 
             "reasons": [], 
@@ -3013,7 +3034,7 @@
           }, 
           "onMessageExternal": {
             "full": "chrome.runtime.onMessageExternal", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessageExternal", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessageExternal", 
             "supported": false, 
             "rank": 78, 
             "reasons": [], 
@@ -3022,7 +3043,7 @@
           }, 
           "onUpdateAvailable": {
             "full": "chrome.runtime.onUpdateAvailable", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onUpdateAvailable", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onUpdateAvailable", 
             "supported": true, 
             "rank": 127, 
             "reasons": [], 
@@ -3031,7 +3052,7 @@
           }, 
           "onStartup": {
             "full": "chrome.runtime.onStartup", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onStartup", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onStartup", 
             "supported": true, 
             "rank": 82, 
             "reasons": [], 
@@ -3040,7 +3061,7 @@
           }, 
           "onInstalled": {
             "full": "chrome.runtime.onInstalled", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onInstalled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onInstalled", 
             "supported": true, 
             "rank": 16, 
             "reasons": [], 
@@ -3049,7 +3070,7 @@
           }, 
           "onConnectExternal": {
             "full": "chrome.runtime.onConnectExternal", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnectExternal", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnectExternal", 
             "supported": false, 
             "rank": 184, 
             "reasons": [], 
@@ -3058,7 +3079,7 @@
           }, 
           "onMessage": {
             "full": "chrome.runtime.onMessage", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessage", 
             "supported": true, 
             "rank": 3, 
             "reasons": [], 
@@ -3067,7 +3088,7 @@
           }, 
           "onSuspend": {
             "full": "chrome.runtime.onSuspend", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onSuspend", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onSuspend", 
             "supported": false, 
             "rank": 131, 
             "reasons": [], 
@@ -3078,14 +3099,14 @@
         "properties": {
           "lastError": {
             "usage": "chrome.runtime.lastError", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/lastError", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/lastError", 
             "full": "chrome.runtime.lastError", 
             "supported": true, 
             "permissions": null
           }, 
           "id": {
             "usage": "chrome.runtime.id", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/id", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/id", 
             "full": "chrome.runtime.id", 
             "supported": true, 
             "permissions": null
@@ -3128,7 +3149,7 @@
         "functions": {
           "getRecentlyClosed": {
             "full": "chrome.sessions.getRecentlyClosed()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/getRecentlyClosed", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/getRecentlyClosed", 
             "supported": true, 
             "rank": 227, 
             "reasons": [], 
@@ -3137,7 +3158,7 @@
           }, 
           "restore": {
             "full": "chrome.sessions.restore()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/restore", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/restore", 
             "supported": true, 
             "rank": 226, 
             "reasons": [], 
@@ -3159,7 +3180,7 @@
         "properties": {
           "MAX_SESSION_RESULTS": {
             "usage": "chrome.sessions.MAX_SESSION_RESULTS", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/MAX_SESSION_RESULTS", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/MAX_SESSION_RESULTS", 
             "full": "chrome.sessions.MAX_SESSION_RESULTS", 
             "supported": true, 
             "permissions": null
@@ -3168,7 +3189,7 @@
         "events": {
           "onChanged": {
             "full": "chrome.sessions.onChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/onChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/onChanged", 
             "supported": true, 
             "rank": 293, 
             "reasons": [], 
@@ -3256,21 +3277,21 @@
         "properties": {
           "local": {
             "usage": "chrome.storage.local", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/local", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Storage/local", 
             "full": "chrome.storage.local", 
             "supported": true, 
             "permissions": null
           }, 
           "managed": {
             "usage": "chrome.storage.managed", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/managed", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Storage/managed", 
             "full": "chrome.storage.managed", 
             "supported": false, 
             "permissions": null
           }, 
           "sync": {
             "usage": "chrome.storage.sync", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/sync", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Storage/sync", 
             "full": "chrome.storage.sync", 
             "supported": true, 
             "permissions": null
@@ -3279,7 +3300,7 @@
         "events": {
           "onChanged": {
             "full": "chrome.storage.onChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Storage/onChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Storage/onChanged", 
             "supported": true, 
             "rank": 45, 
             "reasons": [], 
@@ -3399,7 +3420,7 @@
         "functions": {
           "executeScript": {
             "full": "chrome.tabs.executeScript()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/executeScript", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/executeScript", 
             "supported": true, 
             "rank": 6, 
             "reasons": [], 
@@ -3408,7 +3429,7 @@
           }, 
           "getZoomSettings": {
             "full": "chrome.tabs.getZoomSettings()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getZoomSettings", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getZoomSettings", 
             "supported": true, 
             "rank": 357, 
             "reasons": [], 
@@ -3417,7 +3438,7 @@
           }, 
           "move": {
             "full": "chrome.tabs.move()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/move", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/move", 
             "supported": true, 
             "rank": 126, 
             "reasons": [], 
@@ -3426,7 +3447,7 @@
           }, 
           "getZoom": {
             "full": "chrome.tabs.getZoom()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getZoom", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getZoom", 
             "supported": true, 
             "rank": 254, 
             "reasons": [], 
@@ -3435,7 +3456,7 @@
           }, 
           "connect": {
             "full": "chrome.tabs.connect()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/connect", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/connect", 
             "supported": true, 
             "rank": 118, 
             "reasons": [], 
@@ -3444,7 +3465,7 @@
           }, 
           "query": {
             "full": "chrome.tabs.query()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/query", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/query", 
             "supported": true, 
             "rank": 2, 
             "reasons": [], 
@@ -3453,7 +3474,7 @@
           }, 
           "sendRequest": {
             "full": "chrome.tabs.sendRequest()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/sendRequest", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/sendRequest", 
             "supported": false, 
             "rank": 48, 
             "reasons": [
@@ -3464,7 +3485,7 @@
           }, 
           "create": {
             "full": "chrome.tabs.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/create", 
             "supported": true, 
             "rank": 0, 
             "reasons": [], 
@@ -3473,7 +3494,7 @@
           }, 
           "duplicate": {
             "full": "chrome.tabs.duplicate()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/duplicate", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/duplicate", 
             "supported": true, 
             "rank": 233, 
             "reasons": [], 
@@ -3482,7 +3503,7 @@
           }, 
           "detectLanguage": {
             "full": "chrome.tabs.detectLanguage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/detectLanguage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/detectLanguage", 
             "supported": true, 
             "rank": 207, 
             "reasons": [], 
@@ -3491,7 +3512,7 @@
           }, 
           "insertCSS": {
             "full": "chrome.tabs.insertCSS()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/insertCSS", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/insertCSS", 
             "supported": true, 
             "rank": 59, 
             "reasons": [], 
@@ -3500,7 +3521,7 @@
           }, 
           "get": {
             "full": "chrome.tabs.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/get", 
             "supported": true, 
             "rank": 25, 
             "reasons": [], 
@@ -3509,7 +3530,7 @@
           }, 
           "getCurrent": {
             "full": "chrome.tabs.getCurrent()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getCurrent", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getCurrent", 
             "supported": true, 
             "rank": 57, 
             "reasons": [], 
@@ -3518,7 +3539,7 @@
           }, 
           "update": {
             "full": "chrome.tabs.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/update", 
             "supported": true, 
             "rank": 8, 
             "reasons": [], 
@@ -3527,7 +3548,7 @@
           }, 
           "setZoom": {
             "full": "chrome.tabs.setZoom()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/setZoom", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/setZoom", 
             "supported": true, 
             "rank": 261, 
             "reasons": [], 
@@ -3536,7 +3557,7 @@
           }, 
           "setZoomSettings": {
             "full": "chrome.tabs.setZoomSettings()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/setZoomSettings", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/setZoomSettings", 
             "supported": true, 
             "rank": 381, 
             "reasons": [], 
@@ -3545,7 +3566,7 @@
           }, 
           "getSelected": {
             "full": "chrome.tabs.getSelected()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getSelected", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getSelected", 
             "supported": false, 
             "rank": 17, 
             "reasons": [
@@ -3556,7 +3577,7 @@
           }, 
           "remove": {
             "full": "chrome.tabs.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/remove", 
             "supported": true, 
             "rank": 24, 
             "reasons": [], 
@@ -3565,7 +3586,7 @@
           }, 
           "captureVisibleTab": {
             "full": "chrome.tabs.captureVisibleTab()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/captureVisibleTab", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/captureVisibleTab", 
             "supported": true, 
             "rank": 51, 
             "reasons": [], 
@@ -3576,7 +3597,7 @@
           }, 
           "reload": {
             "full": "chrome.tabs.reload()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/reload", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/reload", 
             "supported": true, 
             "rank": 49, 
             "reasons": [], 
@@ -3585,7 +3606,7 @@
           }, 
           "sendMessage": {
             "full": "chrome.tabs.sendMessage()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/sendMessage", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/sendMessage", 
             "supported": true, 
             "rank": 9, 
             "reasons": [], 
@@ -3594,7 +3615,7 @@
           }, 
           "highlight": {
             "full": "chrome.tabs.highlight()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/highlight", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/highlight", 
             "supported": true, 
             "rank": 193, 
             "reasons": [], 
@@ -3603,7 +3624,7 @@
           }, 
           "removeCSS": {
             "full": "chrome.tabs.removeCSS()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/removeCSS", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/removeCSS", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -3612,7 +3633,7 @@
           }, 
           "getAllInWindow": {
             "full": "chrome.tabs.getAllInWindow()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getAllInWindow", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/getAllInWindow", 
             "supported": false, 
             "rank": 44, 
             "reasons": [
@@ -3625,7 +3646,7 @@
         "properties": {
           "TAB_ID_NONE": {
             "usage": "chrome.tabs.TAB_ID_NONE", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/TAB_ID_NONE", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/TAB_ID_NONE", 
             "full": "chrome.tabs.TAB_ID_NONE", 
             "supported": true, 
             "permissions": null
@@ -3634,7 +3655,7 @@
         "events": {
           "onHighlighted": {
             "full": "chrome.tabs.onHighlighted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onHighlighted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onHighlighted", 
             "supported": true, 
             "rank": 175, 
             "reasons": [], 
@@ -3643,7 +3664,7 @@
           }, 
           "onActiveChanged": {
             "full": "chrome.tabs.onActiveChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onActiveChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onActiveChanged", 
             "supported": false, 
             "rank": 111, 
             "reasons": [], 
@@ -3652,7 +3673,7 @@
           }, 
           "onUpdated": {
             "full": "chrome.tabs.onUpdated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onUpdated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onUpdated", 
             "supported": true, 
             "rank": 5, 
             "reasons": [], 
@@ -3661,7 +3682,7 @@
           }, 
           "onAttached": {
             "full": "chrome.tabs.onAttached", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onAttached", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onAttached", 
             "supported": true, 
             "rank": 139, 
             "reasons": [], 
@@ -3670,7 +3691,7 @@
           }, 
           "onMoved": {
             "full": "chrome.tabs.onMoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onMoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onMoved", 
             "supported": true, 
             "rank": 183, 
             "reasons": [], 
@@ -3679,7 +3700,7 @@
           }, 
           "onDetached": {
             "full": "chrome.tabs.onDetached", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onDetached", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onDetached", 
             "supported": true, 
             "rank": 170, 
             "reasons": [], 
@@ -3688,7 +3709,7 @@
           }, 
           "onHighlightChanged": {
             "full": "chrome.tabs.onHighlightChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onHighlightChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onHighlightChanged", 
             "supported": false, 
             "rank": 493, 
             "reasons": [
@@ -3699,7 +3720,7 @@
           }, 
           "onZoomChange": {
             "full": "chrome.tabs.onZoomChange", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onZoomChange", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onZoomChange", 
             "supported": true, 
             "rank": 333, 
             "reasons": [], 
@@ -3708,7 +3729,7 @@
           }, 
           "onCreated": {
             "full": "chrome.tabs.onCreated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onCreated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onCreated", 
             "supported": true, 
             "rank": 35, 
             "reasons": [], 
@@ -3717,7 +3738,7 @@
           }, 
           "onSelectionChanged": {
             "full": "chrome.tabs.onSelectionChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onSelectionChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onSelectionChanged", 
             "supported": false, 
             "rank": 96, 
             "reasons": [
@@ -3728,7 +3749,7 @@
           }, 
           "onRemoved": {
             "full": "chrome.tabs.onRemoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onRemoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onRemoved", 
             "supported": true, 
             "rank": 26, 
             "reasons": [], 
@@ -3737,7 +3758,7 @@
           }, 
           "onActivated": {
             "full": "chrome.tabs.onActivated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onActivated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onActivated", 
             "supported": true, 
             "rank": 36, 
             "reasons": [], 
@@ -3746,7 +3767,7 @@
           }, 
           "onReplaced": {
             "full": "chrome.tabs.onReplaced", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onReplaced", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/onReplaced", 
             "supported": true, 
             "rank": 83, 
             "reasons": [], 
@@ -3793,7 +3814,7 @@
         "functions": {
           "get": {
             "full": "chrome.topSites.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/TopSites/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/TopSites/get", 
             "supported": true, 
             "rank": 76, 
             "reasons": [], 
@@ -3835,13 +3856,6 @@
           "resolution": "", 
           "id": 1190329, 
           "summary": "Test coverage for webNavigation extension API"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1190687, 
-          "summary": "Implement webNavigation.onCreatedNavigationTarget"
         }, 
         {
           "priority": "P2", 
@@ -3897,7 +3911,7 @@
         "functions": {
           "getFrame": {
             "full": "chrome.webNavigation.getFrame()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/getFrame", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/getFrame", 
             "supported": true, 
             "rank": 306, 
             "reasons": [], 
@@ -3906,7 +3920,7 @@
           }, 
           "getAllFrames": {
             "full": "chrome.webNavigation.getAllFrames()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/getAllFrames", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/getAllFrames", 
             "supported": true, 
             "rank": 231, 
             "reasons": [], 
@@ -3917,7 +3931,7 @@
         "events": {
           "onReferenceFragmentUpdated": {
             "full": "chrome.webNavigation.onReferenceFragmentUpdated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onReferenceFragmentUpdated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onReferenceFragmentUpdated", 
             "supported": true, 
             "rank": 206, 
             "reasons": [], 
@@ -3926,7 +3940,7 @@
           }, 
           "onCompleted": {
             "full": "chrome.webNavigation.onCompleted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCompleted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCompleted", 
             "supported": true, 
             "rank": 100, 
             "reasons": [], 
@@ -3935,7 +3949,7 @@
           }, 
           "onHistoryStateUpdated": {
             "full": "chrome.webNavigation.onHistoryStateUpdated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onHistoryStateUpdated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onHistoryStateUpdated", 
             "supported": true, 
             "rank": 135, 
             "reasons": [], 
@@ -3944,8 +3958,8 @@
           }, 
           "onCreatedNavigationTarget": {
             "full": "chrome.webNavigation.onCreatedNavigationTarget", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCreatedNavigationTarget", 
-            "supported": false, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCreatedNavigationTarget", 
+            "supported": true, 
             "rank": 114, 
             "reasons": [], 
             "usage": "chrome.webNavigation.onCreatedNavigationTarget", 
@@ -3953,7 +3967,7 @@
           }, 
           "onTabReplaced": {
             "full": "chrome.webNavigation.onTabReplaced", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onTabReplaced", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onTabReplaced", 
             "supported": true, 
             "rank": 152, 
             "reasons": [], 
@@ -3962,7 +3976,7 @@
           }, 
           "onBeforeNavigate": {
             "full": "chrome.webNavigation.onBeforeNavigate", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onBeforeNavigate", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onBeforeNavigate", 
             "supported": true, 
             "rank": 87, 
             "reasons": [], 
@@ -3971,7 +3985,7 @@
           }, 
           "onCommitted": {
             "full": "chrome.webNavigation.onCommitted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCommitted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onCommitted", 
             "supported": true, 
             "rank": 97, 
             "reasons": [], 
@@ -3980,7 +3994,7 @@
           }, 
           "onDOMContentLoaded": {
             "full": "chrome.webNavigation.onDOMContentLoaded", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onDOMContentLoaded", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onDOMContentLoaded", 
             "supported": true, 
             "rank": 107, 
             "reasons": [], 
@@ -3989,7 +4003,7 @@
           }, 
           "onErrorOccurred": {
             "full": "chrome.webNavigation.onErrorOccurred", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onErrorOccurred", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebNavigation/onErrorOccurred", 
             "supported": true, 
             "rank": 125, 
             "reasons": [], 
@@ -4064,13 +4078,20 @@
           "resolution": "", 
           "id": 1330600, 
           "summary": "the webrequest needs to contain additional information about the cause of the download"
+        }, 
+        {
+          "priority": "P1", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1339177, 
+          "summary": "WebRequest.onErrorOcurred doesn't get timeouts"
         }
       ], 
       "schema": {
         "functions": {
           "handlerBehaviorChanged": {
             "full": "chrome.webRequest.handlerBehaviorChanged()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/handlerBehaviorChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/handlerBehaviorChanged", 
             "supported": true, 
             "rank": 199, 
             "reasons": [], 
@@ -4081,7 +4102,7 @@
         "events": {
           "onCompleted": {
             "full": "chrome.webRequest.onCompleted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onCompleted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onCompleted", 
             "supported": true, 
             "rank": 88, 
             "reasons": [], 
@@ -4090,7 +4111,7 @@
           }, 
           "onHeadersReceived": {
             "full": "chrome.webRequest.onHeadersReceived", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onHeadersReceived", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onHeadersReceived", 
             "supported": true, 
             "rank": 68, 
             "reasons": [], 
@@ -4099,7 +4120,7 @@
           }, 
           "onBeforeRedirect": {
             "full": "chrome.webRequest.onBeforeRedirect", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeRedirect", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeRedirect", 
             "supported": true, 
             "rank": 102, 
             "reasons": [], 
@@ -4108,7 +4129,7 @@
           }, 
           "onAuthRequired": {
             "full": "chrome.webRequest.onAuthRequired", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onAuthRequired", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onAuthRequired", 
             "supported": true, 
             "rank": 129, 
             "reasons": [], 
@@ -4117,7 +4138,7 @@
           }, 
           "onBeforeSendHeaders": {
             "full": "chrome.webRequest.onBeforeSendHeaders", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeSendHeaders", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeSendHeaders", 
             "supported": true, 
             "rank": 81, 
             "reasons": [], 
@@ -4126,7 +4147,7 @@
           }, 
           "onErrorOccurred": {
             "full": "chrome.webRequest.onErrorOccurred", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onErrorOccurred", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onErrorOccurred", 
             "supported": true, 
             "rank": 89, 
             "reasons": [], 
@@ -4135,7 +4156,7 @@
           }, 
           "onResponseStarted": {
             "full": "chrome.webRequest.onResponseStarted", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onResponseStarted", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onResponseStarted", 
             "supported": true, 
             "rank": 134, 
             "reasons": [], 
@@ -4144,7 +4165,7 @@
           }, 
           "onSendHeaders": {
             "full": "chrome.webRequest.onSendHeaders", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onSendHeaders", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onSendHeaders", 
             "supported": true, 
             "rank": 142, 
             "reasons": [], 
@@ -4153,7 +4174,7 @@
           }, 
           "onBeforeRequest": {
             "full": "chrome.webRequest.onBeforeRequest", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeRequest", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/onBeforeRequest", 
             "supported": true, 
             "rank": 38, 
             "reasons": [], 
@@ -4164,7 +4185,7 @@
         "properties": {
           "MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES": {
             "usage": "chrome.webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/WebRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
             "full": "chrome.webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES", 
             "supported": true, 
             "permissions": null
@@ -4228,7 +4249,7 @@
         "functions": {
           "get": {
             "full": "chrome.windows.get()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/get", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/get", 
             "supported": true, 
             "rank": 73, 
             "reasons": [], 
@@ -4237,7 +4258,7 @@
           }, 
           "getCurrent": {
             "full": "chrome.windows.getCurrent()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getCurrent", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getCurrent", 
             "supported": true, 
             "rank": 43, 
             "reasons": [], 
@@ -4246,7 +4267,7 @@
           }, 
           "create": {
             "full": "chrome.windows.create()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/create", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/create", 
             "supported": true, 
             "rank": 27, 
             "reasons": [], 
@@ -4255,7 +4276,7 @@
           }, 
           "getAll": {
             "full": "chrome.windows.getAll()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getAll", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getAll", 
             "supported": true, 
             "rank": 33, 
             "reasons": [], 
@@ -4264,7 +4285,7 @@
           }, 
           "update": {
             "full": "chrome.windows.update()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/update", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/update", 
             "supported": true, 
             "rank": 39, 
             "reasons": [], 
@@ -4273,7 +4294,7 @@
           }, 
           "remove": {
             "full": "chrome.windows.remove()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/remove", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/remove", 
             "supported": true, 
             "rank": 70, 
             "reasons": [], 
@@ -4282,7 +4303,7 @@
           }, 
           "getLastFocused": {
             "full": "chrome.windows.getLastFocused()", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getLastFocused", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/getLastFocused", 
             "supported": true, 
             "rank": 109, 
             "reasons": [], 
@@ -4293,14 +4314,14 @@
         "properties": {
           "WINDOW_ID_NONE": {
             "usage": "chrome.windows.WINDOW_ID_NONE", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_NONE", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_NONE", 
             "full": "chrome.windows.WINDOW_ID_NONE", 
             "supported": true, 
             "permissions": null
           }, 
           "WINDOW_ID_CURRENT": {
             "usage": "chrome.windows.WINDOW_ID_CURRENT", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_CURRENT", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/WINDOW_ID_CURRENT", 
             "full": "chrome.windows.WINDOW_ID_CURRENT", 
             "supported": true, 
             "permissions": null
@@ -4309,7 +4330,7 @@
         "events": {
           "onRemoved": {
             "full": "chrome.windows.onRemoved", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onRemoved", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onRemoved", 
             "supported": true, 
             "rank": 67, 
             "reasons": [], 
@@ -4318,7 +4339,7 @@
           }, 
           "onCreated": {
             "full": "chrome.windows.onCreated", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onCreated", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onCreated", 
             "supported": true, 
             "rank": 117, 
             "reasons": [], 
@@ -4327,7 +4348,7 @@
           }, 
           "onFocusChanged": {
             "full": "chrome.windows.onFocusChanged", 
-            "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onFocusChanged", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Windows/onFocusChanged", 
             "supported": true, 
             "rank": 55, 
             "reasons": [], 
