@@ -2638,13 +2638,6 @@
           "resolution": "", 
           "id": 1340156, 
           "summary": "Implement browser.privacy onChange event"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1341277, 
-          "summary": "Update privacy API to allow for disabling/enabling settings over disable/enable and updates of extensions"
         }
       ], 
       "schema": {}
@@ -2710,6 +2703,18 @@
           }
         }
       }
+    }
+  ], 
+  [
+    "protocolHandlers", 
+    {
+      "platform": [
+        "desktop", 
+        "android"
+      ], 
+      "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-protocolHandlers.js", 
+      "bugs": [], 
+      "schema": {}
     }
   ], 
   [
@@ -3035,7 +3040,7 @@
           "onMessageExternal": {
             "full": "chrome.runtime.onMessageExternal", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onMessageExternal", 
-            "supported": false, 
+            "supported": true, 
             "rank": 78, 
             "reasons": [], 
             "usage": "chrome.runtime.onMessageExternal", 
@@ -3071,7 +3076,7 @@
           "onConnectExternal": {
             "full": "chrome.runtime.onConnectExternal", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Runtime/onConnectExternal", 
-            "supported": false, 
+            "supported": true, 
             "rank": 184, 
             "reasons": [], 
             "usage": "chrome.runtime.onConnectExternal", 
@@ -4071,13 +4076,6 @@
           "resolution": "", 
           "id": 1290016, 
           "summary": "tabs.executeScript in webRequest.onCompleted gives \"Unchecked lastError value: Error: No matching message handler\""
-        }, 
-        {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1330600, 
-          "summary": "the webrequest needs to contain additional information about the cause of the download"
         }, 
         {
           "priority": "P1", 

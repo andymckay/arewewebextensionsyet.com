@@ -182,7 +182,7 @@
         "desktop",
         "android"
       ]
-  }
+  },
   "runtime": {
     "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-runtime.js",
     "platform": [
