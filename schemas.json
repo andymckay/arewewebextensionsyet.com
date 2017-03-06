@@ -971,6 +971,13 @@
           "resolution": "", 
           "id": 1339962, 
           "summary": "ContextualIdentity API color isn't a css color"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1344519, 
+          "summary": "No contextualIdentity events"
         }
       ], 
       "schema": {
@@ -1260,13 +1267,6 @@
           "resolution": "", 
           "id": 1311177, 
           "summary": "Implements the devtools.network.getHAR API method"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1341089, 
-          "summary": "devtools.network.onNavigated should be fired when the target page has been navigated"
         }
       ], 
       "schema": {
@@ -1317,13 +1317,6 @@
           "resolution": "", 
           "id": 1211859, 
           "summary": "Implement devtools API for open extension API"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1340529, 
-          "summary": "Fix shown/hidden events for a devtools_panel toggled from toolbox preferences"
         }
       ], 
       "schema": {
