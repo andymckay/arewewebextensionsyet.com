@@ -154,6 +154,13 @@
           "resolution": "", 
           "id": 1341541, 
           "summary": "WebExtensions bookmarks.getRecent() results include raw tag objects"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1343473, 
+          "summary": "WebExtensions bookmarks.getSubTree() omits parentId of requested node"
         }
       ], 
       "schema": {
@@ -3141,6 +3148,13 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1344087, 
+          "summary": "The API that browser_ext_sessions_getRecentlyClosed_tabs.js tests might be broken"
         }
       ], 
       "schema": {
