@@ -195,7 +195,7 @@
 					
 
 					
-						<h5 id="bookmarks-bugs"><a href="#bookmarks-bugs" class="anchor">&sect;</a> 12 bugs</h5>
+						<h5 id="bookmarks-bugs"><a href="#bookmarks-bugs" class="anchor">&sect;</a> 11 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -284,15 +284,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1319530">1319530</a>:
 									<span class="label label-info">P3</span>
 									Implement bookmarks.onChildrenReordered WebExtensions API event
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1341541">1341541</a>:
-									<span class="label label-danger">P2</span>
-									WebExtensions bookmarks.getRecent() results include raw tag objects
 
 								</td>
 							</tr>
@@ -1458,7 +1449,7 @@
 							<tr>
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1325814">1325814</a>:
-									<span class="label label-info">--</span>
+									<span class="label label-info">P3</span>
 									contextMenus.OnClickData should provide selector of the clicked element
 
 								</td>
@@ -4560,7 +4551,7 @@
 					
 
 					
-						<h5 id="privacy-bugs"><a href="#privacy-bugs" class="anchor">&sect;</a> 1 bugs</h5>
+						<h5 id="privacy-bugs"><a href="#privacy-bugs" class="anchor">&sect;</a> 2 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -4568,6 +4559,15 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1340156">1340156</a>:
 									<span class="label label-info">P3</span>
 									Implement browser.privacy onChange event
+
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1345158">1345158</a>:
+									<span class="label label-info">P3</span>
+									Implement browser.privacy.trackingProtection API
 
 								</td>
 							</tr>
@@ -4787,7 +4787,7 @@
 					
 
 					
-						<h5 id="proxy-bugs"><a href="#proxy-bugs" class="anchor">&sect;</a> 8 bugs</h5>
+						<h5 id="proxy-bugs"><a href="#proxy-bugs" class="anchor">&sect;</a> 7 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -4795,15 +4795,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1283639">1283639</a>:
 									<span class="label label-danger">P1</span>
 									[tracking] Proxy API support for WebExtensions
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1295807">1295807</a>:
-									<span class="label label-info">--</span>
-									Support proxy configuration from WebExtensions
 
 								</td>
 							</tr>
@@ -4868,7 +4859,47 @@
 					
 
 					
+						<h5 id="proxy-functions"><a href="#proxy-functions" class="anchor">&sect;</a> 1 functions</h5>
+					<table class="table table-striped">
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.proxy.registerProxyScript()</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td></td>
+							
+						</tr>
+						
+					</table>
+					
 
+					
+						<h5 id="proxy-events"><a href="#proxy-events" class="anchor">&sect;</a> 1 events</h5>
+					<table class="table table-striped">
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.proxy.onProxyError</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-208">rank 208</a></span></td>
+							
+						</tr>
+						
+					</table>
 					
 
 					
@@ -5441,7 +5472,7 @@
 					
 
 					
-						<h5 id="sessions-bugs"><a href="#sessions-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+						<h5 id="sessions-bugs"><a href="#sessions-bugs" class="anchor">&sect;</a> 5 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -5467,6 +5498,15 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1322060">1322060</a>:
 									<span class="label label-info">P3</span>
 									Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`
+
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334266">1334266</a>:
+									<span class="label label-info">P5</span>
+									Implement browser.sessions.forgetClosedTab and forgetClosedWindow
 
 								</td>
 							</tr>
@@ -7632,6 +7672,8 @@
 				
 					<li>privacy</li>
 				
+					<li>proxy</li>
+				
 					<li>sessions</li>
 				
 					<li>tabs</li>
@@ -7679,6 +7721,8 @@
 					<li>devtools_page</li>
 				
 					<li>homepage_url</li>
+				
+					<li>icons</li>
 				
 					<li>icons</li>
 				

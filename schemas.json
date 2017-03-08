@@ -149,13 +149,6 @@
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
         }, 
         {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1341541, 
-          "summary": "WebExtensions bookmarks.getRecent() results include raw tag objects"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -863,8 +856,8 @@
           "summary": "Set a different icon for a contextMenus item"
         }, 
         {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
+          "priority": "P3", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
@@ -2638,6 +2631,13 @@
           "resolution": "", 
           "id": 1340156, 
           "summary": "Implement browser.privacy onChange event"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1345158, 
+          "summary": "Implement browser.privacy.trackingProtection API"
         }
       ], 
       "schema": {}
@@ -2732,13 +2732,6 @@
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1295807, 
-          "summary": "Support proxy configuration from WebExtensions"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1319630, 
           "summary": "Add support for the new \"SYSTEM\" return type to FindProxyForURL"
         }, 
@@ -2778,7 +2771,30 @@
           "summary": "Provide path and query components to non-https URLs"
         }
       ], 
-      "schema": {}
+      "schema": {
+        "functions": {
+          "registerProxyScript": {
+            "full": "chrome.proxy.registerProxyScript()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.proxy.registerProxyScript", 
+            "permissions": null
+          }
+        }, 
+        "events": {
+          "onProxyError": {
+            "full": "chrome.proxy.onProxyError", 
+            "url": null, 
+            "supported": true, 
+            "rank": 208, 
+            "reasons": [], 
+            "usage": "chrome.proxy.onProxyError", 
+            "permissions": null
+          }
+        }
+      }
     }
   ], 
   [
@@ -3148,6 +3164,13 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1334266, 
+          "summary": "Implement browser.sessions.forgetClosedTab and forgetClosedWindow"
         }, 
         {
           "priority": "P3", 
