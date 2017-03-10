@@ -1805,7 +1805,7 @@
           "summary": "Add typedCount to the result set returned by browser.history.search"
         }, 
         {
-          "priority": "P4", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1280582, 
@@ -2445,6 +2445,13 @@
           "resolution": "", 
           "id": 1300811, 
           "summary": "[PageAction] Support show/hide on a per tab basis on Android."
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1345794, 
+          "summary": "pageActions are never shown on about:blank and about:newtab URLs"
         }
       ], 
       "schema": {
@@ -2861,13 +2868,6 @@
           "resolution": "", 
           "id": 1313653, 
           "summary": "We shouldn't need both extension.unload() and updated_addon.uninstall() in the addon update test."
-        }, 
-        {
-          "priority": "P3", 
-          "status": "REOPENED", 
-          "resolution": "", 
-          "id": 1323938, 
-          "summary": "browser.runtime.oninstalled does not fire  when extension is installed temporarily"
         }
       ], 
       "schema": {
@@ -3167,7 +3167,7 @@
         }, 
         {
           "priority": "P5", 
-          "status": "ASSIGNED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1334266, 
           "summary": "Implement browser.sessions.forgetClosedTab and forgetClosedWindow"
