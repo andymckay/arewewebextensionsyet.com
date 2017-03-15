@@ -1495,6 +1495,13 @@
           "resolution": "", 
           "id": 1338381, 
           "summary": "Fix downloads API tests on Android"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "REOPENED", 
+          "resolution": "", 
+          "id": 1344822, 
+          "summary": "downloads.onChanged notification is not firing when I download anything from browser"
         }
       ], 
       "schema": {
@@ -2854,13 +2861,6 @@
           "resolution": "", 
           "id": 1313644, 
           "summary": "Temporary directory not cleaned up properly if AddonTestUtils is imported after ExtensionTestUtils is initialized."
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1313648, 
-          "summary": "Add support for the previousVersion property to runtime.onInstalled"
         }, 
         {
           "priority": "P5", 
