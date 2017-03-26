@@ -195,7 +195,7 @@
 					
 
 					
-						<h5 id="bookmarks-bugs"><a href="#bookmarks-bugs" class="anchor">&sect;</a> 11 bugs</h5>
+						<h5 id="bookmarks-bugs"><a href="#bookmarks-bugs" class="anchor">&sect;</a> 9 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -221,15 +221,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1251657">1251657</a>:
 									<span class="label label-info">P5</span>
 									bookmarks.search doesn't allow quoted search terms
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1276817">1276817</a>:
-									<span class="label label-info">P5</span>
-									Support bookmark keywords
 
 								</td>
 							</tr>
@@ -284,15 +275,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1319530">1319530</a>:
 									<span class="label label-info">P3</span>
 									Implement bookmarks.onChildrenReordered WebExtensions API event
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1343473">1343473</a>:
-									<span class="label label-info">P3</span>
-									WebExtensions bookmarks.getSubTree() omits parentId of requested node
 
 								</td>
 							</tr>
@@ -636,7 +618,7 @@
 					
 
 					
-						<h5 id="browserAction-bugs"><a href="#browserAction-bugs" class="anchor">&sect;</a> 11 bugs</h5>
+						<h5 id="browserAction-bugs"><a href="#browserAction-bugs" class="anchor">&sect;</a> 10 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -707,15 +689,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1314674">1314674</a>:
 									<span class="label label-info">P5</span>
 									Background of badge on browserAction button changes to red on entering and remains red on exiting Customize mode
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1331126">1331126</a>:
-									<span class="label label-danger">P2</span>
-									[tracking] BrowserAction API support for Android WebExtensions
 
 								</td>
 							</tr>
@@ -1407,7 +1380,7 @@
 					
 
 					
-						<h5 id="contextMenus-bugs"><a href="#contextMenus-bugs" class="anchor">&sect;</a> 7 bugs</h5>
+						<h5 id="contextMenus-bugs"><a href="#contextMenus-bugs" class="anchor">&sect;</a> 6 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -1460,15 +1433,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1339416">1339416</a>:
 									<span class="label label-info">P5</span>
 									contextMenus.OnClickData should have the frameId (can be used with tabs.sendMessage)
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1339440">1339440</a>:
-									<span class="label label-danger">P2</span>
-									documentUrlPatterns in the contextMenus does not work on frames properly
 
 								</td>
 							</tr>
@@ -1648,7 +1612,7 @@
 							<tr>
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1344519">1344519</a>:
-									<span class="label label-info">--</span>
+									<span class="label label-info">P3</span>
 									No contextualIdentity events
 
 								</td>
@@ -2180,7 +2144,7 @@
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1311171">1311171</a>:
 									<span class="label label-info">P3</span>
-									Implements the devtools.network.onRequestFinished API event
+									Implement the devtools.network.onRequestFinished API event
 
 								</td>
 							</tr>
@@ -2189,7 +2153,7 @@
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1311177">1311177</a>:
 									<span class="label label-info">P3</span>
-									Implements the devtools.network.getHAR API method
+									Implement the devtools.network.getHAR API method
 
 								</td>
 							</tr>
@@ -4420,17 +4384,8 @@
 					
 
 					
-						<h5 id="permissions-bugs"><a href="#permissions-bugs" class="anchor">&sect;</a> 7 bugs</h5>
+						<h5 id="permissions-bugs"><a href="#permissions-bugs" class="anchor">&sect;</a> 6 bugs</h5>
 						<table class="table table-striped">
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1197420">1197420</a>:
-									<span class="label label-danger">P1</span>
-									(tracking) Implement permissions API and optional_permissions manifest property for open extension API
-
-								</td>
-							</tr>
 							
 							<tr>
 								<td>
@@ -4492,7 +4447,107 @@
 					
 
 					
+						<h5 id="permissions-functions"><a href="#permissions-functions" class="anchor">&sect;</a> 4 functions</h5>
+					<table class="table table-striped">
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.contains()</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-119">rank 119</a></span></td>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.getAll()</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-246">rank 246</a></span></td>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.request()</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-94">rank 94</a></span></td>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.remove()</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-112">rank 112</a></span></td>
+							
+						</tr>
+						
+					</table>
+					
 
+					
+						<h5 id="permissions-events"><a href="#permissions-events" class="anchor">&sect;</a> 2 events</h5>
+					<table class="table table-striped">
+						
+						<tr>
+							<td>
+								<span class="label label-danger">not supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.onRemoved</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-319">rank 319</a></span></td>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="label label-danger">not supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.permissions.onAdded</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td><span class="label label-info"><a id="rank-248">rank 248</a></span></td>
+							
+						</tr>
+						
+					</table>
 					
 
 					
@@ -7069,7 +7124,7 @@
 					
 
 					
-						<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 8 bugs</h5>
+						<h5 id="webRequest-bugs"><a href="#webRequest-bugs" class="anchor">&sect;</a> 7 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -7131,15 +7186,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1290016">1290016</a>:
 									<span class="label label-danger">P2</span>
 									tabs.executeScript in webRequest.onCompleted gives "Unchecked lastError value: Error: No matching message handler"
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1339177">1339177</a>:
-									<span class="label label-danger">P1</span>
-									WebRequest.onErrorOcurred doesn't get timeouts
 
 								</td>
 							</tr>
@@ -7644,25 +7690,17 @@
 				
 					<li>^experiments(\.\w+)+$</li>
 				
-					<li>activeTab</li>
-				
-					<li>bookmarks</li>
-				
 					<li>browsingData</li>
 				
 					<li>contextMenus</li>
 				
 					<li>contextualIdentities</li>
 				
-					<li>cookies</li>
-				
 					<li>downloads</li>
 				
 					<li>downloads.open</li>
 				
 					<li>downloads.shelf</li>
-				
-					<li>history</li>
 				
 					<li>identity</li>
 				
@@ -7676,15 +7714,7 @@
 				
 					<li>sessions</li>
 				
-					<li>tabs</li>
-				
-					<li>topSites</li>
-				
-					<li>webNavigation</li>
-				
-					<li>webRequest</li>
-				
-					<li>webRequestBlocking</li>
+					<li>theme</li>
 				
 			</ul>
 
@@ -7706,8 +7736,6 @@
 				
 					<li>chrome_url_overrides</li>
 				
-					<li>colors</li>
-				
 					<li>commands</li>
 				
 					<li>content_scripts</li>
@@ -7726,10 +7754,6 @@
 				
 					<li>icons</li>
 				
-					<li>icons</li>
-				
-					<li>images</li>
-				
 					<li>incognito</li>
 				
 					<li>manifest_version</li>
@@ -7741,6 +7765,8 @@
 					<li>name</li>
 				
 					<li>omnibox</li>
+				
+					<li>optional_permissions</li>
 				
 					<li>options_ui</li>
 				
@@ -7755,8 +7781,6 @@
 					<li>short_name</li>
 				
 					<li>sidebar_action</li>
-				
-					<li>theme</li>
 				
 					<li>uriTemplate</li>
 				

@@ -304,7 +304,7 @@ def process_manifest(types):
 
 def process_permission(types):
     for permission in types:
-        for item in permission['choices']:
+        for item in permission.get('choices', []):
             if 'enum' in item:
                 for enum in item['enum']:
                     parsed_manifest['permissions'].append(enum)

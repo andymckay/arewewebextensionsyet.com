@@ -101,13 +101,6 @@
         }, 
         {
           "priority": "P5", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1276817, 
-          "summary": "Support bookmark keywords"
-        }, 
-        {
-          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1276819, 
@@ -147,13 +140,6 @@
           "resolution": "", 
           "id": 1319530, 
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1343473, 
-          "summary": "WebExtensions bookmarks.getSubTree() omits parentId of requested node"
         }
       ], 
       "schema": {
@@ -411,13 +397,6 @@
           "resolution": "", 
           "id": 1314674, 
           "summary": "Background of badge on browserAction button changes to red on entering and remains red on exiting Customize mode"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1331126, 
-          "summary": "[tracking] BrowserAction API support for Android WebExtensions"
         }, 
         {
           "priority": "P2", 
@@ -868,13 +847,6 @@
           "resolution": "", 
           "id": 1339416, 
           "summary": "contextMenus.OnClickData should have the frameId (can be used with tabs.sendMessage)"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1339440, 
-          "summary": "documentUrlPatterns in the contextMenus does not work on frames properly"
         }
       ], 
       "schema": {
@@ -973,7 +945,7 @@
           "summary": "ContextualIdentity API color isn't a css color"
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1344519, 
@@ -1259,14 +1231,14 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1311171, 
-          "summary": "Implements the devtools.network.onRequestFinished API event"
+          "summary": "Implement the devtools.network.onRequestFinished API event"
         }, 
         {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1311177, 
-          "summary": "Implements the devtools.network.getHAR API method"
+          "summary": "Implement the devtools.network.getHAR API method"
         }
       ], 
       "schema": {
@@ -2562,13 +2534,6 @@
     {
       "bugs": [
         {
-          "priority": "P1", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1197420, 
-          "summary": "(tracking) Implement permissions API and optional_permissions manifest property for open extension API"
-        }, 
-        {
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
@@ -2611,7 +2576,66 @@
           "summary": "Optional permission support for Android"
         }
       ], 
-      "schema": {}
+      "schema": {
+        "functions": {
+          "contains": {
+            "full": "chrome.permissions.contains()", 
+            "url": null, 
+            "supported": true, 
+            "rank": 119, 
+            "reasons": [], 
+            "usage": "chrome.permissions.contains", 
+            "permissions": null
+          }, 
+          "getAll": {
+            "full": "chrome.permissions.getAll()", 
+            "url": null, 
+            "supported": true, 
+            "rank": 246, 
+            "reasons": [], 
+            "usage": "chrome.permissions.getAll", 
+            "permissions": null
+          }, 
+          "request": {
+            "full": "chrome.permissions.request()", 
+            "url": null, 
+            "supported": true, 
+            "rank": 94, 
+            "reasons": [], 
+            "usage": "chrome.permissions.request", 
+            "permissions": null
+          }, 
+          "remove": {
+            "full": "chrome.permissions.remove()", 
+            "url": null, 
+            "supported": true, 
+            "rank": 112, 
+            "reasons": [], 
+            "usage": "chrome.permissions.remove", 
+            "permissions": null
+          }
+        }, 
+        "events": {
+          "onRemoved": {
+            "full": "chrome.permissions.onRemoved", 
+            "url": null, 
+            "supported": false, 
+            "rank": 319, 
+            "reasons": [], 
+            "usage": "chrome.permissions.onRemoved", 
+            "permissions": null
+          }, 
+          "onAdded": {
+            "full": "chrome.permissions.onAdded", 
+            "url": null, 
+            "supported": false, 
+            "rank": 248, 
+            "reasons": [], 
+            "usage": "chrome.permissions.onAdded", 
+            "permissions": null
+          }
+        }
+      }
     }
   ], 
   [
@@ -4106,13 +4130,6 @@
           "resolution": "", 
           "id": 1290016, 
           "summary": "tabs.executeScript in webRequest.onCompleted gives \"Unchecked lastError value: Error: No matching message handler\""
-        }, 
-        {
-          "priority": "P1", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1339177, 
-          "summary": "WebRequest.onErrorOcurred doesn't get timeouts"
         }
       ], 
       "schema": {
