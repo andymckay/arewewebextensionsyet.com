@@ -411,6 +411,13 @@
           "resolution": "", 
           "id": 1331746, 
           "summary": "Add support for browserAction.setIcon"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1351111, 
+          "summary": "Add support for browserAction.setTitle and browserAction.getTitle"
         }
       ], 
       "schema": {
@@ -1143,8 +1150,8 @@
           "summary": "Implement devtools API for open extension API"
         }, 
         {
-          "priority": "P2", 
-          "status": "NEW", 
+          "priority": "P1", 
+          "status": "ASSIGNED", 
           "resolution": "", 
           "id": 1300590, 
           "summary": "Implement support for $0 and inspect bindings in devtools.inspectedWindow.eval"
