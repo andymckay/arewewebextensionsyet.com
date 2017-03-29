@@ -1130,7 +1130,15 @@
     "desktopCapture", 
     {
       "status": "not yet", 
-      "bugs": [], 
+      "bugs": [
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1303919, 
+          "summary": "chrome.desktopCapture"
+        }
+      ], 
       "schema": {}
     }
   ], 
@@ -3475,7 +3483,7 @@
           "summary": "tabs.onUpdated should have a filter template like webRequest.onBeforeRequest"
         }, 
         {
-          "priority": "--", 
+          "priority": "P4", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1333837, 
