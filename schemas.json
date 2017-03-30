@@ -140,6 +140,13 @@
           "resolution": "", 
           "id": 1319530, 
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
+        }, 
+        {
+          "priority": "--", 
+          "status": "REOPENED", 
+          "resolution": "", 
+          "id": 1347386, 
+          "summary": "Manipulating bookmarks with a bookmarks extension breaks Library for current session"
         }
       ], 
       "schema": {
@@ -1130,15 +1137,7 @@
     "desktopCapture", 
     {
       "status": "not yet", 
-      "bugs": [
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1303919, 
-          "summary": "chrome.desktopCapture"
-        }
-      ], 
+      "bugs": [], 
       "schema": {}
     }
   ], 
@@ -1799,13 +1798,6 @@
           "summary": "Add typedCount to the result set returned by browser.history.search"
         }, 
         {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1280582, 
-          "summary": "Implement browser.history.onTitleChanged"
-        }, 
-        {
           "priority": "P3", 
           "status": "ASSIGNED", 
           "resolution": "", 
@@ -1894,6 +1886,15 @@
             "rank": 249, 
             "reasons": [], 
             "usage": "chrome.history.onVisitRemoved", 
+            "permissions": null
+          }, 
+          "onTitleChanged": {
+            "full": "chrome.history.onTitleChanged", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.history.onTitleChanged", 
             "permissions": null
           }
         }
@@ -2334,11 +2335,25 @@
           "summary": "Provide ability to apply custom filter for search results of the location bar"
         }, 
         {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1323091, 
+          "summary": "Add support for DescriptionStyleType"
+        }, 
+        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1339250, 
           "summary": "[omnibox] \"TypeError: this._searchFinishedCallback is not a function\""
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1351788, 
+          "summary": "Use the extension's icon instead of the default extension icon for custom suggestions"
         }
       ], 
       "schema": {
