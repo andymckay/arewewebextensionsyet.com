@@ -577,13 +577,6 @@
           "summary": "Update test browser_ext_browsingData_serviceWorkers.js after e10s changes land"
         }, 
         {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1329745, 
-          "summary": "Requesting WebExtension API to interact with the various LocalStorages Firefox manages"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -592,7 +585,7 @@
         }, 
         {
           "priority": "P5", 
-          "status": "ASSIGNED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1333050, 
           "summary": "Implement clearing of IndexedDB and LocalStorage in browsingData API"
@@ -821,7 +814,7 @@
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-contextMenus.js", 
       "bugs": [
         {
-          "priority": "P5", 
+          "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1215376, 
@@ -872,15 +865,6 @@
             "rank": 50, 
             "reasons": [], 
             "usage": "chrome.contextMenus.removeAll", 
-            "permissions": null
-          }, 
-          "createInternal": {
-            "full": "chrome.contextMenus.createInternal()", 
-            "url": null, 
-            "supported": true, 
-            "rank": [], 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.createInternal", 
             "permissions": null
           }, 
           "create": {
