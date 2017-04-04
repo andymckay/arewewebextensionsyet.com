@@ -589,6 +589,13 @@
           "resolution": "", 
           "id": 1333050, 
           "summary": "Implement clearing of IndexedDB and LocalStorage in browsingData API"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1340511, 
+          "summary": "Extend browsingData api for single site"
         }
       ], 
       "schema": {
