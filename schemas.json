@@ -2828,6 +2828,13 @@
           "resolution": "", 
           "id": 1337001, 
           "summary": "Provide path and query components to non-https URLs"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1353510, 
+          "summary": "Add support for the global PAC functions"
         }
       ], 
       "schema": {
