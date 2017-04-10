@@ -854,13 +854,6 @@
           "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
-        }, 
-        {
-          "priority": "P5", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1339416, 
-          "summary": "contextMenus.OnClickData should have the frameId (can be used with tabs.sendMessage)"
         }
       ], 
       "schema": {
