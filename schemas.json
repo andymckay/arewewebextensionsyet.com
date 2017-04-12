@@ -147,6 +147,13 @@
           "resolution": "", 
           "id": 1347386, 
           "summary": "Manipulating bookmarks with a bookmarks extension breaks Library for current session"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1352835, 
+          "summary": "bookmarks.search fails on non-http(s) URLs"
         }
       ], 
       "schema": {
@@ -588,7 +595,7 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1333050, 
-          "summary": "Implement clearing of IndexedDB and LocalStorage in browsingData API"
+          "summary": "Implement clearing of IndexedDB in browsingData API"
         }, 
         {
           "priority": "P5", 
@@ -596,6 +603,20 @@
           "resolution": "", 
           "id": 1340511, 
           "summary": "Extend browsingData api for single site"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1353726, 
+          "summary": "Consider extending browsingData.RemovalOptions to allow removal by cookieStoreId"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1355576, 
+          "summary": "Implement clearing of LocalStorage in browsingData API"
         }
       ], 
       "schema": {
@@ -776,6 +797,13 @@
           "resolution": "", 
           "id": 1295276, 
           "summary": "[commands] Handle _execute_browser_action correctly when a pageAction popup is displayed."
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1351928, 
+          "summary": "Don't throw an error when calling _execute_browser_action when its been removed from browser UI"
         }
       ], 
       "schema": {
@@ -948,6 +976,13 @@
           "resolution": "", 
           "id": 1344519, 
           "summary": "No contextualIdentity events"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1354601, 
+          "summary": "Containers test pilot compatibility issues"
         }
       ], 
       "schema": {
@@ -2588,6 +2623,13 @@
           "resolution": "", 
           "id": 1338371, 
           "summary": "Optional permission support for Android"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1352239, 
+          "summary": "permissions.request() should not prompt for permissions an extension already has"
         }
       ], 
       "schema": {
@@ -2828,6 +2870,13 @@
           "resolution": "", 
           "id": 1353510, 
           "summary": "Add support for the global PAC functions"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1355198, 
+          "summary": "FindProxyForURL \"DIRECT\" return type should not expect an argument"
         }
       ], 
       "schema": {
@@ -3475,13 +3524,6 @@
           "summary": "Implement tabs.discard method"
         }, 
         {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1323311, 
-          "summary": "browser.tabs.move() - unexpected behavior of resulting tab placement position when moving several tabs preceding move-to index"
-        }, 
-        {
           "priority": "--", 
           "status": "UNCONFIRMED", 
           "resolution": "", 
@@ -3985,6 +4027,13 @@
           "resolution": "", 
           "id": 1331128, 
           "summary": "[tracking] WebNavigation API support for Android WebExtensions"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1352653, 
+          "summary": "API for onRefreshAttempted"
         }
       ], 
       "schema": {
