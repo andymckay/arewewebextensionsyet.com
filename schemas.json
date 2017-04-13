@@ -150,7 +150,7 @@
         }, 
         {
           "priority": "P3", 
-          "status": "UNCONFIRMED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1352835, 
           "summary": "bookmarks.search fails on non-http(s) URLs"
@@ -2602,13 +2602,6 @@
           "resolution": "", 
           "id": 1308308, 
           "summary": "Implement new download indicators for AMO webextension installation"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1329942, 
-          "summary": "Misaligned icon and webextension name in permissions doorhanger"
         }, 
         {
           "priority": "P2", 
