@@ -142,11 +142,11 @@
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
         }, 
         {
-          "priority": "--", 
+          "priority": "P1", 
           "status": "REOPENED", 
           "resolution": "", 
           "id": 1347386, 
-          "summary": "Manipulating bookmarks with a bookmarks extension breaks Library for current session"
+          "summary": "Do not allow reserved bookmark folders to be removed via bookmarks API"
         }, 
         {
           "priority": "P3", 
@@ -617,6 +617,13 @@
           "resolution": "", 
           "id": 1355576, 
           "summary": "Implement clearing of LocalStorage in browsingData API"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1355646, 
+          "summary": "Consider extending browsingData to add update/move method"
         }
       ], 
       "schema": {
@@ -1187,7 +1194,7 @@
         "functions": {
           "reload": {
             "full": "chrome.devtools.inspectedWindow.reload()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.inspectedWindow/reload", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -1196,7 +1203,7 @@
           }, 
           "eval": {
             "full": "chrome.devtools.inspectedWindow.eval()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.inspectedWindow/eval", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -1236,7 +1243,7 @@
         "properties": {
           "tabId": {
             "usage": "chrome.devtools.inspectedWindow.tabId", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.inspectedWindow/tabId", 
             "full": "chrome.devtools.inspectedWindow.tabId", 
             "supported": true, 
             "permissions": null
@@ -1298,7 +1305,7 @@
           }, 
           "onNavigated": {
             "full": "chrome.devtools.network.onNavigated", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.network/onNavigated", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -1337,7 +1344,7 @@
           }, 
           "create": {
             "full": "chrome.devtools.panels.create()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.panels/create", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -2618,6 +2625,13 @@
           "summary": "Optional permission support for Android"
         }, 
         {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1350559, 
+          "summary": "Enable permissions api tests on Android"
+        }, 
+        {
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
@@ -3529,6 +3543,13 @@
           "resolution": "", 
           "id": 1333837, 
           "summary": "[meta] Tab management enhancements (existing tab infrastructure)"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1348911, 
+          "summary": "add lastAccessed to tabs.Tab"
         }
       ], 
       "schema": {
@@ -3900,7 +3921,15 @@
         "desktop"
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-theme.js", 
-      "bugs": [], 
+      "bugs": [
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1350356, 
+          "summary": "Web extension based themes don't modify the title bar text color"
+        }
+      ], 
       "schema": {
         "functions": {
           "update": {
