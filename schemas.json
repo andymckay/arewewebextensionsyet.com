@@ -2238,6 +2238,13 @@
           "resolution": "", 
           "id": 1335659, 
           "summary": "Add silent option for WebExtension Notifications"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1350526, 
+          "summary": "Support imageUrl in browser.notifications.create"
         }
       ], 
       "schema": {
@@ -3267,13 +3274,6 @@
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
         }, 
         {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1334266, 
-          "summary": "Implement browser.sessions.forgetClosedTab and forgetClosedWindow"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -3283,22 +3283,13 @@
       ], 
       "schema": {
         "functions": {
-          "getRecentlyClosed": {
-            "full": "chrome.sessions.getRecentlyClosed()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/getRecentlyClosed", 
+          "forgetClosedWindow": {
+            "full": "chrome.sessions.forgetClosedWindow()", 
+            "url": null, 
             "supported": true, 
-            "rank": 227, 
+            "rank": [], 
             "reasons": [], 
-            "usage": "chrome.sessions.getRecentlyClosed", 
-            "permissions": null
-          }, 
-          "restore": {
-            "full": "chrome.sessions.restore()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/restore", 
-            "supported": true, 
-            "rank": 226, 
-            "reasons": [], 
-            "usage": "chrome.sessions.restore", 
+            "usage": "chrome.sessions.forgetClosedWindow", 
             "permissions": null
           }, 
           "getDevices": {
@@ -3310,6 +3301,33 @@
               "no_equivalent"
             ], 
             "usage": "chrome.sessions.getDevices", 
+            "permissions": null
+          }, 
+          "restore": {
+            "full": "chrome.sessions.restore()", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/restore", 
+            "supported": true, 
+            "rank": 226, 
+            "reasons": [], 
+            "usage": "chrome.sessions.restore", 
+            "permissions": null
+          }, 
+          "getRecentlyClosed": {
+            "full": "chrome.sessions.getRecentlyClosed()", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Sessions/getRecentlyClosed", 
+            "supported": true, 
+            "rank": 227, 
+            "reasons": [], 
+            "usage": "chrome.sessions.getRecentlyClosed", 
+            "permissions": null
+          }, 
+          "forgetClosedTab": {
+            "full": "chrome.sessions.forgetClosedTab()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.sessions.forgetClosedTab", 
             "permissions": null
           }
         }, 
