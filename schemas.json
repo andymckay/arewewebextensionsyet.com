@@ -146,7 +146,7 @@
           "status": "REOPENED", 
           "resolution": "", 
           "id": 1347386, 
-          "summary": "Do not allow reserved bookmark folders to be removed via bookmarks API"
+          "summary": "Removing Library left pane bookmarks breaks the Library window for the current session"
         }, 
         {
           "priority": "P3", 
@@ -154,6 +154,13 @@
           "resolution": "", 
           "id": 1352835, 
           "summary": "bookmarks.search fails on non-http(s) URLs"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1358127, 
+          "summary": "Fix bookmarks.search so it doesn't return the contents of tag folders"
         }
       ], 
       "schema": {
