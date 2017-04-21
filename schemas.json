@@ -423,13 +423,6 @@
           "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1331742, 
-          "summary": "Add support for browserAction.onClicked"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1331746, 
           "summary": "Add support for browserAction.setIcon"
         }, 
@@ -578,7 +571,7 @@
       "bugs": [
         {
           "priority": "P3", 
-          "status": "ASSIGNED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1303917, 
           "summary": "[tracking] Implement browser.browsingData WebExtensions API"
@@ -2496,7 +2489,7 @@
           "summary": "[PageAction] Support show/hide on a per tab basis on Android."
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1345794, 
