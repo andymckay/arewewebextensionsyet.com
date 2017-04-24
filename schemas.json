@@ -83,7 +83,7 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1213674, 
-          "summary": "Complete the implementation of chrome.bookmarks"
+          "summary": "[tracking] Complete the implementation of chrome.bookmarks"
         }, 
         {
           "priority": "P3", 
@@ -418,6 +418,13 @@
           "resolution": "", 
           "id": 1314674, 
           "summary": "Background of badge on browserAction button changes to red on entering and remains red on exiting Customize mode"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "REOPENED", 
+          "resolution": "", 
+          "id": 1331742, 
+          "summary": "Add support for browserAction.onClicked"
         }, 
         {
           "priority": "P2", 
@@ -2375,13 +2382,6 @@
           "summary": "Add support for DescriptionStyleType"
         }, 
         {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1339250, 
-          "summary": "[omnibox] \"TypeError: this._searchFinishedCallback is not a function\""
-        }, 
-        {
           "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
@@ -2644,6 +2644,13 @@
           "resolution": "", 
           "id": 1352239, 
           "summary": "permissions.request() should not prompt for permissions an extension already has"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1358431, 
+          "summary": "Add-on name bolded with delay in permissions pop-up"
         }
       ], 
       "schema": {
@@ -4074,6 +4081,13 @@
           "resolution": "", 
           "id": 1352653, 
           "summary": "API for onRefreshAttempted"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1357899, 
+          "summary": "leading dot in chrome.webNavigation host filter not supported"
         }
       ], 
       "schema": {
