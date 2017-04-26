@@ -142,7 +142,7 @@
           "summary": "Implement bookmarks.onChildrenReordered WebExtensions API event"
         }, 
         {
-          "priority": "P1", 
+          "priority": "P3", 
           "status": "REOPENED", 
           "resolution": "", 
           "id": 1347386, 
@@ -2868,13 +2868,6 @@
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1319641, 
-          "summary": "Consider supporting user authentication in FindProxyForURL"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1319642, 
           "summary": "Add a log to track which proxies have loaded each URL."
         }, 
@@ -4083,8 +4076,8 @@
           "summary": "API for onRefreshAttempted"
         }, 
         {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
+          "priority": "P1", 
+          "status": "ASSIGNED", 
           "resolution": "", 
           "id": 1357899, 
           "summary": "leading dot in chrome.webNavigation host filter not supported"
