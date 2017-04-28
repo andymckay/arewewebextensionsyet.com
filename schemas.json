@@ -154,13 +154,6 @@
           "resolution": "", 
           "id": 1352835, 
           "summary": "bookmarks.search fails on non-http(s) URLs"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1358127, 
-          "summary": "Fix bookmarks.search so it doesn't return the contents of tag folders"
         }
       ], 
       "schema": {
@@ -3272,20 +3265,6 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1344087, 
-          "summary": "The API that browser_ext_sessions_getRecentlyClosed_tabs.js tests might be broken"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1359806, 
-          "summary": "sessions.restore returns an array instead of an object"
         }
       ], 
       "schema": {
