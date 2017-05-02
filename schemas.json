@@ -7,7 +7,15 @@
         "android"
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-alarms.js", 
-      "bugs": [], 
+      "bugs": [
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1359403, 
+          "summary": "Web Extension alarms delayed if computer has been suspended after creation of alarm"
+        }
+      ], 
       "schema": {
         "functions": {
           "create": {
@@ -2576,7 +2584,7 @@
       "bugs": [
         {
           "priority": "P3", 
-          "status": "UNCONFIRMED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1261339, 
           "summary": "Implement chrome.pageCapture"
@@ -2639,7 +2647,7 @@
           "summary": "permissions.request() should not prompt for permissions an extension already has"
         }, 
         {
-          "priority": "--", 
+          "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1358431, 
@@ -2884,6 +2892,27 @@
           "resolution": "", 
           "id": 1355198, 
           "summary": "FindProxyForURL \"DIRECT\" return type should not expect an argument"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1359417, 
+          "summary": "WebExtensions ProxyAPI uses HTTPS proxy instead of HTTP proxy"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1359543, 
+          "summary": "WebExtensions ProxyAPI: need ability to specify username/password for proxy servers requiring authentication"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1359693, 
+          "summary": "WebExtensions ProxyAPI: FindProxyForURL() return string format"
         }
       ], 
       "schema": {
@@ -2921,13 +2950,6 @@
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-runtime.js", 
       "bugs": [
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1213473, 
-          "summary": "Complete the implementation of chrome.runtime"
-        }, 
         {
           "priority": "P3", 
           "status": "NEW", 
@@ -3349,13 +3371,6 @@
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/toolkit/components/extensions/ext-storage.js", 
       "bugs": [
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1213475, 
-          "summary": "Complete the implementation of chrome.storage"
-        }, 
         {
           "priority": "P3", 
           "status": "ASSIGNED", 
@@ -4006,13 +4021,6 @@
           "summary": "Test coverage for webNavigation extension API"
         }, 
         {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1213478, 
-          "summary": "Complete the implementation of chrome.webNavigation"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -4233,6 +4241,20 @@
           "resolution": "", 
           "id": 1290016, 
           "summary": "tabs.executeScript in webRequest.onCompleted gives \"Unchecked lastError value: Error: No matching message handler\""
+        }, 
+        {
+          "priority": "P2", 
+          "status": "REOPENED", 
+          "resolution": "", 
+          "id": 1360052, 
+          "summary": "Request cancellation bug with chrome.webRequest"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1360968, 
+          "summary": "Modifing XHR request created in content script not work"
         }
       ], 
       "schema": {
@@ -4370,13 +4392,6 @@
           "resolution": "", 
           "id": 1253129, 
           "summary": "Support focused=false in the browser.windows.create"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1261963, 
-          "summary": "createData should be optional for browser.windows.create"
         }, 
         {
           "priority": "P4", 
