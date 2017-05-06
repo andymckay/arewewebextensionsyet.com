@@ -375,13 +375,6 @@
           "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1207597, 
-          "summary": "browserAction icon should match appearance of native Firefox toolbar buttons"
-        }, 
-        {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1207692, 
           "summary": "provide a highlight state for browserActions"
         }, 
@@ -440,6 +433,13 @@
           "resolution": "", 
           "id": 1351111, 
           "summary": "Add support for browserAction.setTitle and browserAction.getTitle"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1362445, 
+          "summary": "Console error when right-clicking on a browserAction with no context menus defined"
         }
       ], 
       "schema": {
@@ -885,7 +885,7 @@
           "summary": "contextMenus do not support other protocols (ex. 'magnet:*', 'acestream:*', 'sop:*')"
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "UNCONFIRMED", 
           "resolution": "", 
           "id": 1321544, 
@@ -2171,7 +2171,7 @@
           "getAll": {
             "full": "chrome.management.getAll()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/getAll", 
-            "supported": false, 
+            "supported": true, 
             "rank": 46, 
             "reasons": [], 
             "usage": "chrome.management.getAll", 
@@ -2188,6 +2188,17 @@
             "usage": "chrome.management.getSelf", 
             "permissions": null
           }, 
+          "setEnabled": {
+            "full": "chrome.management.setEnabled()", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/setEnabled", 
+            "supported": true, 
+            "rank": 103, 
+            "reasons": [], 
+            "usage": "chrome.management.setEnabled", 
+            "permissions": [
+              "management"
+            ]
+          }, 
           "get": {
             "full": "chrome.management.get()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/get", 
@@ -2195,6 +2206,52 @@
             "rank": 141, 
             "reasons": [], 
             "usage": "chrome.management.get", 
+            "permissions": [
+              "management"
+            ]
+          }
+        }, 
+        "events": {
+          "onDisabled": {
+            "full": "chrome.management.onDisabled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/onDisabled", 
+            "supported": true, 
+            "rank": 190, 
+            "reasons": [], 
+            "usage": "chrome.management.onDisabled", 
+            "permissions": [
+              "management"
+            ]
+          }, 
+          "onInstalled": {
+            "full": "chrome.management.onInstalled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/onInstalled", 
+            "supported": true, 
+            "rank": 171, 
+            "reasons": [], 
+            "usage": "chrome.management.onInstalled", 
+            "permissions": [
+              "management"
+            ]
+          }, 
+          "onUninstalled": {
+            "full": "chrome.management.onUninstalled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/onUninstalled", 
+            "supported": true, 
+            "rank": 166, 
+            "reasons": [], 
+            "usage": "chrome.management.onUninstalled", 
+            "permissions": [
+              "management"
+            ]
+          }, 
+          "onEnabled": {
+            "full": "chrome.management.onEnabled", 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/onEnabled", 
+            "supported": true, 
+            "rank": 186, 
+            "reasons": [], 
+            "usage": "chrome.management.onEnabled", 
             "permissions": [
               "management"
             ]
