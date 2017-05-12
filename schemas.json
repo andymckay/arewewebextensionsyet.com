@@ -433,13 +433,6 @@
           "resolution": "", 
           "id": 1351111, 
           "summary": "Add support for browserAction.setTitle and browserAction.getTitle"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1362445, 
-          "summary": "Console error when right-clicking on a browserAction with no context menus defined"
         }
       ], 
       "schema": {
@@ -886,7 +879,7 @@
         }, 
         {
           "priority": "P3", 
-          "status": "UNCONFIRMED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1321544, 
           "summary": "Set a different icon for a contextMenus item"
@@ -1515,13 +1508,6 @@
           "resolution": "", 
           "id": 1338381, 
           "summary": "Fix downloads API tests on Android"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "REOPENED", 
-          "resolution": "", 
-          "id": 1344822, 
-          "summary": "downloads.onChanged notification is not firing when I download anything from browser"
         }
       ], 
       "schema": {
@@ -2811,6 +2797,13 @@
           "resolution": "", 
           "id": 1345158, 
           "summary": "Implement browser.privacy.trackingProtection API"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1361364, 
+          "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
         }
       ], 
       "schema": {}
@@ -3013,13 +3006,6 @@
           "resolution": "", 
           "id": 1223425, 
           "summary": "port.onDisconnect isn't fired when extension is disabled/uninstalled"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1259944, 
-          "summary": "runtime.sendMessage does not handle the three-argument form correctly."
         }, 
         {
           "priority": "P3", 
@@ -3607,8 +3593,8 @@
           "summary": "Implement tabs.discard method"
         }, 
         {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
+          "priority": "P2", 
+          "status": "REOPENED", 
           "resolution": "", 
           "id": 1329507, 
           "summary": "tabs.onUpdated should have a filter template like webRequest.onBeforeRequest"
@@ -3626,6 +3612,13 @@
           "resolution": "", 
           "id": 1348911, 
           "summary": "add lastAccessed to tabs.Tab"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1361447, 
+          "summary": "Implement a method/function to determine a tab MIME type"
         }
       ], 
       "schema": {
@@ -4286,25 +4279,11 @@
           "summary": "Support full native paths in the requestBody.raw[x].file property"
         }, 
         {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1273281, 
-          "summary": "Prevent extensions from changing security headers without a separate permission"
-        }, 
-        {
           "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1290016, 
           "summary": "tabs.executeScript in webRequest.onCompleted gives \"Unchecked lastError value: Error: No matching message handler\""
-        }, 
-        {
-          "priority": "P2", 
-          "status": "REOPENED", 
-          "resolution": "", 
-          "id": 1360052, 
-          "summary": "Request cancellation bug with chrome.webRequest"
         }, 
         {
           "priority": "P3", 
