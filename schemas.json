@@ -162,6 +162,13 @@
           "resolution": "", 
           "id": 1352835, 
           "summary": "bookmarks.search fails on non-http(s) URLs"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1362863, 
+          "summary": "bookmarks.onCreated should not be fired for bookmarks automatically created for the Library window"
         }
       ], 
       "schema": {
@@ -412,13 +419,6 @@
           "resolution": "", 
           "id": 1314674, 
           "summary": "Background of badge on browserAction button changes to red on entering and remains red on exiting Customize mode"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "REOPENED", 
-          "resolution": "", 
-          "id": 1331742, 
-          "summary": "Add support for browserAction.onClicked"
         }, 
         {
           "priority": "P2", 
@@ -1080,6 +1080,13 @@
           "resolution": "", 
           "id": 1318948, 
           "summary": "WebExtension cookies API does not work in private browsing"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1364782, 
+          "summary": "WebExtensions: the \"browser.cookies.remove\" method does not remove all cookies"
         }
       ], 
       "schema": {
@@ -2804,6 +2811,13 @@
           "resolution": "", 
           "id": 1361364, 
           "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1364975, 
+          "summary": "Allow WebExtensions to disable WebRTC"
         }
       ], 
       "schema": {}
@@ -3034,6 +3048,13 @@
           "resolution": "", 
           "id": 1313653, 
           "summary": "We shouldn't need both extension.unload() and updated_addon.uninstall() in the addon update test."
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1364945, 
+          "summary": "[runtime] runtime.openOptionsPage does not work on Android"
         }
       ], 
       "schema": {
@@ -3330,6 +3351,13 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1365562, 
+          "summary": "Ensure that SessionStore is initialized before any interaction via WebExtension APIs"
         }
       ], 
       "schema": {
