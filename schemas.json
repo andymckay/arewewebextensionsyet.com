@@ -433,6 +433,13 @@
           "resolution": "", 
           "id": 1351111, 
           "summary": "Add support for browserAction.setTitle and browserAction.getTitle"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1367494, 
+          "summary": "[BrowserAction] default_icon on android should warn rather than prevent installation"
         }
       ], 
       "schema": {
@@ -890,6 +897,13 @@
           "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1343236, 
+          "summary": "contextMenus.OnClickData should have the linkText of the link"
         }
       ], 
       "schema": {
@@ -1480,13 +1494,6 @@
           "resolution": "", 
           "id": 1298215, 
           "summary": "Provide an API to show the downloads manager"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1300340, 
-          "summary": "Intermittent TEST-UNEXPECTED-TIMEOUT | toolkit/components/extensions/test/xpcshell/test_ext_downloads_download.js | Test timed out"
         }, 
         {
           "priority": "P2", 
@@ -2417,13 +2424,6 @@
           "resolution": "", 
           "id": 1166831, 
           "summary": "[tracking] Omnibox API support for WebExtensions"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1276598, 
-          "summary": "Provide ability to apply custom filter for search results of the location bar"
         }, 
         {
           "priority": "P2", 
