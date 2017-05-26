@@ -1383,11 +1383,29 @@
             "permissions": null
           }
         }, 
+        "events": {
+          "onThemeChanged": {
+            "full": "chrome.devtools.panels.onThemeChanged", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.devtools.panels.onThemeChanged", 
+            "permissions": null
+          }
+        }, 
         "properties": {
           "sources": {
             "usage": "chrome.devtools.panels.sources", 
             "url": null, 
             "full": "chrome.devtools.panels.sources", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "themeName": {
+            "usage": "chrome.devtools.panels.themeName", 
+            "url": null, 
+            "full": "chrome.devtools.panels.themeName", 
             "supported": true, 
             "permissions": null
           }, 
@@ -2962,7 +2980,7 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1359417, 
-          "summary": "WebExtensions ProxyAPI uses HTTPS proxy instead of HTTP proxy"
+          "summary": "WebExtensions ProxyAPI uses HTTPS proxy instead of HTTP proxy - blocking Foxy Proxy"
         }, 
         {
           "priority": "--", 
