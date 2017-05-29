@@ -2976,13 +2976,6 @@
           "summary": "FindProxyForURL \"DIRECT\" return type should not expect an argument"
         }, 
         {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1359417, 
-          "summary": "WebExtensions ProxyAPI uses HTTPS proxy instead of HTTP proxy - blocking Foxy Proxy"
-        }, 
-        {
           "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
@@ -3369,13 +3362,6 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1365562, 
-          "summary": "Ensure that SessionStore is initialized before any interaction via WebExtension APIs"
         }
       ], 
       "schema": {
