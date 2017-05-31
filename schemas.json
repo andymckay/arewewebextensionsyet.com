@@ -428,11 +428,11 @@
           "summary": "Add support for browserAction.setIcon"
         }, 
         {
-          "priority": "P2", 
-          "status": "NEW", 
+          "priority": "P3", 
+          "status": "UNCONFIRMED", 
           "resolution": "", 
-          "id": 1351111, 
-          "summary": "Add support for browserAction.setTitle and browserAction.getTitle"
+          "id": 1364366, 
+          "summary": "browser_action.browser_style doesn't set margin"
         }, 
         {
           "priority": "P2", 
@@ -1096,11 +1096,11 @@
           "summary": "WebExtension cookies API does not work in private browsing"
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "UNCONFIRMED", 
           "resolution": "", 
           "id": 1364782, 
-          "summary": "WebExtensions: the \"browser.cookies.remove\" method does not remove all cookies"
+          "summary": "\"browser.cookies.remove\" method does not remove all cookies"
         }
       ], 
       "schema": {
@@ -2312,13 +2312,6 @@
           "priority": "--", 
           "status": "UNCONFIRMED", 
           "resolution": "", 
-          "id": 1280875, 
-          "summary": "Add an event for all notifications that are being shown"
-        }, 
-        {
-          "priority": "--", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
           "id": 1335659, 
           "summary": "Add silent option for WebExtension Notifications"
         }, 
@@ -2988,13 +2981,20 @@
           "resolution": "", 
           "id": 1359693, 
           "summary": "WebExtensions ProxyAPI: FindProxyForURL() return string format"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1368559, 
+          "summary": "Provide contextual info to FindProxyForURL"
         }
       ], 
       "schema": {
         "functions": {
           "registerProxyScript": {
             "full": "chrome.proxy.registerProxyScript()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Proxy/registerProxyScript", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -3005,7 +3005,7 @@
         "events": {
           "onProxyError": {
             "full": "chrome.proxy.onProxyError", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Proxy/onProxyError", 
             "supported": true, 
             "rank": 208, 
             "reasons": [], 
@@ -3651,6 +3651,13 @@
           "resolution": "", 
           "id": 1361447, 
           "summary": "Implement a method/function to determine a tab MIME type"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1366290, 
+          "summary": "Bad event ordering in webextension tabs API"
         }
       ], 
       "schema": {
