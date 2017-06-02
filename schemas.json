@@ -2150,13 +2150,6 @@
           "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1280236, 
-          "summary": "Implement chrome.management.uninstall"
-        }, 
-        {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1282981, 
           "summary": "Implement management.get and getAll"
         }, 
@@ -2719,7 +2712,7 @@
         "functions": {
           "contains": {
             "full": "chrome.permissions.contains()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/contains", 
             "supported": true, 
             "rank": 119, 
             "reasons": [], 
@@ -2728,7 +2721,7 @@
           }, 
           "getAll": {
             "full": "chrome.permissions.getAll()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/getAll", 
             "supported": true, 
             "rank": 246, 
             "reasons": [], 
@@ -2737,7 +2730,7 @@
           }, 
           "request": {
             "full": "chrome.permissions.request()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/request", 
             "supported": true, 
             "rank": 94, 
             "reasons": [], 
@@ -2822,13 +2815,6 @@
           "resolution": "", 
           "id": 1361364, 
           "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1364975, 
-          "summary": "Allow WebExtensions to disable WebRTC"
         }
       ], 
       "schema": {}
@@ -2844,6 +2830,13 @@
             "usage": "chrome.privacy.network.networkPredictionEnabled", 
             "url": null, 
             "full": "chrome.privacy.network.networkPredictionEnabled", 
+            "supported": true, 
+            "permissions": null
+          }, 
+          "peerConnectionEnabled": {
+            "usage": "chrome.privacy.network.peerConnectionEnabled", 
+            "url": null, 
+            "full": "chrome.privacy.network.peerConnectionEnabled", 
             "supported": true, 
             "permissions": null
           }, 
@@ -3653,8 +3646,8 @@
           "summary": "Implement a method/function to determine a tab MIME type"
         }, 
         {
-          "priority": "P5", 
-          "status": "UNCONFIRMED", 
+          "priority": "P2", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1366290, 
           "summary": "Bad event ordering in webextension tabs API"

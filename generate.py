@@ -104,6 +104,7 @@ def process_amo(addon, result, compat):
 
 
 def url_hash(url):
+    print url
     hsh = hashlib.md5()
     hsh.update(url)
     return hsh.hexdigest()
@@ -123,8 +124,20 @@ def get_cache(url):
 
 def get_from_amo(addon):
     guid = addon['guid']
-    addon_url = amo_server + '/api/v3/addons/addon/{}/'.format(guid)
-    addon_data = get_cache(addon_url)
+    err = {
+        'url': '',
+        'guid': guid,
+        'status': 'error',
+        'id': 0
+    }
+    try:
+
+        addon_url = amo_server + '/api/v3/addons/addon/{}/'.format(guid)
+        addon_data = get_cache(addon_url)
+    except UnicodeEncodeError:
+        this_err = err.copy()
+        this_err['name'] = 'Unicode error'
+        return this_err
 
     compat_url = amo_server + '/api/v3/addons/addon/{}/feature_compatibility/'.format(guid)
     compat_data = get_cache(compat_url)
@@ -136,14 +149,10 @@ def get_from_amo(addon):
         print 'Fetching', url
         res = requests.get(url)
         if res.status_code != 200:
-            return {
-                'name': fixups.get(
-                    guid, '{} error fetching data from AMO'.format(res.status_code)),
-                'url': '',
-                'guid': guid,
-                'status': 'error',
-                'id': 0
-            }
+            this_err = err.copy()
+            this_err['name'] = fixups.get(
+                guid, '{} error fetching data from AMO'.format(res.status_code)),
+            return this_err
 
         res.raise_for_status()
         res_json = res.json()
@@ -357,6 +366,11 @@ def process_type(type_, data):
 
 
 if __name__=='__main__':
+    amo = json.load(open('addons-new.json', 'r'))
+    for level, addons in amo.items():
+        addons = [get_from_amo_and_bugzilla(addon) for addon in addons]
+        amo[level] = addons
+
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template('jinja-template.html')
 
@@ -386,9 +400,6 @@ if __name__=='__main__':
                     data['schema'][method][api_name]['usage'], [])
                 data['schema'][method][api_name]['rank'] = parsed_usage.get(
                     data['schema'][method][api_name]['usage'], [])
-
-    amo = json.load(open('addons.json', 'r'))
-    amo = [get_from_amo_and_bugzilla(addon) for addon in amo]
 
     context = {
         'apis': apis,

@@ -12,7 +12,8 @@
 			<h1>Are we WebExtensions yet?</h1>
 		</div>
 		<div class="container">
-			<h2>Yes, I think we are.</h2>
+			<h2>Yes.</h2>
+			<hr>
 			<p>
 				Mozilla documentation on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a>, see also the <a href="https://wiki.mozilla.org/WebExtensions">wiki page</a>.
 				<b>Note:</b> this page is generated from the source, but in cases of discrepancy please rely on MDN more than these docs.
@@ -3711,17 +3712,8 @@
 					
 
 					
-						<h5 id="management-bugs"><a href="#management-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+						<h5 id="management-bugs"><a href="#management-bugs" class="anchor">&sect;</a> 3 bugs</h5>
 						<table class="table table-striped">
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1280236">1280236</a>:
-									<span class="label label-info">P5</span>
-									Implement chrome.management.uninstall
-
-								</td>
-							</tr>
 							
 							<tr>
 								<td>
@@ -4654,7 +4646,7 @@
 								<td></td>
 							
 							
-								<td>chrome.permissions.contains()</td><td><span class="label label-default">no docs</span></td>
+								<td><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/contains">chrome.permissions.contains()</a></td><td></td>
 							
 							
 								<td><span class="label label-info"><a id="rank-119">rank 119</a></span></td>
@@ -4669,7 +4661,7 @@
 								<td></td>
 							
 							
-								<td>chrome.permissions.getAll()</td><td><span class="label label-default">no docs</span></td>
+								<td><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/getAll">chrome.permissions.getAll()</a></td><td></td>
 							
 							
 								<td><span class="label label-info"><a id="rank-246">rank 246</a></span></td>
@@ -4684,7 +4676,7 @@
 								<td></td>
 							
 							
-								<td>chrome.permissions.request()</td><td><span class="label label-default">no docs</span></td>
+								<td><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/request">chrome.permissions.request()</a></td><td></td>
 							
 							
 								<td><span class="label label-info"><a id="rank-94">rank 94</a></span></td>
@@ -4820,7 +4812,7 @@
 					
 
 					
-						<h5 id="privacy-bugs"><a href="#privacy-bugs" class="anchor">&sect;</a> 4 bugs</h5>
+						<h5 id="privacy-bugs"><a href="#privacy-bugs" class="anchor">&sect;</a> 3 bugs</h5>
 						<table class="table table-striped">
 							
 							<tr>
@@ -4846,15 +4838,6 @@
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1361364">1361364</a>:
 									<span class="label label-info">P3</span>
 									Implement chrome.privacy.services.passwordSavingEnabled
-
-								</td>
-							</tr>
-							
-							<tr>
-								<td>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1364975">1364975</a>:
-									<span class="label label-danger">P2</span>
-									Allow WebExtensions to disable WebRTC
 
 								</td>
 							</tr>
@@ -4897,7 +4880,7 @@
 					
 
 					
-						<h5 id="privacy.network-properties"><a href="#privacy.network-properties" class="anchor">&sect;</a> 2 properties</h5>
+						<h5 id="privacy.network-properties"><a href="#privacy.network-properties" class="anchor">&sect;</a> 3 properties</h5>
 					<table class="table table-striped">
 						
 						<tr>
@@ -4909,6 +4892,21 @@
 							
 							
 								<td>chrome.privacy.network.networkPredictionEnabled</td><td><span class="label label-default">no docs</span></td>
+							
+							
+								<td></td>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<span class="label label-success">supported</span>
+							</td>
+							
+								<td></td>
+							
+							
+								<td>chrome.privacy.network.peerConnectionEnabled</td><td><span class="label label-default">no docs</span></td>
 							
 							
 								<td></td>
@@ -6325,7 +6323,7 @@
 							<tr>
 								<td>
 									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366290">1366290</a>:
-									<span class="label label-info">P5</span>
+									<span class="label label-danger">P2</span>
 									Bad event ordering in webextension tabs API
 
 								</td>
@@ -8077,6 +8075,9 @@
 				</tr>
 			</table>
 
+			
+
+			<h3><a class="anchor" id="1">&sect;</a> Most Widely Adopted</h2>
 			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -8087,891 +8088,1515 @@
 				 </tr>
 				</thead>
 				<tbody>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">Adblock Plus</a><div class="addon-guid">{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d} &bull; 20619547 users</div></td>
-						<td>
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1226547" class="label label-warning">1226547</a>
-							
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">13</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990" class="label label-warning">1210990</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1211859" class="label label-warning">1211859</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213483" class="label label-warning">1213483</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1269062" class="label label-warning">1269062</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271354" class="label label-warning">1271354</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1277612" class="label label-warning">1277612</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1302504" class="label label-warning">1302504</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305237" class="label label-warning">1305237</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1310037" class="label label-warning">1310037</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366710" class="label label-warning">1366710</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366752" class="label label-warning">1366752</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366755" class="label label-warning">1366755</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367203" class="label label-warning">1367203</a><br>
-								</details>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/">Video DownloadHelper</a><div class="addon-guid">{b9db16a4-6edc-47ec-a1f4-b86292ed211d} &bull; 4452660 users</div></td>
-						<td>
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1310316" class="label label-warning">1310316</a>
-							
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">4</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1246236" class="label label-warning">1246236</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255894" class="label label-warning">1255894</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271553" class="label label-warning">1271553</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1323414" class="label label-warning">1323414</a><br>
-								</details>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot/">Easy Screenshot</a><div class="addon-guid">easyscreenshot@mozillaonline.com &bull; 2403045 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">NoScript Security Suite</a><div class="addon-guid">{73a6fe31-595d-460b-a920-fcc0f8843232} &bull; 2146154 users</div></td>
-						<td>
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1214733" class="label label-warning">1214733</a>
-							
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">6</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990" class="label label-warning">1210990</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213483" class="label label-warning">1213483</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255894" class="label label-warning">1255894</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305237" class="label label-warning">1305237</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1332273" class="label label-warning">1332273</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367203" class="label label-warning">1367203</a><br>
-								</details>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/downthemall/">DownThemAll!</a><div class="addon-guid">{DDC359D1-844A-42a7-9AA1-88A850A938A8} &bull; 1294978 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ghostery/">Ghostery</a><div class="addon-guid">firefox@ghostery.com &bull; 1464992 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a><div class="addon-guid">{e4a8a97b-f2ed-450b-b12d-ee082ba24781} &bull; 1302204 users</div></td>
-						<td>
-							
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334174" class="label label-success">1334174</a>
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">2</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1332273" class="label label-warning">1332273</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1353468" class="label label-warning">1353468</a><br>
-								</details>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flash-video-downloader/">Flash Video Downloader - YouTube HD Download [4K]</a><div class="addon-guid">artur.dubovoy@gmail.com &bull; 1066245 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/">FlashGot Mass Downloader</a><div class="addon-guid">{19503e42-ca3c-4c27-b1e2-9cdb2170ee34} &bull; 848724 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-youtube/">Download YouTube Videos as MP4</a><div class="addon-guid">{b9bfaf1c-a63f-47cd-8b9a-29526ced9060} &bull; 1075158 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Tab Mix Plus</a><div class="addon-guid">{dc572301-7619-498c-a57d-39143191b318} &bull; 842022 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a><div class="addon-guid">uBlock0@raymondhill.net &bull; 1154406 users</div></td>
-						<td>
-							
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1309926" class="label label-success">1309926</a>
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">3</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1360285" class="label label-warning">1360285</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367259" class="label label-warning">1367259</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367478" class="label label-warning">1367478</a><br>
-								</details>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/elemhidehelper/">Element Hiding Helper for Adblock Plus</a><div class="addon-guid">elemhidehelper@adblockplus.org &bull; 655424 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flashblock/">Flashblock</a><div class="addon-guid">{3d7eb24f-2740-49df-8937-200b1cc08f8a} &bull; 595268 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/google-translator-for-firefox/">Google Translator for Firefox</a><div class="addon-guid">translator@zoli.bod &bull; 798165 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a><div class="addon-guid">{46551EC9-40F0-4e47-8E18-8E5CF550CFB8} &bull; 481414 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/1-click-youtube-video-downl/">1-Click YouTube Video Download</a><div class="addon-guid">YoutubeDownloader@PeterOlayev.com &bull; 694409 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-flash-and-video/">Download Flash and Video</a><div class="addon-guid">{bee6eb20-01e0-ebd1-da83-080329fb9a3a} &bull; 682182 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flagfox/">Flagfox</a><div class="addon-guid">{1018e4d6-728f-4b20-ad56-37578a4de76b} &bull; 525145 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-video-and-audio-dow/">YouTube™ Video and Audio Downloader</a><div class="addon-guid">feca4b87-3be4-43da-a1b1-137c24220968@jetpack &bull; 727036 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-mp3/">YouTube mp3</a><div class="addon-guid">info@youtube-mp3.org &bull; 514302 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer</a><div class="addon-guid">{c45c406e-ab73-11d8-be73-000a95be3b12} &bull; 493583 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy-signed</a><div class="addon-guid">{d40f5e7b-d2cf-4856-b441-cc613eeffbe3} &bull; 480695 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/fireftp/">FireFTP</a><div class="addon-guid">{a7c6cf7f-112c-4500-a7ea-39801a327e5f} &bull; 490402 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/">Download Statusbar</a><div class="addon-guid">{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389} &bull; 331909 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ie-tab-2-ff-36/">IE Tab V2  (Enhanced IE Tab)</a><div class="addon-guid">{1BC9BA34-1EED-42ca-A505-6D2F1A935BBB} &bull; 515934 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/anonymox/">anonymoX</a><div class="addon-guid">client@anonymox.net &bull; 549250 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/imacros-for-firefox/">iMacros for Firefox</a><div class="addon-guid">{81BF1D23-5F17-408D-AC6B-BD6DF7CAF670} &bull; 397613 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/epubreader/">EPUBReader</a><div class="addon-guid">{5384767E-00D9-40E9-B72F-9CC39D655D6F} &bull; 424322 users</div></td>
-						<td>
-							<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1341098" class="label label-warning">1341098</a>
-							
-						</td>
-						<td>
-							
-								<details>
-									<summary><span class="label label-danger">3</span></summary>
-									<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1256122" class="label label-warning">1256122</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1341341" class="label label-warning">1341341</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1356397" class="label label-warning">1356397</a><br>
-								</details>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/personas-plus/">Personas Plus</a><div class="addon-guid">personas@christopher.beard &bull; 312913 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/speed-dial/">Speed Dial</a><div class="addon-guid">{64161300-e22b-11db-8314-0800200c9a66} &bull; 378805 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/">Classic Theme Restorer</a><div class="addon-guid">ClassicThemeRestorer@ArisT2Noia4dev &bull; 436611 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/lightbeam/">Lightbeam for Firefox</a><div class="addon-guid">jid1-F9UJ2thwoAm5gQ@jetpack &bull; 509680 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloader-player/">Ant Video Downloader</a><div class="addon-guid">anttoolbar@ant.com &bull; 407227 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/">Evernote Web Clipper</a><div class="addon-guid">{E0B8C461-F8FB-49b4-8373-FE32E9252800} &bull; 391479 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/firegestures/">FireGestures</a><div class="addon-guid">firegestures@xuldev.org &bull; 363752 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks/">iCloud Bookmarks</a><div class="addon-guid">firefoxdav@icloud.com &bull; 383932 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/">User Agent Switcher</a><div class="addon-guid">{e968fc70-8f95-4ab9-9e79-304de2a71ee1} &bull; 343383 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/">Easy Youtube Video Downloader Express</a><div class="addon-guid">{b9acf540-acba-11e1-8ccb-001fd0e08bd4} &bull; 326119 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/garmin-communicator/">Garmin Communicator</a><div class="addon-guid">{195A3098-0BD5-4e90-AE22-BA1C540AFD1E} &bull; 418313 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/imtranslator/">Google Translate, ImTranslator, Dictionary, TTS</a><div class="addon-guid">{9AA46F4F-4DC7-4c06-97AF-5035170634FE} &bull; 336652 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/xmarks-sync/">Xmarks Sync</a><div class="addon-guid">foxmarks@kei.com &bull; 337623 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/">LastPass Password Manager</a><div class="addon-guid">support@lastpass.com &bull; 745753 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">FoxyProxy Standard</a><div class="addon-guid">foxyproxy@eric.h.jung &bull; 286381 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/proxtube/">ProxTube - Unblock YouTube</a><div class="addon-guid">ich@maltegoetz.de &bull; 311056 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-player/">YouTube Flash Player</a><div class="addon-guid">jid1-HAV2inXAnQPIeA@jetpack &bull; 402546 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/netvideohunter-video-downloade/">NetVideoHunter</a><div class="addon-guid">netvideohunter@netvideohunter.com &bull; 278207 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/">YouTube High Definition</a><div class="addon-guid">{7b1bf0b6-a1b9-42b0-b75d-252036438bdc} &bull; 284115 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/provider-for-google-calendar/">Provider for Google Calendar</a><div class="addon-guid">{a62ef8ec-5fdc-40c2-873c-223b8a6925cc} &bull; 338360 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/session-manager/">Session Manager</a><div class="addon-guid">{1280606b-2510-4fe0-97ef-9b5a22eafe30} &bull; 288482 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/quickjava/">QuickJava</a><div class="addon-guid">{E6C1199F-E687-42da-8C24-E7770CC3AE66} &bull; 274114 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/">ColorZilla</a><div class="addon-guid">{6AC85730-7D0F-4de0-B3FA-21142DD85326} &bull; 273013 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">Full Web Page Screenshots (♥♥♥♥♥)</a><div class="addon-guid">{0b457cAA-602d-484a-8fe7-c1d894a011ba} &bull; 279529 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/">VKontakte.ru Downloader (music/videos/photos @ VK)</a><div class="addon-guid">vk@sergeykolosov.mp &bull; 275379 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/disconnect/">Disconnect</a><div class="addon-guid">2.0@disconnect.me &bull; 283780 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/colorfultabs/">ColorfulTabs</a><div class="addon-guid">{0545b830-f0aa-4d7e-8820-50a4629a56fe} &bull; 250595 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-video-player/">YouTube Flash Video Player</a><div class="addon-guid">{f3bd3dd2-2888-44c5-91a2-2caeb33fb898} &bull; 299809 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/s3google-translator/">S3.Google Translator</a><div class="addon-guid">s3google@translator &bull; 369330 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/firefox-hotfix/">Mozilla Firefox hotfix</a><div class="addon-guid">firefox-hotfix@mozilla.org &bull; 283311 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloader-profession/">Video Downloader professional</a><div class="addon-guid">ffext_basicvideoext@startpage24 &bull; 258678 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/search-and-new-tab-by-yahoo/">Search and New Tab by Yahoo</a><div class="addon-guid">jid1-16aeif9OQIRKxA@jetpack &bull; 582449 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/">AdBlocker Ultimate</a><div class="addon-guid">adblockultimate@adblockultimate.net &bull; 357692 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-by-yahoo/">New Tab by Yahoo</a><div class="addon-guid">jid1-G80Ec8LLEbK5fQ@jetpack &bull; 318370 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/">AdBlocker for YouTube™</a><div class="addon-guid">jid1-q4sG8pYhq8KGHs@jetpack &bull; 314420 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/zenmate-security-privacy-vpn/">ZenMate Security & Privacy VPN</a><div class="addon-guid">firefox@zenmate.com &bull; 285639 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/frigate/">frigate</a><div class="addon-guid">e67f8350-7edf-11e3-baa7-0800200c9a66@fri-gate.org &bull; 258320 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easy-access/">Easy Access</a><div class="addon-guid">quicklaunch@mozillaonline.com &bull; 303194 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/yandexbar/">Yandex.Bar</a><div class="addon-guid">yasearch@yandex.ru &bull; 452947 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/amazon-browser-bar/">Amazon Assistant for Firefox</a><div class="addon-guid">abb@amazon.com &bull; 280014 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td><span class="label label-success">WebExtension</span></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/importexporttools/">ImportExportTools</a><div class="addon-guid">{3ed8cc52-86fc-4613-9026-c1ef969da4c3} &bull; 349228 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
-					<tr>
-						<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/">Yahoo Toolbar and New Tab</a><div class="addon-guid">{635abd67-4fe9-1b23-4f01-e679fa7484c1} &bull; 716458 users</div></td>
-						<td>
-							
-							
-						</td>
-						<td>
-							
-						</td>
-						<td></td>
-					</tr>
-				
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/1-click-youtube-video-downl/">1-Click YouTube Video Download</a><div class="addon-guid">YoutubeDownloader@PeterOlayev.com &bull; 694409 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">onepassword4@agilebits.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">adbhelper@mozilla.org </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">Adblock Plus</a><div class="addon-guid">{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d} &bull; 20619547 users</div></td>
+							<td>
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1226547" class="label label-warning">1226547</a>
+								
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">13</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990" class="label label-warning">1210990</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1211859" class="label label-warning">1211859</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213483" class="label label-warning">1213483</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1269062" class="label label-warning">1269062</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271354" class="label label-warning">1271354</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1277612" class="label label-warning">1277612</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1302504" class="label label-warning">1302504</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305237" class="label label-warning">1305237</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1310037" class="label label-warning">1310037</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366710" class="label label-warning">1366710</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366752" class="label label-warning">1366752</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1366755" class="label label-warning">1366755</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367203" class="label label-warning">1367203</a><br>
+									</details>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/">Awesome Screenshot Plus - Capture, Annotate & More</a><div class="addon-guid">jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack </div></td>
+							<td>
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1354137" class="label label-warning">1354137</a>
+								
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">0</span></summary>
+										
+									</details>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy-signed</a><div class="addon-guid">{d40f5e7b-d2cf-4856-b441-cc613eeffbe3} &bull; 480695 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-flash-and-video/">Download Flash and Video</a><div class="addon-guid">{bee6eb20-01e0-ebd1-da83-080329fb9a3a} &bull; 682182 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-youtube/">Download YouTube Videos as MP4</a><div class="addon-guid">{b9bfaf1c-a63f-47cd-8b9a-29526ced9060} &bull; 1075158 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/downthemall/">DownThemAll!</a><div class="addon-guid">{DDC359D1-844A-42a7-9AA1-88A850A938A8} &bull; 1294978 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot/">Easy Screenshot</a><div class="addon-guid">easyscreenshot@mozillaonline.com &bull; 2403045 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/elemhidehelper/">Element Hiding Helper for Adblock Plus</a><div class="addon-guid">elemhidehelper@adblockplus.org &bull; 655424 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flashblock/">Flashblock</a><div class="addon-guid">{3d7eb24f-2740-49df-8937-200b1cc08f8a} &bull; 595268 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/">FlashGot Mass Downloader</a><div class="addon-guid">{19503e42-ca3c-4c27-b1e2-9cdb2170ee34} &bull; 848724 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flash-video-downloader/">Flash Video Downloader - YouTube HD Download [4K]</a><div class="addon-guid">artur.dubovoy@gmail.com &bull; 1066245 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ghostery/">Ghostery</a><div class="addon-guid">firefox@ghostery.com &bull; 1464992 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/google-translator-for-firefox/">Google Translator for Firefox</a><div class="addon-guid">translator@zoli.bod &bull; 798165 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a><div class="addon-guid">{e4a8a97b-f2ed-450b-b12d-ee082ba24781} &bull; 1302204 users</div></td>
+							<td>
+								
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1334174" class="label label-success">1334174</a>
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">2</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1332273" class="label label-warning">1332273</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1353468" class="label label-warning">1353468</a><br>
+									</details>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">mozilla_cc@internetdownloadmanager.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/">LastPass Password Manager</a><div class="addon-guid">support@lastpass.com &bull; 745753 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/lightbeam/">Lightbeam for Firefox</a><div class="addon-guid">jid1-F9UJ2thwoAm5gQ@jetpack &bull; 509680 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">firefox@mega.co.nz </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">NoScript Security Suite</a><div class="addon-guid">{73a6fe31-595d-460b-a920-fcc0f8843232} &bull; 2146154 users</div></td>
+							<td>
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1214733" class="label label-warning">1214733</a>
+								
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">6</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1210990" class="label label-warning">1210990</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1213483" class="label label-warning">1213483</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255894" class="label label-warning">1255894</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1305237" class="label label-warning">1305237</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1332273" class="label label-warning">1332273</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367203" class="label label-warning">1367203</a><br>
+									</details>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">jid1-YcMV6ngYmQRA2w@jetpack </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/">Reddit Enhancement Suite</a><div class="addon-guid">jid1-xUfzOsOFlzSOXg@jetpack </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/">Tab Mix Plus</a><div class="addon-guid">{dc572301-7619-498c-a57d-39143191b318} &bull; 842022 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a><div class="addon-guid">uBlock0@raymondhill.net &bull; 1154406 users</div></td>
+							<td>
+								
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1309926" class="label label-success">1309926</a>
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">3</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1360285" class="label label-warning">1360285</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367259" class="label label-warning">1367259</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1367478" class="label label-warning">1367478</a><br>
+									</details>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">ubufox@ubuntu.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">fxdevtools-adapters@mozilla.org </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/">Video DownloadHelper</a><div class="addon-guid">{b9db16a4-6edc-47ec-a1f4-b86292ed211d} &bull; 4452660 users</div></td>
+							<td>
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1310316" class="label label-warning">1310316</a>
+								
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">4</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1246236" class="label label-warning">1246236</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1255894" class="label label-warning">1255894</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1271553" class="label label-warning">1271553</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1323414" class="label label-warning">1323414</a><br>
+									</details>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/wot-safe-browsing-tool/">Web of Trust, MyWOT/WOT: Website Reputation Rating</a><div class="addon-guid">{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/xmarks-sync/">Xmarks Sync</a><div class="addon-guid">foxmarks@kei.com &bull; 337623 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/">Yahoo Toolbar and New Tab</a><div class="addon-guid">{635abd67-4fe9-1b23-4f01-e679fa7484c1} &bull; 716458 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-video-and-audio-dow/">YouTube™ Video and Audio Downloader</a><div class="addon-guid">feca4b87-3be4-43da-a1b1-137c24220968@jetpack &bull; 727036 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
 				</tbody>
 			</table>
+			
+			<h3><a class="anchor" id="2">&sect;</a> Popular</h2>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Trackers</th>
+						<th>Blocking bugs</th>
+						<th>WebExtension</th>
+				 </tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/">Grammarly for Firefox</a><div class="addon-guid">87677a2c52b84ad3a151a4a72f5bd3c4@jetpack </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">ighdmehidhipcmcojjgiloacoafjmpfk@chrome-store-foxified-1964081006 </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/">Ember Inspector</a><div class="addon-guid">ember-inspector@emberjs.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/react-devtools/">React Developer Tools</a><div class="addon-guid">@react-devtools </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/remotedev/">Redux DevTools</a><div class="addon-guid">extension@redux.devtools </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">nhdogjmejiglipccpnnnanhbledajbpd@chrome-store-foxified-1617803097 </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS Everywhere</a><div class="addon-guid">https-everywhere@eff.org </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/norton-identity-safe/">Norton Identity Safe</a><div class="addon-guid">idsafe@norton.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/norton-safe-web/">Norton Safe Web</a><div class="addon-guid">nortonsafeweb@symantec.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">web2pdfextension@web2pdf.adobedotcom </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/">AdBlocker for YouTube™</a><div class="addon-guid">jid1-q4sG8pYhq8KGHs@jetpack &bull; 314420 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/">AdBlocker Ultimate</a><div class="addon-guid">adblockultimate@adblockultimate.net &bull; 357692 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/">Adguard AdBlocker</a><div class="addon-guid">adguardadblocker@adguard.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/anonymox/">anonymoX</a><div class="addon-guid">client@anonymox.net &bull; 549250 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloader-player/">Ant Video Downloader</a><div class="addon-guid">anttoolbar@ant.com &bull; 407227 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">wrc@avast.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">avg@toolbar </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">abs@avira.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/">Blur</a><div class="addon-guid">donottrackplus@abine.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/browser-security-1/">browser-security-1</a><div class="addon-guid">firefox@browser-security.de </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">ols@f-secure.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/colorfultabs/">ColorfulTabs</a><div class="addon-guid">{0545b830-f0aa-4d7e-8820-50a4629a56fe} &bull; 250595 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/colorzilla/">ColorZilla</a><div class="addon-guid">{6AC85730-7D0F-4de0-B3FA-21142DD85326} &bull; 273013 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">jetpack-extension@dashlane.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/disconnect/">Disconnect</a><div class="addon-guid">2.0@disconnect.me &bull; 283780 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/">Download Statusbar</a><div class="addon-guid">{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389} &bull; 331909 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/">Easy Youtube Video Downloader Express</a><div class="addon-guid">{b9acf540-acba-11e1-8ccb-001fd0e08bd4} &bull; 326119 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/epubreader/">EPUBReader</a><div class="addon-guid">{5384767E-00D9-40E9-B72F-9CC39D655D6F} &bull; 424322 users</div></td>
+							<td>
+								<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1341098" class="label label-warning">1341098</a>
+								
+							</td>
+							<td>
+								
+									<details>
+										<summary><span class="label label-danger">3</span></summary>
+										<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1256122" class="label label-warning">1256122</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1341341" class="label label-warning">1341341</a><br><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1356397" class="label label-warning">1356397</a><br>
+									</details>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/">Evernote Web Clipper</a><div class="addon-guid">{E0B8C461-F8FB-49b4-8373-FE32E9252800} &bull; 391479 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/firefox-all-aboard-1-6/">Firefox All Aboard 1.6</a><div class="addon-guid">@all-aboard-v1-6 </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/firegestures/">FireGestures</a><div class="addon-guid">firegestures@xuldev.org &bull; 363752 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/flagfox/">Flagfox</a><div class="addon-guid">{1018e4d6-728f-4b20-ad56-37578a4de76b} &bull; 525145 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">FoxyProxy Standard</a><div class="addon-guid">foxyproxy@eric.h.jung &bull; 286381 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">Full Web Page Screenshots (♥♥♥♥♥)</a><div class="addon-guid">{0b457cAA-602d-484a-8fe7-c1d894a011ba} &bull; 279529 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/garmin-communicator/">Garmin Communicator</a><div class="addon-guid">{195A3098-0BD5-4e90-AE22-BA1C540AFD1E} &bull; 418313 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/imtranslator/">Google Translate, ImTranslator, Dictionary, TTS</a><div class="addon-guid">{9AA46F4F-4DC7-4c06-97AF-5035170634FE} &bull; 336652 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks/">iCloud Bookmarks</a><div class="addon-guid">firefoxdav@icloud.com &bull; 383932 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/ie-tab-2-ff-36/">IE Tab V2  (Enhanced IE Tab)</a><div class="addon-guid">{1BC9BA34-1EED-42ca-A505-6D2F1A935BBB} &bull; 515934 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/image-zoom/">Image Zoom</a><div class="addon-guid">{1A2D0EC4-75F5-4c91-89C4-3656F6E44B68} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/mcafee-security-scan-plus/">McAfee Security Scan Plus detection</a><div class="addon-guid">{e4f94d1e-2f53-401e-8885-681602c0ddd8} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> ('401 error fetching data from AMO',)<div class="addon-guid">{4ED1F68A-5463-4931-9384-8FFF5ED91D92} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/measureit/">MeasureIt</a><div class="addon-guid">{75CEEE46-9B64-46f8-94BF-54012DE155F0} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/">Mozilla Archive Format, with MHT and Faithful Save</a><div class="addon-guid">{7f57cf46-4467-4c2d-adfa-0cba7c507e54} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/netvideohunter-video-downloade/">NetVideoHunter</a><div class="addon-guid">netvideohunter@netvideohunter.com &bull; 278207 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/">New Tab Homepage</a><div class="addon-guid">{66E978CD-981F-47DF-AC42-E3CF417C1467} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/nosquint/">NoSquint</a><div class="addon-guid">nosquint@urandom.ca </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/password-exporter/">Password Exporter</a><div class="addon-guid">{B17C1C5A-04B1-11DB-9804-B622A1EF5492} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/personas-plus/">Personas Plus</a><div class="addon-guid">personas@christopher.beard &bull; 312913 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/proxtube/">ProxTube - Unblock YouTube</a><div class="addon-guid">ich@maltegoetz.de &bull; 311056 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/quickjava/">QuickJava</a><div class="addon-guid">{E6C1199F-E687-42da-8C24-E7770CC3AE66} &bull; 274114 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/reloadevery/">ReloadEvery</a><div class="addon-guid">{888d99e7-e8b5-46a3-851e-1ec45da1e644} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/s3google-translator/">S3.Google Translator</a><div class="addon-guid">s3google@translator &bull; 369330 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/">SaveFrom.net helper all-in-1 / youtube downloader</a><div class="addon-guid">helper@savefrom.net </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/scrapbook/">ScrapBook</a><div class="addon-guid">{53A03D43-5363-4669-8190-99061B2DEBA5} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/">Self-Destructing Cookies</a><div class="addon-guid">jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/skype-addon/">Skype</a><div class="addon-guid">{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/speed-dial/">Speed Dial</a><div class="addon-guid">{64161300-e22b-11db-8314-0800200c9a66} &bull; 378805 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/fvd-speed-dial/">Speed Dial [FVD] - New Tab Page, Sync...</a><div class="addon-guid">pavel.sherbakov@gmail.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/status-4-evar/">Status-4-Evar</a><div class="addon-guid">status4evar@caligonstudios.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a><div class="addon-guid">{46551EC9-40F0-4e47-8E18-8E5CF550CFB8} &bull; 481414 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/text-link/">Text Link</a><div class="addon-guid">{54BB9F3F-07E5-486c-9B39-C7398B99391C} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/">User Agent Switcher</a><div class="addon-guid">{e968fc70-8f95-4ab9-9e79-304de2a71ee1} &bull; 343383 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/video-downloader-profession/">Video Downloader professional</a><div class="addon-guid">ffext_basicvideoext@startpage24 &bull; 258678 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/">Web Developer</a><div class="addon-guid">{c45c406e-ab73-11d8-be73-000a95be3b12} &bull; 493583 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/xthunder/">xThunder</a><div class="addon-guid">xthunder@lshai.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-all-html5/">YouTube ALL HTML5</a><div class="addon-guid">jid1-qj0w91o64N7Eeg@jetpack </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/media-downloader/">Youtube Downloader 4K - Video Downloader</a><div class="addon-guid">paulsaintuzb@gmail.com </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-player/">YouTube Flash Player</a><div class="addon-guid">jid1-HAV2inXAnQPIeA@jetpack &bull; 402546 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-video-player/">YouTube Flash Video Player</a><div class="addon-guid">{f3bd3dd2-2888-44c5-91a2-2caeb33fb898} &bull; 299809 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/">YouTube High Definition</a><div class="addon-guid">{7b1bf0b6-a1b9-42b0-b75d-252036438bdc} &bull; 284115 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-mp3/">YouTube mp3</a><div class="addon-guid">info@youtube-mp3.org &bull; 514302 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/zenmate-security-privacy-vpn/">ZenMate Security & Privacy VPN</a><div class="addon-guid">firefox@zenmate.com &bull; 285639 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/">Classic Theme Restorer</a><div class="addon-guid">ClassicThemeRestorer@ArisT2Noia4dev &bull; 436611 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/frigate/">frigate</a><div class="addon-guid">e67f8350-7edf-11e3-baa7-0800200c9a66@fri-gate.org &bull; 258320 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/amazon-browser-bar/">Amazon Assistant for Firefox</a><div class="addon-guid">abb@amazon.com &bull; 280014 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td><span class="label label-success">WebExtension</span></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/">VKontakte.ru Downloader (music/videos/photos @ VK)</a><div class="addon-guid">vk@sergeykolosov.mp </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/session-manager/">Session Manager</a><div class="addon-guid">{1280606b-2510-4fe0-97ef-9b5a22eafe30} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/easy-access/">Easy Access</a><div class="addon-guid">quicklaunch@mozillaonline.com &bull; 303194 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/">Yahoo Toolbar and New Tab</a><div class="addon-guid">{635abd67-4fe9-1b23-4f01-e679fa7484c1} &bull; 716458 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/search-and-new-tab-by-yahoo/">Search and New Tab by Yahoo</a><div class="addon-guid">jid1-16aeif9OQIRKxA@jetpack &bull; 582449 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-by-yahoo/">New Tab by Yahoo</a><div class="addon-guid">jid1-G80Ec8LLEbK5fQ@jetpack &bull; 318370 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/fireftp/">FireFTP</a><div class="addon-guid">{a7c6cf7f-112c-4500-a7ea-39801a327e5f} </div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+				</tbody>
+			</table>
+			
+			<h3><a class="anchor" id="3">&sect;</a> Other</h2>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Trackers</th>
+						<th>Blocking bugs</th>
+						<th>WebExtension</th>
+				 </tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/session-manager/">Session Manager</a><div class="addon-guid">{1280606b-2510-4fe0-97ef-9b5a22eafe30} &bull; 288482 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/">VKontakte.ru Downloader (music/videos/photos @ VK)</a><div class="addon-guid">vk@sergeykolosov.mp &bull; 275379 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/firefox-hotfix/">Mozilla Firefox hotfix</a><div class="addon-guid">firefox-hotfix@mozilla.org &bull; 283311 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							<td><a class="anchor" href="#">#</a> <a id="" href="https://addons.mozilla.org/en-US/firefox/addon/yandexbar/">Yandex.Bar</a><div class="addon-guid">yasearch@yandex.ru &bull; 452947 users</div></td>
+							<td>
+								
+								
+							</td>
+							<td>
+								
+							</td>
+							<td></td>
+						</tr>
+					
+				</tbody>
+			</table>
+			
 
 			<h2><a class="anchor" id="new">&sect;</a> New APIs</h2>
 			<p>Looking for new APIs? Then check out <a href="https://webextensions-experiments.readthedocs.io/en/latest/">WebExtensions Experiments</a>.</p>
