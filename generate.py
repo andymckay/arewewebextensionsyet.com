@@ -104,7 +104,6 @@ def process_amo(addon, result, compat):
 
 
 def url_hash(url):
-    print url
     hsh = hashlib.md5()
     hsh.update(url)
     return hsh.hexdigest()
@@ -125,6 +124,7 @@ def get_cache(url):
 def get_from_amo(addon):
     guid = addon['guid']
     err = {
+        'name': addon['name']
         'url': '',
         'guid': guid,
         'status': 'error',
@@ -135,9 +135,7 @@ def get_from_amo(addon):
         addon_url = amo_server + '/api/v3/addons/addon/{}/'.format(guid)
         addon_data = get_cache(addon_url)
     except UnicodeEncodeError:
-        this_err = err.copy()
-        this_err['name'] = 'Unicode error'
-        return this_err
+        return err
 
     compat_url = amo_server + '/api/v3/addons/addon/{}/feature_compatibility/'.format(guid)
     compat_data = get_cache(compat_url)
@@ -149,10 +147,7 @@ def get_from_amo(addon):
         print 'Fetching', url
         res = requests.get(url)
         if res.status_code != 200:
-            this_err = err.copy()
-            this_err['name'] = fixups.get(
-                guid, '{} error fetching data from AMO'.format(res.status_code)),
-            return this_err
+            return err
 
         res.raise_for_status()
         res_json = res.json()
