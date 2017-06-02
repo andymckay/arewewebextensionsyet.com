@@ -2706,6 +2706,13 @@
           "resolution": "", 
           "id": 1358431, 
           "summary": "Add-on name bolded with delay in permissions pop-up"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1369581, 
+          "summary": "Requesting only the \"activeTab\" permission fails"
         }
       ], 
       "schema": {

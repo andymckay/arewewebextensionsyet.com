@@ -24,6 +24,11 @@
 				<li><a href="#permissions-list">Permissions</a></li>
 				<li><a href="#manifest-keys">Manifest</a></li>
 				<li><a href="#addons">Firefox store compatibility</li>
+					<ul>
+						<li><a href="#addons-most">Most Widely Adopted</a></li>
+						<li><a href="#addons-popular">Popular</a></li>
+						<li><a href="#addons-others">Others</a></li>
+					</ul>
 				<li><a href="#new">New APIs</li>
 				<li><a href="#chrome">Chrome store compatibility</li>
 			</ul>
@@ -150,8 +155,8 @@
 				</tr>
 			</table>
 
-			{% macro level_listing(name, level, addons) -%}
-			<h3><a class="anchor" id="{{ level }}">&sect;</a> {{ name }}</h2>
+			{% macro level_listing(name, addons, anchor) -%}
+			<h3><a class="anchor" id="{{ anchor }}">&sect;</a> {{ name }}</h2>
 			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -184,9 +189,9 @@
 			</table>
 			{% endmacro %}
 
-			{{ level_listing('Most Widely Adopted', 1, addons['level-1']) }}
-			{{ level_listing('Popular', 2, addons['level-2']) }}
-			{{ level_listing('Other', 3, addons['level-3']) }}
+			{{ level_listing('Most Widely Adopted', addons['level-1'], 'addons-most') }}
+			{{ level_listing('Popular', addons['level-2'], 'addons-popular') }}
+			{{ level_listing('Other', addons['level-3'], 'addons-others') }}
 
 			<h2><a class="anchor" id="new">&sect;</a> New APIs</h2>
 			<p>Looking for new APIs? Then check out <a href="https://webextensions-experiments.readthedocs.io/en/latest/">WebExtensions Experiments</a>.</p>
