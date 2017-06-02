@@ -177,7 +177,7 @@
 									</details>
 								{% endif %}
 							</td>
-							<td>{% if addon.status %}<span class="label label-success">WebExtension</span>{% else %}{% endif %}</td>
+							<td>{% if addon.status and addon.status != 'error' %}<span class="label label-success">WebExtension</span>{% else %}{% endif %}</td>
 						</tr>
 					{% endfor %}
 				</tbody>

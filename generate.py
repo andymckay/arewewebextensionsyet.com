@@ -124,7 +124,7 @@ def get_cache(url):
 def get_from_amo(addon):
     guid = addon['guid']
     err = {
-        'name': addon['name']
+        'name': addon['name'],
         'url': '',
         'guid': guid,
         'status': 'error',
