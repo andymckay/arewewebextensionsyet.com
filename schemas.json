@@ -440,6 +440,13 @@
           "resolution": "", 
           "id": 1367494, 
           "summary": "[BrowserAction] default_icon on android should warn rather than prevent installation"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1370333, 
+          "summary": "Add support for browserAction.setPopup and browserAction.getPopup"
         }
       ], 
       "schema": {
@@ -1196,22 +1203,7 @@
         "desktop"
       ], 
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-c-devtools-inspectedWindow.js", 
-      "bugs": [
-        {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1211859, 
-          "summary": "Implement devtools API for open extension API"
-        }, 
-        {
-          "priority": "P1", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1300590, 
-          "summary": "Implement support for $0 and inspect bindings in devtools.inspectedWindow.eval"
-        }
-      ], 
+      "bugs": [], 
       "schema": {
         "functions": {
           "reload": {
@@ -1282,13 +1274,6 @@
       ], 
       "bugs": [
         {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1211859, 
-          "summary": "Implement devtools API for open extension API"
-        }, 
-        {
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
@@ -1344,15 +1329,7 @@
       "platform": [
         "desktop"
       ], 
-      "bugs": [
-        {
-          "priority": "P2", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1211859, 
-          "summary": "Implement devtools API for open extension API"
-        }
-      ], 
+      "bugs": [], 
       "schema": {
         "functions": {
           "openResource": {
@@ -1386,7 +1363,7 @@
         "events": {
           "onThemeChanged": {
             "full": "chrome.devtools.panels.onThemeChanged", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.panels/onThemeChanged", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -1404,7 +1381,7 @@
           }, 
           "themeName": {
             "usage": "chrome.devtools.panels.themeName", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Devtools.panels/themeName", 
             "full": "chrome.devtools.panels.themeName", 
             "supported": true, 
             "permissions": null
@@ -2677,7 +2654,7 @@
           "status": "NEW", 
           "resolution": "", 
           "id": 1338370, 
-          "summary": "Required permission support for Android"
+          "summary": "Implement permission support for Android"
         }, 
         {
           "priority": "P2", 
@@ -2706,6 +2683,13 @@
           "resolution": "", 
           "id": 1358431, 
           "summary": "Add-on name bolded with delay in permissions pop-up"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1369577, 
+          "summary": "Can't call permissions.request() from a browser action or context menu click"
         }, 
         {
           "priority": "P2", 
@@ -2746,7 +2730,7 @@
           }, 
           "remove": {
             "full": "chrome.permissions.remove()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/remove", 
             "supported": true, 
             "rank": 112, 
             "reasons": [], 
@@ -2757,7 +2741,7 @@
         "events": {
           "onRemoved": {
             "full": "chrome.permissions.onRemoved", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/onRemoved", 
             "supported": false, 
             "rank": 319, 
             "reasons": [], 
@@ -2766,7 +2750,7 @@
           }, 
           "onAdded": {
             "full": "chrome.permissions.onAdded", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Permissions/onAdded", 
             "supported": false, 
             "rank": 248, 
             "reasons": [], 
@@ -2822,6 +2806,13 @@
           "resolution": "", 
           "id": 1361364, 
           "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1362787, 
+          "summary": "Implement chrome.privacy.websites.referrersEnabled"
         }
       ], 
       "schema": {}
