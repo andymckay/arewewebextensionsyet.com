@@ -164,7 +164,7 @@
           "summary": "bookmarks.search fails on non-http(s) URLs"
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1362863, 
@@ -433,13 +433,6 @@
           "resolution": "", 
           "id": 1364366, 
           "summary": "browser_action.browser_style doesn't set margin"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1367494, 
-          "summary": "[BrowserAction] default_icon on android should warn rather than prevent installation"
         }, 
         {
           "priority": "P2", 
@@ -911,68 +904,16 @@
           "resolution": "", 
           "id": 1343236, 
           "summary": "contextMenus.OnClickData should have the linkText of the link"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1370499, 
+          "summary": "Consider support for bookmark context menus"
         }
       ], 
-      "schema": {
-        "functions": {
-          "removeAll": {
-            "full": "chrome.contextMenus.removeAll()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/removeAll", 
-            "supported": true, 
-            "rank": 50, 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.removeAll", 
-            "permissions": null
-          }, 
-          "create": {
-            "full": "chrome.contextMenus.create()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/create", 
-            "supported": true, 
-            "rank": 15, 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.create", 
-            "permissions": null
-          }, 
-          "update": {
-            "full": "chrome.contextMenus.update()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/update", 
-            "supported": true, 
-            "rank": 95, 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.update", 
-            "permissions": null
-          }, 
-          "remove": {
-            "full": "chrome.contextMenus.remove()", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/remove", 
-            "supported": true, 
-            "rank": 90, 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.remove", 
-            "permissions": null
-          }
-        }, 
-        "events": {
-          "onClicked": {
-            "full": "chrome.contextMenus.onClicked", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/onClicked", 
-            "supported": true, 
-            "rank": 52, 
-            "reasons": [], 
-            "usage": "chrome.contextMenus.onClicked", 
-            "permissions": null
-          }
-        }, 
-        "properties": {
-          "ACTION_MENU_TOP_LEVEL_LIMIT": {
-            "usage": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
-            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/ContextMenus/ACTION_MENU_TOP_LEVEL_LIMIT", 
-            "full": "chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT", 
-            "supported": true, 
-            "permissions": null
-          }
-        }
-      }
+      "schema": {}
     }
   ], 
   [
@@ -1096,18 +1037,11 @@
           "summary": "Private cookie set by cookies.set disappears within a second when the private window was just opened"
         }, 
         {
-          "priority": "P1", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1318948, 
-          "summary": "WebExtension cookies API does not work in private browsing"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1364782, 
-          "summary": "\"browser.cookies.remove\" method does not remove all cookies"
+          "id": 1362834, 
+          "summary": "Prevent browser.cookies APIs from interacting with internal cookies"
         }
       ], 
       "schema": {
@@ -2127,13 +2061,6 @@
           "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1282981, 
-          "summary": "Implement management.get and getAll"
-        }, 
-        {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1282982, 
           "summary": "Implement chrome.management.setEnabled"
         }, 
@@ -2190,7 +2117,7 @@
           "get": {
             "full": "chrome.management.get()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Management/get", 
-            "supported": false, 
+            "supported": true, 
             "rank": 141, 
             "reasons": [], 
             "usage": "chrome.management.get", 
@@ -2514,18 +2441,25 @@
           "summary": "[PageAction] Add support for chrome.pageAction.setIcon on Android"
         }, 
         {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1300811, 
-          "summary": "[PageAction] Support show/hide on a per tab basis on Android."
-        }, 
-        {
           "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1345794, 
           "summary": "pageActions are never shown on about:blank and about:newtab URLs"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1372782, 
+          "summary": "[PageAction] Remove dependency on contentWindow from ext-pageAction.js"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1372783, 
+          "summary": "[PageAction] Should pageAction.show use contentWindow.devicePixelRatio or browserWindow.devicePixelRatio?"
         }
       ], 
       "schema": {
@@ -2676,13 +2610,6 @@
           "resolution": "", 
           "id": 1352239, 
           "summary": "permissions.request() should not prompt for permissions an extension already has"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1358431, 
-          "summary": "Add-on name bolded with delay in permissions pop-up"
         }, 
         {
           "priority": "P2", 
@@ -2951,13 +2878,6 @@
           "resolution": "", 
           "id": 1353510, 
           "summary": "Add support for the global PAC functions"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1355198, 
-          "summary": "FindProxyForURL \"DIRECT\" return type should not expect an argument"
         }, 
         {
           "priority": "--", 
@@ -3851,7 +3771,7 @@
           "highlight": {
             "full": "chrome.tabs.highlight()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/highlight", 
-            "supported": true, 
+            "supported": false, 
             "rank": 193, 
             "reasons": [], 
             "usage": "chrome.tabs.highlight", 
