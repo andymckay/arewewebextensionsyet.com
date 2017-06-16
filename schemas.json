@@ -2733,13 +2733,6 @@
           "resolution": "", 
           "id": 1361364, 
           "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1362787, 
-          "summary": "Implement chrome.privacy.websites.referrersEnabled"
         }
       ], 
       "schema": {}
@@ -2800,7 +2793,7 @@
             "usage": "chrome.privacy.websites.referrersEnabled", 
             "url": null, 
             "full": "chrome.privacy.websites.referrersEnabled", 
-            "supported": false, 
+            "supported": true, 
             "permissions": null
           }, 
           "protectedContentEnabled": {
@@ -3947,6 +3940,13 @@
           "resolution": "", 
           "id": 1350356, 
           "summary": "Web extension based themes don't modify the title bar text color"
+        }, 
+        {
+          "priority": "P5", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1373415, 
+          "summary": "Add in a theme.onChanged event"
         }
       ], 
       "schema": {
