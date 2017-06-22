@@ -2617,13 +2617,6 @@
           "resolution": "", 
           "id": 1369577, 
           "summary": "Can't call permissions.request() from a browser action or context menu click"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1369581, 
-          "summary": "Requesting only the \"activeTab\" permission fails"
         }
       ], 
       "schema": {
@@ -2726,13 +2719,6 @@
           "resolution": "", 
           "id": 1345158, 
           "summary": "Implement browser.privacy.trackingProtection API"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1361364, 
-          "summary": "Implement chrome.privacy.services.passwordSavingEnabled"
         }
       ], 
       "schema": {}
@@ -2892,6 +2878,13 @@
           "resolution": "", 
           "id": 1368559, 
           "summary": "Provide contextual info to FindProxyForURL"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1371879, 
+          "summary": "Add API to clear registered proxy script"
         }
       ], 
       "schema": {
