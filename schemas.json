@@ -1853,7 +1853,7 @@
           }, 
           "onTitleChanged": {
             "full": "chrome.history.onTitleChanged", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/History/onTitleChanged", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
@@ -2881,7 +2881,7 @@
         }, 
         {
           "priority": "--", 
-          "status": "UNCONFIRMED", 
+          "status": "ASSIGNED", 
           "resolution": "", 
           "id": 1371879, 
           "summary": "Add API to clear registered proxy script"
