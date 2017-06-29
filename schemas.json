@@ -108,7 +108,7 @@
           "summary": "bookmarks.search doesn't allow quoted search terms"
         }, 
         {
-          "priority": "P5", 
+          "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1276819, 
@@ -897,13 +897,6 @@
           "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
-        }, 
-        {
-          "priority": "P5", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1343236, 
-          "summary": "contextMenus.OnClickData should have the linkText of the link"
         }, 
         {
           "priority": "--", 
@@ -1759,20 +1752,6 @@
           "resolution": "", 
           "id": 1275633, 
           "summary": "Add typedCount to the result set returned by browser.history.search"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1287928, 
-          "summary": "Update browser.history.onVisited to use the title from the onVisit event"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1314123, 
-          "summary": "block moz-extension from history?"
         }
       ], 
       "schema": {
@@ -2878,17 +2857,28 @@
           "resolution": "", 
           "id": 1368559, 
           "summary": "Provide contextual info to FindProxyForURL"
-        }, 
-        {
-          "priority": "--", 
-          "status": "ASSIGNED", 
-          "resolution": "", 
-          "id": 1371879, 
-          "summary": "Add API to clear registered proxy script"
         }
       ], 
       "schema": {
         "functions": {
+          "unregister": {
+            "full": "chrome.proxy.unregister()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.proxy.unregister", 
+            "permissions": null
+          }, 
+          "register": {
+            "full": "chrome.proxy.register()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.proxy.register", 
+            "permissions": null
+          }, 
           "registerProxyScript": {
             "full": "chrome.proxy.registerProxyScript()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Proxy/registerProxyScript", 
@@ -3944,6 +3934,15 @@
       ], 
       "schema": {
         "functions": {
+          "reset": {
+            "full": "chrome.theme.reset()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.theme.reset", 
+            "permissions": null
+          }, 
           "update": {
             "full": "chrome.theme.update()", 
             "url": null, 
