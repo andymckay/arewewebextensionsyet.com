@@ -865,7 +865,7 @@
       "bugs": [
         {
           "priority": "--", 
-          "status": "NEW", 
+          "status": "ASSIGNED", 
           "resolution": "", 
           "id": 1215376, 
           "summary": "Implement onBeforeShow event"
@@ -1426,7 +1426,7 @@
         }, 
         {
           "priority": "P3", 
-          "status": "UNCONFIRMED", 
+          "status": "NEW", 
           "resolution": "", 
           "id": 1305663, 
           "summary": "Support downloadItem.byExtensionId"
@@ -2337,15 +2337,6 @@
             "reasons": [], 
             "usage": "chrome.omnibox.setDefaultSuggestion", 
             "permissions": null
-          }, 
-          "addSuggestions": {
-            "full": "chrome.omnibox.addSuggestions()", 
-            "url": null, 
-            "supported": true, 
-            "rank": [], 
-            "reasons": [], 
-            "usage": "chrome.omnibox.addSuggestions", 
-            "permissions": null
           }
         }, 
         "events": {
@@ -2589,13 +2580,6 @@
           "resolution": "", 
           "id": 1352239, 
           "summary": "permissions.request() should not prompt for permissions an extension already has"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1369577, 
-          "summary": "Can't call permissions.request() from a browser action or context menu click"
         }
       ], 
       "schema": {
@@ -3249,6 +3233,20 @@
           "resolution": "", 
           "id": 1322060, 
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1378647, 
+          "summary": "Support the \"discarded\" property inside browser.tabs.create()"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1378651, 
+          "summary": "Add tab history related info to Session object and a way to restore tab history"
         }
       ], 
       "schema": {
@@ -3545,6 +3543,13 @@
           "resolution": "", 
           "id": 1366290, 
           "summary": "Bad event ordering in webextension tabs API"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1378651, 
+          "summary": "Add tab history related info to Session object and a way to restore tab history"
         }
       ], 
       "schema": {
