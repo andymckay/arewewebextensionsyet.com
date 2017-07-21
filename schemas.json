@@ -14,6 +14,13 @@
           "resolution": "", 
           "id": 1359403, 
           "summary": "Web Extension alarms delayed if computer has been suspended after creation of alarm"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1377744, 
+          "summary": "privacy.resistfingerprinting's UTC timezone should not affect extensions"
         }
       ], 
       "schema": {
@@ -632,6 +639,13 @@
           "resolution": "", 
           "id": 1355646, 
           "summary": "Consider extending browsingData to add update/move method"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1380445, 
+          "summary": "removeDownloads method of browsingData API does not work as intendded."
         }
       ], 
       "schema": {
@@ -888,18 +902,11 @@
           "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1321544, 
-          "summary": "Set a different icon for a contextMenus item"
-        }, 
-        {
-          "priority": "P3", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1325814, 
           "summary": "contextMenus.OnClickData should provide selector of the clicked element"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1370499, 
@@ -941,7 +948,7 @@
           "summary": "No contextualIdentity events"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1354601, 
@@ -2197,6 +2204,13 @@
           "resolution": "", 
           "id": 1350526, 
           "summary": "Support imageUrl in browser.notifications.create"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1352711, 
+          "summary": "Intermittent toolkit/components/extensions/test/mochitest/test-oop-extensions/test_ext_notifications.html | message queue is empty - got \"[\\\"closed\\\"]\", expected \"[]\""
         }
       ], 
       "schema": {
@@ -2573,13 +2587,6 @@
           "resolution": "", 
           "id": 1350559, 
           "summary": "Enable permissions api tests on Android"
-        }, 
-        {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1352239, 
-          "summary": "permissions.request() should not prompt for permissions an extension already has"
         }
       ], 
       "schema": {
@@ -2780,28 +2787,28 @@
           "summary": "[tracking] Proxy API support for WebExtensions"
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1319630, 
-          "summary": "Add support for the new \"SYSTEM\" return type to FindProxyForURL"
+          "summary": "FindProxyForURL().type should be able to use new value \"system\""
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1319631, 
-          "summary": "Add support for the new \"WPAD\" return type to FindProxyForURL"
+          "summary": "FindProxyForURL().type should be able to return new value \"wpad\""
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1319634, 
-          "summary": "Add support for the new \"PASS\" return type to FindProxyForURL"
+          "summary": "FindProxyForURL().type should be able to return new value \"pass\""
         }, 
         {
-          "priority": "--", 
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1319642, 
@@ -2809,38 +2816,38 @@
         }, 
         {
           "priority": "--", 
-          "status": "NEW", 
+          "status": "REOPENED", 
           "resolution": "", 
           "id": 1337001, 
           "summary": "Provide path and query components to non-https URLs"
         }, 
         {
-          "priority": "--", 
+          "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1353510, 
           "summary": "Add support for the global PAC functions"
         }, 
         {
-          "priority": "--", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1359543, 
-          "summary": "WebExtensions ProxyAPI: need ability to specify username/password for proxy servers requiring authentication"
-        }, 
-        {
           "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
-          "id": 1359693, 
-          "summary": "WebExtensions ProxyAPI: FindProxyForURL() return string format"
-        }, 
-        {
-          "priority": "--", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1368559, 
           "summary": "Provide contextual info to FindProxyForURL"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1381070, 
+          "summary": "proxy filters execution needs to happen after webRequest.onBeforeRequest"
+        }, 
+        {
+          "priority": "P1", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1381290, 
+          "summary": "FindProxyForURL() should use object return type and deprecate string format"
         }
       ], 
       "schema": {
@@ -3235,18 +3242,18 @@
           "summary": "Add WE API to provide functions of `SessionStore.setWindowValue` and `SessionStore.setTabValue`"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1378647, 
           "summary": "Support the \"discarded\" property inside browser.tabs.create()"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1378651, 
-          "summary": "Add tab history related info to Session object and a way to restore tab history"
+          "summary": "Allow accessing back-forward history for each tab"
         }
       ], 
       "schema": {
@@ -3386,6 +3393,13 @@
           "resolution": "", 
           "id": 1316442, 
           "summary": "chrome.storage.sync: Implement syncing on Android"
+        }, 
+        {
+          "priority": "--", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1376302, 
+          "summary": "StorageArea get() with default value as undefined returns Object instead"
         }
       ], 
       "schema": {
@@ -3525,13 +3539,6 @@
         }, 
         {
           "priority": "P5", 
-          "status": "UNCONFIRMED", 
-          "resolution": "", 
-          "id": 1348911, 
-          "summary": "add lastAccessed to tabs.Tab"
-        }, 
-        {
-          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1361447, 
@@ -3545,11 +3552,25 @@
           "summary": "Bad event ordering in webextension tabs API"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
+          "status": "REOPENED", 
+          "resolution": "", 
+          "id": 1377733, 
+          "summary": "Add More Descriptive Return from tabs.Tab.status"
+        }, 
+        {
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1378651, 
-          "summary": "Add tab history related info to Session object and a way to restore tab history"
+          "summary": "Allow accessing back-forward history for each tab"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1379858, 
+          "summary": "tabs.Tab.audible returns incorrect result for muted tabs that are playing sound"
         }
       ], 
       "schema": {
@@ -3619,6 +3640,15 @@
             "usage": "chrome.tabs.sendRequest", 
             "permissions": null
           }, 
+          "printPreview": {
+            "full": "chrome.tabs.printPreview()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.tabs.printPreview", 
+            "permissions": null
+          }, 
           "create": {
             "full": "chrome.tabs.create()", 
             "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Tabs/create", 
@@ -3653,6 +3683,15 @@
             "rank": 59, 
             "reasons": [], 
             "usage": "chrome.tabs.insertCSS", 
+            "permissions": null
+          }, 
+          "print": {
+            "full": "chrome.tabs.print()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.tabs.print", 
             "permissions": null
           }, 
           "get": {
@@ -3698,6 +3737,15 @@
             "rank": 381, 
             "reasons": [], 
             "usage": "chrome.tabs.setZoomSettings", 
+            "permissions": null
+          }, 
+          "saveAsPDF": {
+            "full": "chrome.tabs.saveAsPDF()", 
+            "url": null, 
+            "supported": true, 
+            "rank": [], 
+            "reasons": [], 
+            "usage": "chrome.tabs.saveAsPDF", 
             "permissions": null
           }, 
           "getSelected": {
@@ -4215,13 +4263,6 @@
           "priority": "P2", 
           "status": "NEW", 
           "resolution": "", 
-          "id": 1256122, 
-          "summary": "webRequest.onHeadersReceived no redirect to extension page"
-        }, 
-        {
-          "priority": "P2", 
-          "status": "NEW", 
-          "resolution": "", 
           "id": 1268885, 
           "summary": "Support full native paths in the requestBody.raw[x].file property"
         }, 
@@ -4238,6 +4279,13 @@
           "resolution": "", 
           "id": 1360968, 
           "summary": "Modifing XHR request created in content script not work"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1377689, 
+          "summary": "webRequest API should merge multiple headers with the same name rather than using only the last"
         }
       ], 
       "schema": {
