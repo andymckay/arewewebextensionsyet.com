@@ -878,7 +878,7 @@
       "code": "https://dxr.mozilla.org/mozilla-central/source/browser/components/extensions/ext-contextMenus.js", 
       "bugs": [
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "ASSIGNED", 
           "resolution": "", 
           "id": 1215376, 
@@ -1023,7 +1023,7 @@
           "summary": "See if we can use nsCookieService for cookie matching in chrome.cookies"
         }, 
         {
-          "priority": "--", 
+          "priority": "P5", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1272953, 
@@ -2056,6 +2056,13 @@
           "resolution": "", 
           "id": 1282984, 
           "summary": "Implement chrome.management events"
+        }, 
+        {
+          "priority": "--", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1385562, 
+          "summary": "Extension icons missing from ExtensionInfo and inaccessible for disabled extensions"
         }
       ], 
       "schema": {
@@ -2837,6 +2844,13 @@
         }, 
         {
           "priority": "P3", 
+          "status": "ASSIGNED", 
+          "resolution": "", 
+          "id": 1377325, 
+          "summary": "proxy does not fall back to direct requests if DIRECT is specified"
+        }, 
+        {
+          "priority": "P3", 
           "status": "NEW", 
           "resolution": "", 
           "id": 1381070, 
@@ -2848,6 +2862,20 @@
           "resolution": "", 
           "id": 1381290, 
           "summary": "FindProxyForURL() should use object return type and deprecate string format"
+        }, 
+        {
+          "priority": "P3", 
+          "status": "UNCONFIRMED", 
+          "resolution": "", 
+          "id": 1382684, 
+          "summary": "Pass IP address of url domain to FindProxyForURL()"
+        }, 
+        {
+          "priority": "P2", 
+          "status": "NEW", 
+          "resolution": "", 
+          "id": 1383426, 
+          "summary": "proxyAPI should notify addon when authentication fails"
         }
       ], 
       "schema": {
@@ -3998,7 +4026,7 @@
           }, 
           "update": {
             "full": "chrome.theme.update()", 
-            "url": null, 
+            "url": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/Theme/update", 
             "supported": true, 
             "rank": [], 
             "reasons": [], 
