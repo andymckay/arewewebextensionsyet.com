@@ -32,7 +32,7 @@
         },
         {
             "users": 0,
-            "guid": "nhdogjmejiglipccpnnnanhbledajbpd@chrome-store-foxified-1617803097",
+            "guid": "{5caff8cc-3d2e-4110-a88a-003cc85b3858}",
             "name": "Vue.js devtools",
             "level": 2
         },
@@ -540,6 +540,54 @@
             "users": 0,
             "guid": "{a7c6cf7f-112c-4500-a7ea-39801a327e5f}",
             "name": "FireFTP",
+            "level": 2
+        },
+        {
+            "users": 110000,
+            "guid": "{72b2e02b-3a71-4895-886c-fd12ebe36ba3}",
+            "name": "Bulk Media Downloader",
+            "level": 2
+        },
+        {
+            "users": 85000,
+            "guid": "donottrackplus@abine.com",
+            "name": "Blur Do Not Track Plus",
+            "level": 2
+        },
+        {
+            "users": 65000,
+            "guid": "tiletabs-we@DW-dev",
+            "name": "Tile Tabs",
+            "level": 2
+        },
+        {
+            "users": 61000,
+            "guid": "jid1-93WyvpgvxzGATw@jetpack",
+            "name": "To Google translate",
+            "level": 2
+        },
+        {
+            "users": 45000,
+            "guid": "stefanvandamme@stefanvd.net",
+            "name": "Turn off the Lights",
+            "level": 2
+        },
+        {
+            "users": 60000,
+            "guid": "jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack",
+            "name": "Google Search Link Fix",
+            "level": 2
+        },
+        {
+            "users": 40000,
+            "guid": "jid1-i6dUGvCrz2WZu8@jetpack",
+            "name": "Video Downloader Prime",
+            "level": 2
+        },
+        {
+            "users": 0,
+            "guid": "jid1-f3mYMbCpz2AZYl@jetpack",
+            "name": "Google Translator Lite",
             "level": 2
         }
     ],

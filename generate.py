@@ -10,6 +10,14 @@ from jinja2 import Environment, FileSystemLoader
 
 amo_server = os.getenv('AMO_SERVER', 'https://addons.mozilla.org')
 
+override_error = [
+    'mozilla_cc@internetdownloadmanager.com',
+    'jid1-YcMV6ngYmQRA2w@jetpack',
+    'onepassword4@agilebits.com',
+    'light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com',
+    'jetpack-extension@dashlane.com'
+]
+
 
 def process_amo(addon, result, compat):
     try:
@@ -44,21 +52,25 @@ def get_cache(url):
         return json.load(open(filename, 'r'))
 
 
-def get_from_amo(addon):
-    guid = addon['guid']
+def amo_error(addon, error):
     err = {
         'name': addon['name'],
         'url': '',
-        'guid': guid,
-        'status': 'error',
+        'guid': addon['guid'],
+        'status': addon['guid'] in override_error or error,
         'id': 0
     }
+    return err
+
+
+def get_from_amo(addon):
+    guid = addon['guid']
     try:
 
         addon_url = amo_server + '/api/v3/addons/addon/{}/'.format(guid)
         addon_data = get_cache(addon_url)
     except UnicodeEncodeError:
-        return err
+        return amo_error(addon, 'Unicode error')
 
     compat_url = amo_server + '/api/v3/addons/addon/{}/feature_compatibility/'.format(guid)
     compat_data = get_cache(compat_url)
@@ -70,7 +82,7 @@ def get_from_amo(addon):
         print 'Fetching', url
         res = requests.get(url)
         if res.status_code != 200:
-            return err
+            return amo_error(addon, 'AMO returned: %s' % res.status_code)
 
         res.raise_for_status()
         res_json = res.json()
