@@ -92,7 +92,11 @@ def get_cached_bugzilla(url):
         return cached
 
     res = requests.get(url)
-    res_json = res.json()
+    try:
+        res_json = res.json()
+    except ValueError:
+        print 'Failed to get JSON for: ' + url
+        return {}
     set_cache(url, res_json)
     return res_json
 
