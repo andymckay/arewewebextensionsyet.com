@@ -589,6 +589,30 @@
             "guid": "jid1-f3mYMbCpz2AZYl@jetpack",
             "name": "Google Translator Lite",
             "level": 2
+        },
+        {
+          "users": 100000,
+          "guid": "jid1-93CWPmRbVPjRQA@jetpack",
+          "name": "Honey",
+          "level": 2
+        },
+        {
+          "users": 220000,
+          "guid": "{22119944-ED35-4ab1-910B-E619EA06A115}",
+          "name": "Roboform Password Manager",
+          "level": 2
+        },
+        {
+          "users": 90000,
+          "guid": "jid1-o2qEVrZ4t5FJWu@jetpack",
+          "name": "YouTube Flash-HTML5",
+          "level": 2
+        },
+        {
+          "users": 100000,
+          "guid": "newtaboverride@agenedia.com",
+          "name": "New Tab Override (WebExtension)",
+          "level": 2
         }
     ],
     "level-3": [
