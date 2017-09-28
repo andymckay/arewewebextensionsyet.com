@@ -620,29 +620,21 @@
             "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}",
             "testing": [],
             "users": 288482,
-            "name": "YouTube\u42e2 Video and Audio Downloader",
+            "name": "Session Manager",
             "level": 3
         },
         {
             "guid": "vk@sergeykolosov.mp",
             "testing": [],
             "users": 275379,
-            "name": "YouTube\u42e2 Video and Audio Downloader",
+            "name": "VKontakte.ru Downloader (music/videos/photos @ VK)",
             "level": 3
-        },
-        {
-            "users": 283311,
-            "level": 3,
-            "testing": [],
-            "shimmed": null,
-            "guid": "firefox-hotfix@mozilla.org",
-            "name": "YouTube\u42e2 Video and Audio Downloader"
         },
         {
             "guid": "yasearch@yandex.ru",
             "testing": [],
             "users": 452947,
-            "name": "YouTube\u42e2 Video and Audio Downloader",
+            "name": "Yandex.Bar",
             "level": 3
         }
     ],
