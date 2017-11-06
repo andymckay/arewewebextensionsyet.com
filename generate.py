@@ -57,7 +57,7 @@ def amo_error(addon, error):
         'name': addon['name'],
         'url': '',
         'guid': addon['guid'],
-        'status': addon['guid'] in override_error or error,
+        'status': addon['guid'] in override_error or False,
         'id': 0
     }
     return err
