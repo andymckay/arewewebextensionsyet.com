@@ -1,716 +1,712 @@
 {
   "level-2": [
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/", 
-      "guid": "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/",
+      "guid": "87677a2c52b84ad3a151a4a72f5bd3c4@jetpack",
       "name": "Grammarly for Firefox"
-    }, 
+    },
     {
-      "guid": "ighdmehidhipcmcojjgiloacoafjmpfk@chrome-store-foxified-1964081006", 
+      "guid": "ighdmehidhipcmcojjgiloacoafjmpfk@chrome-store-foxified-1964081006",
       "name": "AngularJS Batarang"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/", 
-      "guid": "ember-inspector@emberjs.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/",
+      "guid": "ember-inspector@emberjs.com",
       "name": "Ember Inspector"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/", 
-      "guid": "@react-devtools", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
+      "guid": "@react-devtools",
       "name": "React Developer Tools"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/remotedev/", 
-      "guid": "extension@redux.devtools", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/remotedev/",
+      "guid": "extension@redux.devtools",
       "name": "Redux DevTools"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/", 
-      "guid": "{5caff8cc-3d2e-4110-a88a-003cc85b3858}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/",
+      "guid": "{5caff8cc-3d2e-4110-a88a-003cc85b3858}",
       "name": "Vue.js devtools"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/", 
-      "guid": "https-everywhere@eff.org", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/",
+      "guid": "https-everywhere@eff.org",
       "name": "HTTPS Everywhere"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/norton-identity-safe/", 
-      "guid": "idsafe@norton.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/norton-identity-safe/",
+      "guid": "idsafe@norton.com",
       "name": "Norton Identity Safe"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/norton-safe-web/", 
-      "guid": "nortonsafeweb@symantec.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/norton-safe-web/",
+      "guid": "nortonsafeweb@symantec.com",
       "name": "Norton Safe Web"
-    }, 
+    },
     {
-      "guid": "web2pdfextension@web2pdf.adobedotcom", 
+      "guid": "web2pdfextension@web2pdf.adobedotcom",
       "name": "Adobe Acrobat - Create PDF"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/", 
-      "guid": "jid1-q4sG8pYhq8KGHs@jetpack", 
-      "name": "AdBlocker for YouTube\u2122", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/",
+      "guid": "jid1-q4sG8pYhq8KGHs@jetpack",
+      "name": "AdBlocker for YouTube\u2122",
       "users": "314420"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/", 
-      "guid": "adblockultimate@adblockultimate.net", 
-      "name": "AdBlocker Ultimate", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/",
+      "guid": "adblockultimate@adblockultimate.net",
+      "name": "AdBlocker Ultimate",
       "users": "357692"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/", 
-      "guid": "adguardadblocker@adguard.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/",
+      "guid": "adguardadblocker@adguard.com",
       "name": "Adguard AdBlocker"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/anonymox/", 
-      "guid": "client@anonymox.net", 
-      "name": "anonymoX", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/anonymox/",
+      "guid": "client@anonymox.net",
+      "name": "anonymoX",
       "users": "549250"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-player/", 
-      "guid": "anttoolbar@ant.com", 
-      "name": "Ant Video Downloader", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-player/",
+      "guid": "anttoolbar@ant.com",
+      "name": "Ant Video Downloader",
       "users": "407227"
-    }, 
+    },
     {
-      "guid": "wrc@avast.com", 
+      "guid": "wrc@avast.com",
       "name": "Avast Online Security"
-    }, 
+    },
     {
-      "guid": "avg@toolbar", 
+      "guid": "avg@toolbar",
       "name": "AVG Web TuneUp"
-    }, 
+    },
     {
-      "guid": "abs@avira.com", 
+      "guid": "abs@avira.com",
       "name": "Avira Browser Safety"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/", 
-      "guid": "donottrackplus@abine.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/",
+      "guid": "donottrackplus@abine.com",
       "name": "Blur"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/browser-security-1/", 
-      "guid": "firefox@browser-security.de", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/browser-security-1/",
+      "guid": "firefox@browser-security.de",
       "name": "browser-security-1"
-    }, 
+    },
     {
-      "guid": "ols@f-secure.com", 
+      "guid": "ols@f-secure.com",
       "name": "Browsing Protection by F-Secure"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorfultabs/", 
-      "guid": "{0545b830-f0aa-4d7e-8820-50a4629a56fe}", 
-      "name": "ColorfulTabs", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorfultabs/",
+      "guid": "{0545b830-f0aa-4d7e-8820-50a4629a56fe}",
+      "name": "ColorfulTabs",
       "users": "250595"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/", 
-      "guid": "{6AC85730-7D0F-4de0-B3FA-21142DD85326}", 
-      "name": "ColorZilla", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/",
+      "guid": "{6AC85730-7D0F-4de0-B3FA-21142DD85326}",
+      "name": "ColorZilla",
       "users": "273013"
-    }, 
+    },
     {
-      "guid": "jetpack-extension@dashlane.com", 
+      "guid": "jetpack-extension@dashlane.com",
       "name": "Dashlane"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/disconnect/", 
-      "guid": "2.0@disconnect.me", 
-      "name": "Disconnect", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/disconnect/",
+      "guid": "2.0@disconnect.me",
+      "name": "Disconnect",
       "users": "283780"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/", 
-      "guid": "{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}", 
-      "name": "Download Statusbar", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/",
+      "guid": "{D4DD63FA-01E4-46a7-B6B1-EDAB7D6AD389}",
+      "name": "Download Statusbar",
       "users": "331909"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/", 
-      "guid": "{b9acf540-acba-11e1-8ccb-001fd0e08bd4}", 
-      "name": "Easy Youtube Video Downloader Express", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/",
+      "guid": "{b9acf540-acba-11e1-8ccb-001fd0e08bd4}",
+      "name": "Easy Youtube Video Downloader Express",
       "users": "326119"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/epubreader/", 
-      "guid": "{5384767E-00D9-40E9-B72F-9CC39D655D6F}", 
-      "name": "EPUBReader", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/epubreader/",
+      "guid": "{5384767E-00D9-40E9-B72F-9CC39D655D6F}",
+      "name": "EPUBReader",
       "users": "424322"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/", 
-      "guid": "{E0B8C461-F8FB-49b4-8373-FE32E9252800}", 
-      "name": "Evernote Web Clipper", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/",
+      "guid": "{E0B8C461-F8FB-49b4-8373-FE32E9252800}",
+      "name": "Evernote Web Clipper",
       "users": "391479"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/firefox-all-aboard-1-6/", 
-      "guid": "@all-aboard-v1-6", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/firefox-all-aboard-1-6/",
+      "guid": "@all-aboard-v1-6",
       "name": "Firefox All Aboard 1.6"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/firegestures/", 
-      "guid": "firegestures@xuldev.org", 
-      "name": "FireGestures", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/firegestures/",
+      "guid": "firegestures@xuldev.org",
+      "name": "FireGestures",
       "users": "363752"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/flagfox/", 
-      "guid": "{1018e4d6-728f-4b20-ad56-37578a4de76b}", 
-      "name": "Flagfox", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/flagfox/",
+      "guid": "{1018e4d6-728f-4b20-ad56-37578a4de76b}",
+      "name": "Flagfox",
       "users": "525145"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/", 
-      "guid": "foxyproxy@eric.h.jung", 
-      "name": "FoxyProxy Standard", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/",
+      "guid": "foxyproxy@eric.h.jung",
+      "name": "FoxyProxy Standard",
       "users": "286381"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/fireshot/", 
-      "guid": "{0b457cAA-602d-484a-8fe7-c1d894a011ba}", 
-      "name": "Full Web Page Screenshots (\u2665\u2665\u2665\u2665\u2665)", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/fireshot/",
+      "guid": "{0b457cAA-602d-484a-8fe7-c1d894a011ba}",
+      "name": "Full Web Page Screenshots (\u2665\u2665\u2665\u2665\u2665)",
       "users": "279529"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/garmin-communicator/", 
-      "guid": "{195A3098-0BD5-4e90-AE22-BA1C540AFD1E}", 
-      "name": "Garmin Communicator", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/garmin-communicator/",
+      "guid": "{195A3098-0BD5-4e90-AE22-BA1C540AFD1E}",
+      "name": "Garmin Communicator",
       "users": "418313"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/imtranslator/", 
-      "guid": "{9AA46F4F-4DC7-4c06-97AF-5035170634FE}", 
-      "name": "Google Translate, ImTranslator, Dictionary, TTS", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/imtranslator/",
+      "guid": "{9AA46F4F-4DC7-4c06-97AF-5035170634FE}",
+      "name": "Google Translate, ImTranslator, Dictionary, TTS",
       "users": "336652"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks/", 
-      "guid": "firefoxdav@icloud.com", 
-      "name": "iCloud Bookmarks", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/icloud-bookmarks/",
+      "guid": "firefoxdav@icloud.com",
+      "name": "iCloud Bookmarks",
       "users": "383932"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/ie-tab-2-ff-36/", 
-      "guid": "{1BC9BA34-1EED-42ca-A505-6D2F1A935BBB}", 
-      "name": "IE Tab V2  (Enhanced IE Tab)", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/ie-tab-2-ff-36/",
+      "guid": "{1BC9BA34-1EED-42ca-A505-6D2F1A935BBB}",
+      "name": "IE Tab V2  (Enhanced IE Tab)",
       "users": "515934"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/image-zoom/", 
-      "guid": "{1A2D0EC4-75F5-4c91-89C4-3656F6E44B68}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/image-zoom/",
+      "guid": "{1A2D0EC4-75F5-4c91-89C4-3656F6E44B68}",
       "name": "Image Zoom"
-    }, 
+    },
     {
-      "guid": "light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com", 
+      "guid": "light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com",
       "name": "Kaspersky Protection"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/mcafee-security-scan-plus/", 
-      "guid": "{e4f94d1e-2f53-401e-8885-681602c0ddd8}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/mcafee-security-scan-plus/",
+      "guid": "{e4f94d1e-2f53-401e-8885-681602c0ddd8}",
       "name": "McAfee Security Scan Plus detection"
-    }, 
+    },
     {
-      "guid": "{4ED1F68A-5463-4931-9384-8FFF5ED91D92}", 
+      "guid": "{4ED1F68A-5463-4931-9384-8FFF5ED91D92}",
       "name": "McAfee WebAdvisor"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/measureit/", 
-      "guid": "{75CEEE46-9B64-46f8-94BF-54012DE155F0}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/measureit/",
+      "guid": "{75CEEE46-9B64-46f8-94BF-54012DE155F0}",
       "name": "MeasureIt"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/", 
-      "guid": "{7f57cf46-4467-4c2d-adfa-0cba7c507e54}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/mozilla-archive-format/",
+      "guid": "{7f57cf46-4467-4c2d-adfa-0cba7c507e54}",
       "name": "Mozilla Archive Format, with MHT and Faithful Save"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/netvideohunter-video-downloade/", 
-      "guid": "netvideohunter@netvideohunter.com", 
-      "name": "NetVideoHunter", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/netvideohunter-video-downloade/",
+      "guid": "netvideohunter@netvideohunter.com",
+      "name": "NetVideoHunter",
       "users": "278207"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/", 
-      "guid": "{66E978CD-981F-47DF-AC42-E3CF417C1467}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/",
+      "guid": "{66E978CD-981F-47DF-AC42-E3CF417C1467}",
       "name": "New Tab Homepage"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/nosquint/", 
-      "guid": "nosquint@urandom.ca", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/nosquint/",
+      "guid": "nosquint@urandom.ca",
       "name": "NoSquint"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/password-exporter/", 
-      "guid": "{B17C1C5A-04B1-11DB-9804-B622A1EF5492}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/password-exporter/",
+      "guid": "{B17C1C5A-04B1-11DB-9804-B622A1EF5492}",
       "name": "Password Exporter"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/personas-plus/", 
-      "guid": "personas@christopher.beard", 
-      "name": "Personas Plus", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/personas-plus/",
+      "guid": "personas@christopher.beard",
+      "name": "Personas Plus",
       "users": "312913"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/proxtube/", 
-      "guid": "ich@maltegoetz.de", 
-      "name": "ProxTube - Unblock YouTube", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/proxtube/",
+      "guid": "ich@maltegoetz.de",
+      "name": "ProxTube - Unblock YouTube",
       "users": "311056"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/quickjava/", 
-      "guid": "{E6C1199F-E687-42da-8C24-E7770CC3AE66}", 
-      "name": "QuickJava", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/quickjava/",
+      "guid": "{E6C1199F-E687-42da-8C24-E7770CC3AE66}",
+      "name": "QuickJava",
       "users": "274114"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/reloadevery/", 
-      "guid": "{888d99e7-e8b5-46a3-851e-1ec45da1e644}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/reloadevery/",
+      "guid": "{888d99e7-e8b5-46a3-851e-1ec45da1e644}",
       "name": "ReloadEvery"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/s3google-translator/", 
-      "guid": "s3google@translator", 
-      "name": "S3.Google Translator", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/s3google-translator/",
+      "guid": "s3google@translator",
+      "name": "S3.Google Translator",
       "users": "369330"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/", 
-      "guid": "helper@savefrom.net", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/",
+      "guid": "helper@savefrom.net",
       "name": "SaveFrom.net helper all-in-1 / youtube downloader"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/scrapbook/", 
-      "guid": "{53A03D43-5363-4669-8190-99061B2DEBA5}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/scrapbook/",
+      "guid": "{53A03D43-5363-4669-8190-99061B2DEBA5}",
       "name": "ScrapBook"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/", 
-      "guid": "jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
+      "guid": "jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack",
       "name": "Self-Destructing Cookies"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/skype-addon/", 
-      "guid": "{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/skype-addon/",
+      "guid": "{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}",
       "name": "Skype"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/speed-dial/", 
-      "guid": "{64161300-e22b-11db-8314-0800200c9a66}", 
-      "name": "Speed Dial", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/speed-dial/",
+      "guid": "{64161300-e22b-11db-8314-0800200c9a66}",
+      "name": "Speed Dial",
       "users": "378805"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/fvd-speed-dial/", 
-      "guid": "pavel.sherbakov@gmail.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/fvd-speed-dial/",
+      "guid": "pavel.sherbakov@gmail.com",
       "name": "Speed Dial [FVD] - New Tab Page, Sync..."
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/status-4-evar/", 
-      "guid": "status4evar@caligonstudios.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/status-4-evar/",
+      "guid": "status4evar@caligonstudios.com",
       "name": "Status-4-Evar"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/stylish/", 
-      "guid": "{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}", 
-      "name": "Stylish", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stylish/",
+      "guid": "{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}",
+      "name": "Stylish",
       "users": "481414"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/text-link/", 
-      "guid": "{54BB9F3F-07E5-486c-9B39-C7398B99391C}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/text-link/",
+      "guid": "{54BB9F3F-07E5-486c-9B39-C7398B99391C}",
       "name": "Text Link"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/", 
-      "guid": "{e968fc70-8f95-4ab9-9e79-304de2a71ee1}", 
-      "name": "User Agent Switcher", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/",
+      "guid": "{e968fc70-8f95-4ab9-9e79-304de2a71ee1}",
+      "name": "User Agent Switcher",
       "users": "343383"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-profession/", 
-      "guid": "ffext_basicvideoext@startpage24", 
-      "name": "Video Downloader professional", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-profession/",
+      "guid": "ffext_basicvideoext@startpage24",
+      "name": "Video Downloader professional",
       "users": "258678"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/web-developer/", 
-      "guid": "{c45c406e-ab73-11d8-be73-000a95be3b12}", 
-      "name": "Web Developer", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/web-developer/",
+      "guid": "{c45c406e-ab73-11d8-be73-000a95be3b12}",
+      "name": "Web Developer",
       "users": "493583"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/xthunder/", 
-      "guid": "xthunder@lshai.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/xthunder/",
+      "guid": "xthunder@lshai.com",
       "name": "xThunder"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-all-html5/", 
-      "guid": "jid1-qj0w91o64N7Eeg@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-all-html5/",
+      "guid": "jid1-qj0w91o64N7Eeg@jetpack",
       "name": "YouTube ALL HTML5"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/media-downloader/", 
-      "guid": "paulsaintuzb@gmail.com", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/media-downloader/",
+      "guid": "paulsaintuzb@gmail.com",
       "name": "Youtube Downloader 4K - Video Downloader"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-player/", 
-      "guid": "jid1-HAV2inXAnQPIeA@jetpack", 
-      "name": "YouTube Flash Player", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-player/",
+      "guid": "jid1-HAV2inXAnQPIeA@jetpack",
+      "name": "YouTube Flash Player",
       "users": "402546"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-video-player/", 
-      "guid": "{f3bd3dd2-2888-44c5-91a2-2caeb33fb898}", 
-      "name": "YouTube Flash Video Player", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-video-player/",
+      "guid": "{f3bd3dd2-2888-44c5-91a2-2caeb33fb898}",
+      "name": "YouTube Flash Video Player",
       "users": "299809"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/", 
-      "guid": "{7b1bf0b6-a1b9-42b0-b75d-252036438bdc}", 
-      "name": "YouTube High Definition", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-high-definition/",
+      "guid": "{7b1bf0b6-a1b9-42b0-b75d-252036438bdc}",
+      "name": "YouTube High Definition",
       "users": "284115"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-mp3/", 
-      "guid": "info@youtube-mp3.org", 
-      "name": "YouTube mp3", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-mp3/",
+      "guid": "info@youtube-mp3.org",
+      "name": "YouTube mp3",
       "users": "514302"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/zenmate-security-privacy-vpn/", 
-      "guid": "firefox@zenmate.com", 
-      "name": "ZenMate Security & Privacy VPN", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/zenmate-security-privacy-vpn/",
+      "guid": "firefox@zenmate.com",
+      "name": "ZenMate Security & Privacy VPN",
       "users": "285639"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/", 
-      "guid": "ClassicThemeRestorer@ArisT2Noia4dev", 
-      "name": "Classic Theme Restorer", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/classicthemerestorer/",
+      "guid": "ClassicThemeRestorer@ArisT2Noia4dev",
+      "name": "Classic Theme Restorer",
       "users": "436611"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/frigate/", 
-      "guid": "e67f8350-7edf-11e3-baa7-0800200c9a66@fri-gate.org", 
-      "name": "frigate", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/frigate/",
+      "guid": "e67f8350-7edf-11e3-baa7-0800200c9a66@fri-gate.org",
+      "name": "frigate",
       "users": "258320"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/amazon-browser-bar/", 
-      "guid": "abb@amazon.com", 
-      "name": "Amazon Assistant for Firefox", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/amazon-browser-bar/",
+      "guid": "abb@amazon.com",
+      "name": "Amazon Assistant for Firefox",
       "users": "280014"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/", 
-      "guid": "vk@sergeykolosov.mp", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/",
+      "guid": "vk@sergeykolosov.mp",
       "name": "VKontakte.ru Downloader (music/videos/photos @ VK)"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/session-manager/", 
-      "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/session-manager/",
+      "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}",
       "name": "Session Manager"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/easy-access/", 
-      "guid": "quicklaunch@mozillaonline.com", 
-      "name": "Easy Access", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/easy-access/",
+      "guid": "quicklaunch@mozillaonline.com",
+      "name": "Easy Access",
       "users": "303194"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/", 
-      "guid": "{635abd67-4fe9-1b23-4f01-e679fa7484c1}", 
-      "name": "Yahoo Toolbar and New Tab", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/",
+      "guid": "{635abd67-4fe9-1b23-4f01-e679fa7484c1}",
+      "name": "Yahoo Toolbar and New Tab",
       "users": "716458"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/search-and-new-tab-by-yahoo/", 
-      "guid": "jid1-16aeif9OQIRKxA@jetpack", 
-      "name": "Search and New Tab by Yahoo", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/search-and-new-tab-by-yahoo/",
+      "guid": "jid1-16aeif9OQIRKxA@jetpack",
+      "name": "Search and New Tab by Yahoo",
       "users": "582449"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-by-yahoo/", 
-      "guid": "jid1-G80Ec8LLEbK5fQ@jetpack", 
-      "name": "New Tab by Yahoo", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-by-yahoo/",
+      "guid": "jid1-G80Ec8LLEbK5fQ@jetpack",
+      "name": "New Tab by Yahoo",
       "users": "318370"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/fireftp/", 
-      "guid": "{a7c6cf7f-112c-4500-a7ea-39801a327e5f}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/fireftp/",
+      "guid": "{a7c6cf7f-112c-4500-a7ea-39801a327e5f}",
       "name": "FireFTP"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/", 
-      "guid": "{72b2e02b-3a71-4895-886c-fd12ebe36ba3}", 
-      "name": "Bulk Media Downloader", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/bulk-media-downloader/",
+      "guid": "{72b2e02b-3a71-4895-886c-fd12ebe36ba3}",
+      "name": "Bulk Media Downloader",
       "users": "110000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/", 
-      "guid": "donottrackplus@abine.com", 
-      "name": "Blur", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/donottrackplus/",
+      "guid": "donottrackplus@abine.com",
+      "name": "Blur",
       "users": "85000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/tile-tabs-we/", 
-      "guid": "tiletabs-we@DW-dev", 
-      "name": "Tile Tabs WE", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/tile-tabs-we/",
+      "guid": "tiletabs-we@DW-dev",
+      "name": "Tile Tabs WE",
       "users": "65000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/", 
-      "guid": "jid1-93WyvpgvxzGATw@jetpack", 
-      "name": "To Google Translate", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/",
+      "guid": "jid1-93WyvpgvxzGATw@jetpack",
+      "name": "To Google Translate",
       "users": "61000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/", 
-      "guid": "stefanvandamme@stefanvd.net", 
-      "name": "Turn Off the Lights", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/turn-off-the-lights/",
+      "guid": "stefanvandamme@stefanvd.net",
+      "name": "Turn Off the Lights",
       "users": "45000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/", 
-      "guid": "jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack", 
-      "name": "Google search link fix", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/",
+      "guid": "jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack",
+      "name": "Google search link fix",
       "users": "60000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-prime/", 
-      "guid": "jid1-i6dUGvCrz2WZu8@jetpack", 
-      "name": "Video Downloader Prime", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloader-prime/",
+      "guid": "jid1-i6dUGvCrz2WZu8@jetpack",
+      "name": "Video Downloader Prime",
       "users": "40000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-translator-lite/", 
-      "guid": "jid1-f3mYMbCpz2AZYl@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-translator-lite/",
+      "guid": "jid1-f3mYMbCpz2AZYl@jetpack",
       "name": "Google\u2122 Translator Lite"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/", 
-      "guid": "jid1-93CWPmRbVPjRQA@jetpack", 
-      "name": "Honey", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/",
+      "guid": "jid1-93CWPmRbVPjRQA@jetpack",
+      "name": "Honey",
       "users": "100000"
-    }, 
+    },
     {
-      "guid": "{22119944-ED35-4ab1-910B-E619EA06A115}", 
+      "guid": "{22119944-ED35-4ab1-910B-E619EA06A115}",
       "name": "Roboform Password Manager"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-html5/", 
-      "guid": "jid1-o2qEVrZ4t5FJWu@jetpack", 
-      "name": "YouTube\u2122 Flash-HTML5", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-flash-html5/",
+      "guid": "jid1-o2qEVrZ4t5FJWu@jetpack",
+      "name": "YouTube\u2122 Flash-HTML5",
       "users": "90000"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/", 
-      "guid": "newtaboverride@agenedia.com", 
-      "name": "New Tab Override (WebExtension)", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/",
+      "guid": "newtaboverride@agenedia.com",
+      "name": "New Tab Override (WebExtension)",
       "users": "100000"
     }
-  ], 
+  ],
   "level-3": [
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/session-manager/", 
-      "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}", 
-      "name": "Session Manager", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/session-manager/",
+      "guid": "{1280606b-2510-4fe0-97ef-9b5a22eafe30}",
+      "name": "Session Manager",
       "users": "288482"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/", 
-      "guid": "vk@sergeykolosov.mp", 
-      "name": "VKontakte.ru Downloader (music/videos/photos @ VK)", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/vkontakteru-downloader/",
+      "guid": "vk@sergeykolosov.mp",
+      "name": "VKontakte.ru Downloader (music/videos/photos @ VK)",
       "users": "275379"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/yandexbar/", 
-      "guid": "yasearch@yandex.ru", 
-      "name": "Yandex.Bar", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/yandexbar/",
+      "guid": "yasearch@yandex.ru",
+      "name": "Yandex.Bar",
       "users": "452947"
     }
-  ], 
+  ],
   "level-1": [
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/1-click-youtube-video-downl/", 
-      "guid": "YoutubeDownloader@PeterOlayev.com", 
-      "name": "1-Click YouTube Video Download", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/1-click-youtube-video-downl/",
+      "guid": "YoutubeDownloader@PeterOlayev.com",
+      "name": "1-Click YouTube Video Download",
       "users": "694409"
-    }, 
+    },
     {
-      "guid": "onepassword4@agilebits.com", 
+      "guid": "onepassword4@agilebits.com",
       "name": "1Password"
-    }, 
+    },
     {
-      "guid": "adbhelper@mozilla.org", 
+      "guid": "adbhelper@mozilla.org",
       "name": "ADB Helper"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/", 
-      "guid": "{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}", 
-      "name": "Adblock Plus", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/",
+      "guid": "{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}",
+      "name": "Adblock Plus",
       "users": "20619547"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/", 
-      "guid": "jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/",
+      "guid": "jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack",
       "name": "Awesome Screenshot Plus - Capture, Annotate & More"
     }, 
     {
-      "guid": "{d40f5e7b-d2cf-4856-b441-cc613eeffbe3}", 
-      "name": "BetterPrivacy-signed"
-    }, 
-    {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/download-flash-and-video/", 
-      "guid": "{bee6eb20-01e0-ebd1-da83-080329fb9a3a}", 
-      "name": "Download Flash and Video", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/download-flash-and-video/",
+      "guid": "{bee6eb20-01e0-ebd1-da83-080329fb9a3a}",
+      "name": "Download Flash and Video",
       "users": "682182"
-    }, 
+    },
     {
-      "guid": "{b9bfaf1c-a63f-47cd-8b9a-29526ced9060}", 
+      "guid": "{b9bfaf1c-a63f-47cd-8b9a-29526ced9060}",
       "name": "Download YouTube Videos as MP4"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/downthemall/", 
-      "guid": "{DDC359D1-844A-42a7-9AA1-88A850A938A8}", 
-      "name": "DownThemAll!", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/downthemall/",
+      "guid": "{DDC359D1-844A-42a7-9AA1-88A850A938A8}",
+      "name": "DownThemAll!",
       "users": "1294978"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot/", 
-      "guid": "easyscreenshot@mozillaonline.com", 
-      "name": "Easy Screenshot", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot/",
+      "guid": "easyscreenshot@mozillaonline.com",
+      "name": "Easy Screenshot",
       "users": "2403045"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/elemhidehelper/", 
-      "guid": "elemhidehelper@adblockplus.org", 
-      "name": "Element Hiding Helper for Adblock Plus", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/elemhidehelper/",
+      "guid": "elemhidehelper@adblockplus.org",
+      "name": "Element Hiding Helper for Adblock Plus",
       "users": "655424"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/flashblock/", 
-      "guid": "{3d7eb24f-2740-49df-8937-200b1cc08f8a}", 
-      "name": "Flashblock", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/flashblock/",
+      "guid": "{3d7eb24f-2740-49df-8937-200b1cc08f8a}",
+      "name": "Flashblock",
       "users": "595268"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/flashgot/", 
-      "guid": "{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}", 
-      "name": "FlashGot Mass Downloader", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/flashgot/",
+      "guid": "{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}",
+      "name": "FlashGot Mass Downloader",
       "users": "848724"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/flash-video-downloader/", 
-      "guid": "artur.dubovoy@gmail.com", 
-      "name": "Flash Video Downloader - YouTube HD Download [4K]", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/flash-video-downloader/",
+      "guid": "artur.dubovoy@gmail.com",
+      "name": "Flash Video Downloader - YouTube HD Download [4K]",
       "users": "1066245"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/ghostery/", 
-      "guid": "firefox@ghostery.com", 
-      "name": "Ghostery", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/ghostery/",
+      "guid": "firefox@ghostery.com",
+      "name": "Ghostery",
       "users": "1464992"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-translator-for-firefox/", 
-      "guid": "translator@zoli.bod", 
-      "name": "Google Translator for Firefox", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/google-translator-for-firefox/",
+      "guid": "translator@zoli.bod",
+      "name": "Google Translator for Firefox",
       "users": "798165"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/", 
-      "guid": "{e4a8a97b-f2ed-450b-b12d-ee082ba24781}", 
-      "name": "Greasemonkey", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/",
+      "guid": "{e4a8a97b-f2ed-450b-b12d-ee082ba24781}",
+      "name": "Greasemonkey",
       "users": "1302204"
-    }, 
+    },
     {
-      "guid": "mozilla_cc@internetdownloadmanager.com", 
+      "guid": "mozilla_cc@internetdownloadmanager.com",
       "name": "IDM CC"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/", 
-      "guid": "support@lastpass.com", 
-      "name": "LastPass Password Manager", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/",
+      "guid": "support@lastpass.com",
+      "name": "LastPass Password Manager",
       "users": "745753"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/lightbeam/", 
-      "guid": "jid1-F9UJ2thwoAm5gQ@jetpack", 
-      "name": "Firefox Lightbeam", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/lightbeam/",
+      "guid": "jid1-F9UJ2thwoAm5gQ@jetpack",
+      "name": "Firefox Lightbeam",
       "users": "509680"
-    }, 
+    },
     {
-      "guid": "firefox@mega.co.nz", 
+      "guid": "firefox@mega.co.nz",
       "name": "MEGA extension"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/", 
-      "guid": "{73a6fe31-595d-460b-a920-fcc0f8843232}", 
-      "name": "NoScript Security Suite", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/",
+      "guid": "{73a6fe31-595d-460b-a920-fcc0f8843232}",
+      "name": "NoScript Security Suite",
       "users": "2146154"
-    }, 
+    },
     {
-      "guid": "jid1-YcMV6ngYmQRA2w@jetpack", 
+      "guid": "jid1-YcMV6ngYmQRA2w@jetpack",
       "name": "Pin It Button"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/", 
-      "guid": "jid1-xUfzOsOFlzSOXg@jetpack", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/",
+      "guid": "jid1-xUfzOsOFlzSOXg@jetpack",
       "name": "Reddit Enhancement Suite"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/", 
-      "guid": "{dc572301-7619-498c-a57d-39143191b318}", 
-      "name": "Tab Mix Plus", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/tab-mix-plus/",
+      "guid": "{dc572301-7619-498c-a57d-39143191b318}",
+      "name": "Tab Mix Plus",
       "users": "842022"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/", 
-      "guid": "uBlock0@raymondhill.net", 
-      "name": "uBlock Origin", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+      "guid": "uBlock0@raymondhill.net",
+      "name": "uBlock Origin",
       "users": "1154406"
-    }, 
+    },
     {
-      "guid": "ubufox@ubuntu.com", 
+      "guid": "ubufox@ubuntu.com",
       "name": "Ubuntu Modifications"
-    }, 
+    },
     {
-      "guid": "fxdevtools-adapters@mozilla.org", 
+      "guid": "fxdevtools-adapters@mozilla.org",
       "name": "Valence"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/", 
-      "guid": "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}", 
-      "name": "Video DownloadHelper", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
+      "guid": "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}",
+      "name": "Video DownloadHelper",
       "users": "4452660"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/wot-safe-browsing-tool/", 
-      "guid": "{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7}", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/wot-safe-browsing-tool/",
+      "guid": "{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7}",
       "name": "Web of Trust, MyWOT/WOT: Website Reputation Rating"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/xmarks-sync/", 
-      "guid": "foxmarks@kei.com", 
-      "name": "Xmarks Sync", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/xmarks-sync/",
+      "guid": "foxmarks@kei.com",
+      "name": "Xmarks Sync",
       "users": "337623"
-    }, 
+    },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/", 
-      "guid": "{635abd67-4fe9-1b23-4f01-e679fa7484c1}", 
-      "name": "Yahoo Toolbar and New Tab", 
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/yahoo-toolbar-and-new-tab/",
+      "guid": "{635abd67-4fe9-1b23-4f01-e679fa7484c1}",
+      "name": "Yahoo Toolbar and New Tab",
       "users": "716458"
-    }, 
+    },
     {
-      "guid": "feca4b87-3be4-43da-a1b1-137c24220968@jetpack", 
+      "guid": "feca4b87-3be4-43da-a1b1-137c24220968@jetpack",
       "name": "YouTube\u42e2 Video and Audio Downloader"
     }
   ]
