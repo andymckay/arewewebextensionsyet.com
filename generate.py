@@ -16,7 +16,6 @@ override_error = [
     'onepassword4@agilebits.com',
     'light_plugin_F6F079488B53499DB99380A7E11A93F6@kaspersky.com',
     'jetpack-extension@dashlane.com',
-    'ubufox@ubuntu.com',
     'avg@toolbar',
     'firefox@mega.co.nz',
     'wrc@avast.com',
