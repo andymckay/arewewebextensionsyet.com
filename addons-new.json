@@ -150,11 +150,6 @@
       "users": "391479"
     },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/firefox-all-aboard-1-6/",
-      "guid": "@all-aboard-v1-6",
-      "name": "Firefox All Aboard 1.6"
-    },
-    {
       "url": "https://addons.mozilla.org/en-US/firefox/addon/firegestures/",
       "guid": "firegestures@xuldev.org",
       "name": "FireGestures",
