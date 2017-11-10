@@ -549,10 +549,6 @@
       "name": "1Password"
     },
     {
-      "guid": "adbhelper@mozilla.org",
-      "name": "ADB Helper"
-    },
-    {
       "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/",
       "guid": "{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}",
       "name": "Adblock Plus",
