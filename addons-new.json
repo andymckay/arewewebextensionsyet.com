@@ -670,10 +670,6 @@
       "name": "Ubuntu Modifications"
     },
     {
-      "guid": "fxdevtools-adapters@mozilla.org",
-      "name": "Valence"
-    },
-    {
       "url": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
       "guid": "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}",
       "name": "Video DownloadHelper",
