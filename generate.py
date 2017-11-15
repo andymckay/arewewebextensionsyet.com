@@ -22,7 +22,8 @@ override_error = [
     'abs@avira.com',
     '{4ED1F68A-5463-4931-9384-8FFF5ED91D92}',
     '{22119944-ED35-4ab1-910B-E619EA06A115}',
-    'ols@f-secure.com'
+    'ols@f-secure.com',
+    'web2pdfextension@web2pdf.adobedotcom'
 ]
 
 
