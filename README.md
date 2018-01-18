@@ -1,1 +1,1 @@
-How is mozilla doing on web extensions?
+This site is now decommissioned.
